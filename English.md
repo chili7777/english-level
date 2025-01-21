@@ -109,4 +109,90 @@
 | **Spanish Translation** | Reconocer, admitir.                            | Acceptance of truth or awareness.         |
 | **Example**             | "She acknowledged her mistake and apologized." | Reconoció su error y se disculpó.         |
 
----
+### **Enhanced**
+
+| Left Column             | Right Column                                                 | Description                                                                          |
+|-------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| **Word**                | Enhanced                                                     | To improve or make better.                                                           |
+| **IPA**                 | /ɪnˈhænst/                                                   | Pronunciation of "enhanced."                                                         |
+| **Spanish Translation** | Mejorado, potenciado                                         | Refers to something that has been elevated or improved.                              |
+| **Type**                | Adjective/Verb                                               | Depending on context: as an adjective (improved) or as a verb (to enhance).          |
+| **Example (Adjective)** | "The enhanced features of the app improved user experience." | Las características mejoradas de la aplicación mejoraron la experiencia del usuario. |
+| **Example (Verb)**      | "She enhanced the quality of her project by adding visuals." | Ella mejoró la calidad de su proyecto añadiendo elementos visuales.                  |
+
+### **Leveraging**
+
+| Left Column             | Right Column                                                  | Description                                                            |
+|-------------------------|---------------------------------------------------------------|------------------------------------------------------------------------|
+| **Word**                | Leveraging                                                    | To use something to its maximum advantage.                             |
+| **IPA**                 | /ˈlɛvərɪdʒɪŋ/                                                 | Pronunciation of "leveraging."                                         |
+| **Spanish Translation** | Aprovechando, utilizando.                                     | Refers to making the most of a resource or opportunity.                |
+| **Type**                | Verb                                                          | Present participle of "leverage."                                      |
+| **Example (Business)**  | "The company is leveraging its resources to expand globally." | La empresa está aprovechando sus recursos para expandirse globalmente. |
+| **Example (General)**   | "He is leveraging his skills to secure a better position."    | Está utilizando sus habilidades para conseguir una mejor posición.     |
+
+### **Syrup**
+
+| Left Column             | Right Column                                      | Description                                                             |
+|-------------------------|---------------------------------------------------|-------------------------------------------------------------------------|
+| **Word**                | Syrup                                             | A thick, sweet liquid made from sugar, used in cooking or as a topping. |
+| **IPA**                 | /ˈsɪrəp/ or /ˈsɜːrəp/                             | Pronunciation of "syrup."                                               |
+| **Spanish Translation** | Jarabe, sirope.                                   | Refers to a sweet, viscous liquid or medicinal syrup.                   |
+| **Type**                | Noun                                              | Refers to food or medicinal substance.                                  |
+| **Example (Food)**      | "She poured syrup over the pancakes."             | Ella vertió jarabe sobre los panqueques.                                |
+| **Example (Medicine)**  | "The doctor prescribed cough syrup for her cold." | El médico recetó jarabe para la tos por su resfriado.                   |
+
+### **Maple**
+
+| Left Column             | Right Column                                              | Description                                                           |
+|-------------------------|-----------------------------------------------------------|-----------------------------------------------------------------------|
+| **Word**                | Maple                                                     | A type of tree known for its leaves and sweet sap used to make syrup. |
+| **IPA**                 | /ˈmeɪpəl/                                                 | Pronunciation of "maple."                                             |
+| **Spanish Translation** | Arce                                                      | Refers to a type of tree, especially associated with Canada.          |
+| **Type**                | Noun                                                      | Refers to the tree or its products (e.g., syrup).                     |
+| **Example (Tree)**      | "The maple tree is famous for its vibrant autumn colors." | El árbol de arce es famoso por sus colores vibrantes en otoño.        |
+| **Example (Product)**   | "Maple syrup is a popular topping for pancakes."          | El jarabe de arce es un aderezo popular para panqueques.              |
+
+### **Bolder**
+
+| Left Column             | Right Column                                      | Description                                                                     |
+|-------------------------|---------------------------------------------------|---------------------------------------------------------------------------------|
+| **Word**                | Bolder                                            | More courageous, confident, or striking.                                        |
+| **IPA**                 | /ˈbəʊldər/                                        | Pronunciation of "bolder."                                                      |
+| **Spanish Translation** | Más audaz, más atrevido, más destacado.           | Refers to someone or something that is braver, more daring, or more noticeable. |
+| **Type**                | Adjective (Comparative of "bold").                | Describes an enhanced quality of boldness.                                      |
+| **Example (Courage)**   | "She became bolder after facing her fears."       | Se volvió más audaz después de enfrentar sus miedos.                            |
+| **Example (Striking)**  | "The design was made bolder with vibrant colors." | El diseño se hizo más destacado con colores vibrantes.                          |
+
+### **Punch Milk**
+
+| Left Column                 | Right Column                                                | Description                                                                                 |
+|-----------------------------|-------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **Word**                    | Punch Milk                                                  | A sweet, creamy drink often flavored with spices and sometimes mixed with alcohol.          |
+| **IPA**                     | /pʌntʃ mɪlk/                                                | Pronunciation of "punch milk."                                                              |
+| **Spanish Translation**     | Ponche de leche.                                            | Refers to a traditional festive drink made with milk, sugar, and spices, similar to eggnog. |
+| **Type**                    | Noun                                                        | Refers to a beverage often served during celebrations.                                      |
+| **Example (Festive Drink)** | "We made punch milk for the holiday party."                 | Hicimos ponche de leche para la fiesta navideña.                                            |
+| **Example (Variation)**     | "Some people add rum to their punch milk for extra flavor." | Algunas personas añaden ron a su ponche de leche para darle más sabor.                      |
+
+### **Deliberation**
+
+| Left Column                    | Right Column                                             | Description                                                            |
+|--------------------------------|----------------------------------------------------------|------------------------------------------------------------------------|
+| **Word**                       | Deliberation                                             | The process of careful thought or discussion before making a decision. |
+| **IPA**                        | /dɪˌlɪbəˈreɪʃən/                                         | Pronunciation of "deliberation."                                       |
+| **Spanish Translation**        | Deliberación                                             | Refers to thoughtful consideration or consultation before deciding.    |
+| **Type**                       | Noun                                                     | Can describe a mental process or group discussion.                     |
+| **Example (Mental Process)**   | "After much deliberation, she decided to take the job."  | Después de mucha deliberación, decidió aceptar el trabajo.             |
+| **Example (Group Discussion)** | "The committee's deliberation lasted for several hours." | La deliberación del comité duró varias horas.                          |
+
+### **Thai Basil Gel**
+
+| Left Column                  | Right Column                                                               | Description                                                                                                  |
+|------------------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Word**                     | Thai Basil Gel                                                             | A smooth, flavorful gel made using Thai basil, often used as a garnish or flavor enhancer in modern cuisine. |
+| **IPA**                      | /taɪ ˈbæzəl dʒɛl/                                                          | Pronunciation of "Thai Basil Gel."                                                                           |
+| **Spanish Translation**      | Gel de albahaca tailandesa.                                                | Refers to a culinary preparation using Thai basil leaves.                                                    |
+| **Type**                     | Noun                                                                       | Refers to a food product or preparation.                                                                     |
+| **Example (Culinary Use)**   | "The chef added Thai basil gel to the dish for a fresh and herbal flavor." | El chef añadió gel de albahaca tailandesa al plato para un sabor fresco y herbal.                            |
+| **Example (Modern Cuisine)** | "Thai basil gel is popular in fusion and modern plating techniques."       | El gel de albahaca tailandesa es popular en la cocina de fusión y técnicas modernas de presentación.         |
