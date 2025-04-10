@@ -410,4 +410,247 @@
 | **When to Use**            | When referring to making the best use of time, resources, or opportunities. | It is common in business, personal development, and travel contexts.            |
 | **Example (Productivity)** | "She tries to get the most out of her workday."                             | Ella trata de sacar el máximo provecho de su jornada laboral.                   |
 | **Example (Experience)**   | "Make sure you get the most out of your vacation."                          | Asegúrate de aprovechar al máximo tus vacaciones.                               |
-| **Example (Learning)**     | "He got the most out of the training session."                              | Sacó el mayor beneficio de la sesión de entrenamiento.                          | 
+| **Example (Learning)**     | "He got the most out of the training session."                              | Sacó el mayor beneficio de la sesión de entrenamiento.                          |
+
+## **Upfront**
+
+| Left Column                | Right Column                                            | Description                                                                       |
+|----------------------------|---------------------------------------------------------|-----------------------------------------------------------------------------------|
+| **Word**                   | Upfront                                                 | Honest, open, or direct about something.                                          |
+| **IPA**                    | /ˈʌpˌfrʌnt/                                             | Pronunciation of "upfront."                                                       |
+| **Spanish Translation**    | Franco, directo, por adelantado                         | Indicates being open or transparent; also used for payment in advance.            |
+| **Type**                   | Adjective, Adverb                                       | Used in both casual and professional contexts.                                    |
+| **Meaning**                | To be clear, honest, or straightforward.                | Frequently used to express transparency or initial payment for goods or services. |
+| **When to Use**            | When implying honesty or paying in advance.             | Common in business, negotiations, and communication.                              |
+| **Example (Business)**     | "We need the payment upfront before starting the work." | Necesitamos el pago por adelantado antes de empezar el trabajo.                   |
+| **Example (Honesty)**      | "I’ll be upfront, I don’t think this plan will work."   | Voy a ser franco, no creo que este plan funcione.                                 |
+| **Example (Transparency)** | "She was upfront about the challenges of the project."  | Ella fue directa sobre los retos del proyecto.                                    |
+
+
+## **Seek out**
+
+| Left Column                | Right Column                                                               | Description                                                                |
+|----------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| **Word**                   | Seek out                                                                   | To actively search for or pursue something.                                |
+| **IPA**                    | /siːk aʊt/                                                                 | Pronunciation of "seek out."                                               |
+| **Spanish Translation**    | Buscar, ir en busca de                                                     | Indicates intentional effort to find or achieve something.                 |
+| **Type**                   | Phrasal verb                                                               | Used in both casual and formal contexts.                                   |
+| **Meaning**                | To look for or strive to discover something.                               | Often used when aiming to achieve goals or find specific people or things. |
+| **When to Use**            | When referring to actively and intentionally finding something or someone. | It implies persistence in the search.                                      |
+| **Example (Personal)**     | "She seeks out new opportunities to grow."                                 | Ella busca nuevas oportunidades para crecer.                               |
+| **Example (Professional)** | "The company is seeking out skilled employees to join the team."           | La empresa está buscando empleados calificados para unirse al equipo.      |
+| **Example (Travel)**       | "He seeks out hidden spots when he travels."                               | Él busca lugares escondidos cuando viaja.                                  |
+
+### **Hopefully**
+
+| Left Column               | Right Column                                            | Description                                              |
+|---------------------------|---------------------------------------------------------|----------------------------------------------------------|
+| **Word**                  | Hopefully                                               | Expresses a feeling or desire for something to happen.   |
+| **IPA**                   | /ˈhoʊpfəli/                                             | Pronunciation of "hopefully."                            |
+| **Spanish Translation**   | Con suerte, ojalá                                       | Indicates a wish or optimistic outlook.                  |
+| **Type**                  | Adverb                                                  | Commonly used in casual and formal speech.               |
+| **Meaning**               | Expresses expectation or hope for a specific result.    | Often conveys a positive attitude toward an outcome.     |
+| **When to Use**           | When expressing optimistic anticipation or aspirations. | Used in conversations, writing, or personal reflections. |
+| **Example (Expectation)** | "Hopefully, it won't rain tomorrow."                    | Ojalá no llueva mañana.                                  |
+| **Example (Desire)**      | "Hopefully, we can solve this issue soon."              | Con suerte, podemos resolver este problema pronto.       |
+| **Example (Optimism)**    | "Hopefully, the next season will be better."            | Ojalá la próxima temporada sea mejor.                    |
+
+### **Delightful**
+
+| Left Column              | Right Column                                                          | Description                                                        |
+|--------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------|
+| **Word**                 | Delightful                                                            | Causing great pleasure or joy.                                     |
+| **IPA**                  | /dɪˈlaɪtfəl/                                                          | Pronunciation of "delightful."                                     |
+| **Spanish Translation**  | Encantador, encantadora, delicioso                                    | Refers to something or someone that brings happiness or enjoyment. |
+| **Type**                 | Adjective                                                             | Used in casual, artistic, and formal contexts.                     |
+| **Meaning**              | Describes something that is highly pleasing or enjoyable.             | Can refer to experiences, people, or objects.                      |
+| **When to Use**          | When describing something or someone that brings joy or satisfaction. | Common in storytelling or when giving opinions.                    |
+| **Example (Experience)** | "We had a delightful evening at the park."                            | Tuvimos una encantadora tarde en el parque.                        |
+| **Example (Compliment)** | "She’s a delightful person to work with."                             | Es una persona encantadora para trabajar con ella.                 |
+| **Example (Taste)**      | "This cake is absolutely delightful."                                 | Este pastel es absolutamente delicioso.                            |
+
+### **Cookie cutter**
+
+| Left Column             | Right Column                                                         | Description                                                        |
+|-------------------------|----------------------------------------------------------------------|--------------------------------------------------------------------|
+| **Word**                | Cookie cutter                                                        | Refers to something lacking originality or creativity.             |
+| **IPA**                 | /ˈkʊki ˌkʌtɚ/                                                        | Pronunciation of "cookie cutter."                                  |
+| **Spanish Translation** | Molde de galletas, genérico, uniforme                                | Can be literal (baking) or metaphorical (unoriginal things).       |
+| **Type**                | Noun / Adjective                                                     | Used in casual and professional speech.                            |
+| **Meaning**             | Describes things that appear repetitive, standard, or unimaginative. | Often used in criticism or descriptions of uniformity.             |
+| **When to Use**         | When referring to unoriginal designs, ideas, or formats.             | Commonly used metaphorically in business or design.                |
+| **Example (Design)**    | "The neighborhood is full of cookie-cutter houses."                  | El vecindario está lleno de casas uniformes y genéricas.           |
+| **Example (Critique)**  | "This story feels like a cookie-cutter romance."                     | Esta historia parece un romance genérico.                          |
+| **Example (Literal)**   | "Use the cookie cutter to make star-shaped cookies."                 | Usa el molde de galletas para hacer galletas en forma de estrella. |
+
+### **Reach out**
+
+| Left Column                | Right Column                                                                  | Description                                                          |
+|----------------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| **Word**                   | Reach out                                                                     | To attempt to contact, connect, or help someone.                     |
+| **IPA**                    | /riːtʃ aʊt/                                                                   | Pronunciation of "reach out."                                        |
+| **Spanish Translation**    | Ponerse en contacto, ofrecer ayuda                                            | Refers to extending help or trying to communicate with someone.      |
+| **Type**                   | Phrasal verb                                                                  | Used in personal and professional communication.                     |
+| **Meaning**                | Refers to the act of connecting with others either physically or emotionally. | Can relate to offering support or establishing communication.        |
+| **When to Use**            | When expressing efforts to assist, communicate, or establish connections.     | Common in customer service, relationships, and outreach.             |
+| **Example (Contacting)**   | "Feel free to reach out if you need assistance."                              | Siéntase libre de ponerse en contacto si necesita ayuda.             |
+| **Example (Helping)**      | "He reached out to his friend during a difficult time."                       | Se puso en contacto con su amigo durante un momento difícil.         |
+| **Example (Professional)** | "The company reached out to potential clients to expand their business."      | La empresa contactó a clientes potenciales para expandir su negocio. |
+
+### **Engage**
+
+| Left Column                 | Right Column                                                              | Description                                                          |
+|-----------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------------|
+| **Word**                    | Engage                                                                    | To participate, attract, or involve someone in something.            |
+| **IPA**                     | /ɪnˈɡeɪdʒ/                                                                | Pronunciation of "engage."                                           |
+| **Spanish Translation**     | Participar, involucrar, atraer                                            | Often implies active involvement or connection with others.          |
+| **Type**                    | Verb                                                                      | Can be used in personal or professional contexts.                    |
+| **Meaning**                 | Refers to actively participating, involving others, or connecting deeply. | Can also mean entering into a formal agreement (e.g., engagements).  |
+| **When to Use**             | When describing participation, attracting interest, or involving someone. | Common in discussions, speeches, and relationships.                  |
+| **Example (Participation)** | "She engages with her community by volunteering."                         | Ella participa con su comunidad haciendo voluntariado.               |
+| **Example (Involvement)**   | "The teacher engaged the students with interactive activities."           | El maestro involucró a los estudiantes con actividades interactivas. |
+| **Example (Attraction)**    | "This book really engages the reader."                                    | Este libro realmente atrae al lector.                                |
+
+### Vocabulary: **Get Back**
+
+| Left Column                 | Right Column                                                     | Description                                           |
+|-----------------------------|------------------------------------------------------------------|-------------------------------------------------------|
+| **Word**                    | Get Back                                                         | Return to a previous position or state                |
+| **IPA**                     | /ɡɛt bæk/                                                        | Pronunciation of "Get Back."                          |
+| **Spanish Translation**     | Regresar                                                         | Refers to returning to an earlier state or location.  |
+| **Type**                    | Phrasal verb                                                     | Used in personal, travel, and communication contexts. |
+| **Meaning**                 | To return or revisit a position, state, or condition.            | Often implies a sense of following up or returning.   |
+| **When to Use**             | When referring to returning to someone, somewhere, or something. | Common in everyday speech or casual writing.          |
+| **Example (Communication)** | "I’ll get back to you with the details."                         | Te regresaré con los detalles.                        |
+
+### Expression: **Hostage**
+
+| Left Column             | Right Column                                           | Description                                            |
+|-------------------------|--------------------------------------------------------|--------------------------------------------------------|
+| **Word**                | Hostage                                                | A person captured and held against their will          |
+| **IPA**                 | /ˈhɒs.tɪdʒ/                                            | Pronunciation of "Hostage."                            |
+| **Spanish Translation** | Rehén                                                  | Refers to someone held captive to gain something.      |
+| **Type**                | Noun                                                   | Common in legal, political, or crime-related contexts. |
+| **Meaning**             | Someone taken against their will to demand a condition | Often used figuratively for situations of control.     |
+| **When to Use**         | When describing someone forced to act under threat.    | Used in formal, legal, or news reports.                |
+| **Example (Literal)**   | "The hostage was released after negotiations."         | El rehén fue liberado después de las negociaciones.    |
+
+### Vocabulary: **Caucasian**
+
+| Left Column             | Right Column                                      | Description                                           |
+|-------------------------|---------------------------------------------------|-------------------------------------------------------|
+| **Word**                | Caucasian                                         | Relating to a person of white race                    |
+| **IPA**                 | /kɔːˈkeɪʒən/                                      | Pronunciation of "Caucasian."                         |
+| **Spanish Translation** | Caucásico                                         | Refers to individuals traditionally linked to Europe. |
+| **Type**                | Noun, Adjective                                   | Often used in demographic studies or descriptions.    |
+| **Meaning**             | Describes ethnicity, specifically the white race. | Can be cultural, ethnic, or physical categorization.  |
+| **When to Use**         | When referring to race or ethnicity.              | Applied in academic or formal discussions.            |
+| **Example**             | "He is of Caucasian descent."                     | Es de ascendencia caucásica.                          |
+
+### Phrasal Verb: **Withdraw**
+
+| Left Column                 | Right Column                                 | Description                                            |
+|-----------------------------|----------------------------------------------|--------------------------------------------------------|
+| **Word**                    | Withdraw                                     | To remove something or retreat from a position         |
+| **IPA**                     | /wɪðˈdrɔː/                                   | Pronunciation of "Withdraw."                           |
+| **Spanish Translation**     | Retirar                                      | Refers to pulling back or taking something out.        |
+| **Type**                    | Verb                                         | Used in banking, military, and psychological contexts. |
+| **Meaning**                 | To relocate, move away, or remove oneself.   | Can also indicate canceling plans or agreements.       |
+| **When to Use**             | When discussing formal retractions or exits. | Common in personal, legal, or public contexts.         |
+| **Example (Formal Action)** | "He withdrew his application for the job."   | Retiró su solicitud para el trabajo.                   |
+
+### Expression: **Keen observation**
+
+| Left Column             | Right Column                                         | Description                                           |
+|-------------------------|------------------------------------------------------|-------------------------------------------------------|
+| **Word**                | Keen observation                                     | Sharp or acute attention to detail                    |
+| **IPA**                 | /kiːn ˌɒbzəˈveɪʃən/                                  | Pronunciation of "Keen observation."                  |
+| **Spanish Translation** | Observación aguda                                    | Refers to insightful attention towards small details. |
+| **Type**                | Phrase                                               | Used in personal or investigative contexts.           |
+| **Meaning**             | Recognizes exceptional focus or deductive reasoning. | Often associated with critical thinking.              |
+| **When to Use**         | When highlighting someone's focused observations.    | Common in testimonies and storytelling.               |
+| **Example (Skill)**     | "Her keen observation helped solve the case."        | Su observación aguda ayudó a resolver el caso.        |
+
+### Vocabulary: **Keen**
+
+| Left Column              | Right Column                                           | Description                                                 |
+|--------------------------|--------------------------------------------------------|-------------------------------------------------------------|
+| **Word**                 | Keen                                                   | Eager or enthusiastic                                       |
+| **IPA**                  | /kiːn/                                                 | Pronunciation of "Keen."                                    |
+| **Spanish Translation**  | Entusiasta                                             | Refers to high enthusiasm or deep interest.                 |
+| **Type**                 | Adjective                                              | Common across personal, business, and educational contexts. |
+| **Meaning**              | Expresses strong interest or passion for something.    | Often implies sharp focus or excitement.                    |
+| **When to Use**          | When showing excitement or agreement toward a subject. | Common in discussions and dialogue.                         |
+| **Example (Enthusiasm)** | "She was keen to start her new job."                   | Estaba entusiasta por comenzar su trabajo nuevo.            |
+
+### Vocabulary: **Tempting**
+
+| Left Column             | Right Column                                          | Description                                          |
+|-------------------------|-------------------------------------------------------|------------------------------------------------------|
+| **Word**                | Tempting                                              | Appealing or attractive                              |
+| **IPA**                 | /ˈtɛmp.tɪŋ/                                           | Pronunciation of "Tempting."                         |
+| **Spanish Translation** | Tentador                                              | Refers to something hard to resist.                  |
+| **Type**                | Adjective                                             | Common in personal, culinary, or lifestyle contexts. |
+| **Meaning**             | Relates to items or decisions that strongly appeal.   | Implying difficulty in resisting.                    |
+| **When to Use**         | Often used to describe food, choices, or suggestions. | Appeals in casual and persuasive writing.            |
+| **Example (Food)**      | "The cake looked so tempting I had to try it."        | El pastel lucía tan tentador que tuve que probarlo.  |
+
+### Slang: **Freak**
+
+| Left Column             | Right Column                                   | Description                                            |
+|-------------------------|------------------------------------------------|--------------------------------------------------------|
+| **Word**                | Freak                                          | An unusual or eccentric person                         |
+| **IPA**                 | /friːk/                                        | Pronunciation of "Freak."                              |
+| **Spanish Translation** | Raro, persona excéntrica                       | Refers to someone unique or excessively emotional.     |
+| **Type**                | Noun, Slang Term                               | Used informally in personal conversations or opinions. |
+| **Meaning**             | Refers to peculiar or obsessive behavior.      | Describes quirky or exaggerated traits.                |
+| **When to Use**         | When talking about unusually intense passions. | Used in lighthearted or humorous exchanges.            |
+| **Example**             | "He’s a total freak when it comes to gaming."  | Es un raro total cuando se trata de videojuegos.       |
+
+### Phrasal Verb: **Blow up**
+
+| Left Column             | Right Column                                      | Description                                          |
+|-------------------------|---------------------------------------------------|------------------------------------------------------|
+| **Word**                | Blow up                                           | To explode or become angry                           |
+| **IPA**                 | /bloʊ ʌp/                                         | Pronunciation of "Blow up."                          |
+| **Spanish Translation** | Explotar, encolerizarse                           | Refers to sudden anger or detonation.                |
+| **Type**                | Phrasal verb                                      | Common in casual, narrative, or action descriptions. |
+| **Meaning**             | Describes physical or emotional outbursts.        | Often used in reaction-driven contexts.              |
+| **When to Use**         | For situations involving tensions or loud bursts. | Common in storytelling and informal discussions.     |
+| **Example (Anger)**     | "He blew up when he heard the news."              | Explotó cuando escuchó las noticias.                 |
+
+### Expression: **Bits and pieces**
+
+| Left Column             | Right Column                                    | Description                                            |
+|-------------------------|-------------------------------------------------|--------------------------------------------------------|
+| **Word**                | Bits and pieces                                 | Small parts of something                               |
+| **IPA**                 | /bɪts ənd ˈpiːsɪz/                              | Pronunciation of "Bits and pieces."                    |
+| **Spanish Translation** | Pedazos, partes                                 | Refers to various small components of a whole.         |
+| **Type**                | Phrase                                          | Common in assembling, narrations, or descriptions.     |
+| **Meaning**             | Refers to fragments or incomplete elements.     | Highlights the small pieces that form the larger idea. |
+| **When to Use**         | When mentioning incomplete or clustered items.  | Applied in methodological or organizational contexts.  |
+| **Example (Task)**      | "I gathered the bits and pieces of the puzzle." | Recogí los pedazos del rompecabezas.                   |
+
+### Vocabulary: **Bits**
+
+| Left Column             | Right Column                                                  | Description                                       |
+|-------------------------|---------------------------------------------------------------|---------------------------------------------------|
+| **Word**                | Bits                                                          | Small portions of something                       |
+| **IPA**                 | /bɪts/                                                        | Pronunciation of "Bits."                          |
+| **Spanish Translation** | Pedazos                                                       | Refers to tiny or minor fragments.                |
+| **Type**                | Plural noun                                                   | Used casually in descriptions of size or context. |
+| **Meaning**             | Describes pieces making up a larger concept.                  | Indicates minor or negligible amounts.            |
+| **When to Use**         | For scattering mentions of scattered data or elements.        | Appeals indirectly to fragmented visuals.         |
+| **Example (Info)**      | "I only need a few bits of information to complete the task." | Solo necesito pedazos informativos leves.         |
+
+### Slang: **You are nuts**
+
+| Left Column             | Right Column                                | Description                                           |
+|-------------------------|---------------------------------------------|-------------------------------------------------------|
+| **Word**                | You are nuts                                | You are crazy or irrational                           |
+| **IPA**                 | /jʊ ər nʌts/                                | Pronunciation of "You are nuts."                      |
+| **Spanish Translation** | Estás loco                                  | Informal term emphasizing irrational behavior.        |
+| **Type**                | Slang phrase                                | Common in informal, comedic, or exaggerated settings. |
+| **Meaning**             | Implies disbelief on an absurd suggestion.  | Used during friendly banter or playful exchanges.     |
+| **When to Use**         | Casual surprises during reactions.          | Frequently used in informal scenarios.                |
+| **Example (Humor)**     | "You are nuts if you think that will work!" | Estás loco si crees eso resolverá algo!               |
