@@ -1,0 +1,530 @@
+{
+ "words": [
+   {
+     "word": "fasten",
+     "ipa": "/ˈfɑːsən/",
+     "meaning_en": "to close or secure something firmly",
+     "meaning_es": "asegurar o cerrar algo firmemente",
+     "emoji": "🔒👕",
+     "origin_en": "Comes from Old English 'fæstnian', meaning 'to make firm'.",
+     "origin_es": "Proviene del inglés antiguo 'fæstnian', que significa 'hacer firme'.",
+     "examples": [
+       "Fasten your seatbelt. 🔒",
+       "Please fasten the buttons. 👕"
+     ]
+   },
+   {
+     "word": "overlooked",
+     "ipa": "/ˌoʊvərˈlʊkt/",
+     "meaning_en": "not noticed; ignored unintentionally",
+     "meaning_es": "pasado por alto; no notado",
+     "emoji": "🙈👀",
+     "origin_en": "From 'over' + 'look', originally meaning 'to supervise from above'.",
+     "origin_es": "De 'over' + 'look', originalmente significaba 'supervisar desde arriba'.",
+     "examples": [
+       "The detail was overlooked. 🙈",
+       "I overlooked the upper body movement. 👤"
+     ]
+   },
+   {
+     "word": "abolished",
+     "ipa": "/əˈbɒlɪʃt/",
+     "meaning_en": "formally ended or stopped a practice",
+     "meaning_es": "abolido; terminar oficialmente una práctica",
+     "emoji": "⛔📜",
+     "origin_en": "From Latin 'abolere', meaning 'destroy'.",
+     "origin_es": "Del latín 'abolere', que significa 'destruir'.",
+     "examples": [
+       "Capital punishment was abolished. ⚖️",
+       "Slavery was abolished. ⛓️"
+     ]
+   },
+   {
+     "word": "capital punishment",
+     "ipa": "/ˌkæpɪtl ˈpʌnɪʃmənt/",
+     "meaning_en": "the legal killing of someone as punishment",
+     "meaning_es": "pena de muerte",
+     "emoji": "⚖️💀",
+     "origin_en": "From Latin 'capitale' (regarding the head).",
+     "origin_es": "Del latín 'capitale', relacionado con la cabeza (decapitación).",
+     "examples": [
+       "Many countries have abolished capital punishment. ⚖️"
+     ]
+   },
+   {
+     "word": "ribbon",
+     "ipa": "/ˈrɪbən/",
+     "meaning_en": "a long, narrow strip of fabric",
+     "meaning_es": "cinta decorativa",
+     "emoji": "🎀",
+     "origin_en": "Possibly from Old French 'ruban'.",
+     "origin_es": "Posiblemente del francés antiguo 'ruban'.",
+     "examples": [
+       "She tied a ribbon on her hair. 🎀"
+     ]
+   },
+   {
+     "word": "retards",
+     "ipa": "/ˈriːtɑːrdz/",
+     "meaning_en": "delays progress; also an offensive insult",
+     "meaning_es": "retrasar; insulto ofensivo",
+     "emoji": "🐌⚠️",
+     "origin_en": "From Latin 'retardare' (to slow).",
+     "origin_es": "Del latín 'retardare' (ralentizar).",
+     "examples": [
+       "Traffic retards progress. 🚗🐌"
+     ],
+     "note": "Never use as insult."
+   },
+   {
+     "word": "trimming",
+     "ipa": "/ˈtrɪmɪŋ/",
+     "meaning_en": "cutting away small pieces",
+     "meaning_es": "recortar",
+     "emoji": "✂️🌿",
+     "origin_en": "From Old English 'trymman' (to arrange).",
+     "origin_es": "Del inglés antiguo 'trymman' (organizar).",
+     "examples": [
+       "I am trimming the plants. ✂️🌿"
+     ]
+   },
+   {
+     "word": "meadow",
+     "ipa": "/ˈmɛdoʊ/",
+     "meaning_en": "a field of grass and flowers",
+     "meaning_es": "prado",
+     "emoji": "🌾🌼",
+     "origin_en": "From Old English 'mæd'.",
+     "origin_es": "Del inglés antiguo 'mæd'.",
+     "examples": [
+       "We walked through the meadow. 🌼"
+     ]
+   },
+   {
+     "word": "ain’t",
+     "ipa": "/eɪnt/",
+     "meaning_en": "informal negative contraction for am not / is not / are not",
+     "meaning_es": "contracción informal de am not / is not / are not",
+     "emoji": "❌🗣️",
+     "origin_en": "Appeared in the 1700s as 'an't' meaning 'am not'.",
+     "origin_es": "Apareció en 1700s como 'an't' que significaba 'am not'.",
+     "examples": [
+       "I ain’t going. 🚫",
+       "This ain’t right. ❌"
+     ]
+   },
+   {
+     "word": "aunt",
+     "ipa": "/ænt/ (US), /ɑːnt/ (UK)",
+     "meaning_en": "your parent's sister",
+     "meaning_es": "tía",
+     "emoji": "👩‍🦰❤️",
+     "origin_en": "From Latin 'amita'.",
+     "origin_es": "Del latín 'amita'.",
+     "examples": [
+       "My aunt is visiting today. 👩‍🦰"
+     ]
+   },
+   {
+     "word": "anthem",
+     "ipa": "/ˈænθəm/",
+     "meaning_en": "a ceremonial or patriotic song",
+     "meaning_es": "himno",
+     "emoji": "🎵🏛️",
+     "origin_en": "Old English 'antefn' meaning a hymn.",
+     "origin_es": "Del inglés antiguo 'antefn', que significa himno.",
+     "examples": [
+       "The national anthem started playing. 🇪🇨🎵"
+     ]
+   },
+   {
+     "word": "boiling",
+     "ipa": "/ˈbɔɪlɪŋ/",
+     "meaning_en": "extremely hot",
+     "meaning_es": "hirviendo; muy caliente",
+     "emoji": "🔥🥵",
+     "origin_en": "From Old French 'boillir'.",
+     "origin_es": "Del francés antiguo 'boillir'.",
+     "examples": [
+       "It’s boiling outside. 🥵🔥"
+     ]
+   },
+   {
+     "word": "nest",
+     "ipa": "/nɛst/",
+     "meaning_en": "a bird’s home",
+     "meaning_es": "nido",
+     "emoji": "🐦🏡",
+     "origin_en": "From Old English 'nest'.",
+     "origin_es": "Del inglés antiguo 'nest'.",
+     "examples": [
+       "The bird built a nest. 🐦"
+     ]
+   },
+   {
+     "word": "sorrow",
+     "ipa": "/ˈsɑːroʊ/",
+     "meaning_en": "deep sadness",
+     "meaning_es": "dolor profundo / tristeza",
+     "emoji": "💔😢",
+     "origin_en": "From Old English 'sorh'.",
+     "origin_es": "Del inglés antiguo 'sorh'.",
+     "examples": [
+       "He felt great sorrow. 😢"
+     ]
+   },
+   {
+     "word": "comrades",
+     "ipa": "/ˈkɒmreɪdz/",
+     "meaning_en": "fellow members of a group, often in military or political contexts",
+     "meaning_es": "camaradas, compañeros",
+     "emoji": "🪖🤝",
+     "origin_en": "From French 'camarade', ultimately from Spanish 'camarada' (roommate).",
+     "origin_es": "Del francés 'camarade', originalmente del español 'camarada' (compañero de habitación).",
+     "examples": [
+       "The soldiers fought bravely alongside their comrades."
+     ]
+   },
+   {
+     "word": "exchange",
+     "ipa": "/ɪksˈtʃeɪndʒ/",
+     "meaning_en": "to give something and receive something in return",
+     "meaning_es": "intercambiar, intercambio",
+     "emoji": "🔄💱",
+     "origin_en": "From Old French 'eschangier', meaning 'to exchange'.",
+     "origin_es": "Del francés antiguo 'eschangier', que significa 'intercambiar'.",
+     "examples": [
+       "They exchanged gifts during the celebration."
+     ]
+   },
+   {
+     "word": "acknowledge",
+     "ipa": "/əkˈnɒlɪdʒ/",
+     "meaning_en": "to accept, admit, or recognize something",
+     "meaning_es": "reconocer, admitir",
+     "emoji": "✅🙌",
+     "origin_en": "From Middle English, from 'knowledge' with prefix 'ac-'.",
+     "origin_es": "Del inglés medio, de 'knowledge' con prefijo 'ac-'.",
+     "examples": [
+       "She acknowledged her mistake and apologized."
+     ]
+   },
+   {
+     "word": "enhanced",
+     "ipa": "/ɪnˈhænst/",
+     "meaning_en": "improved or made better",
+     "meaning_es": "mejorado, potenciado",
+     "emoji": "⬆️✨",
+     "origin_en": "From Old French 'enhaucier', meaning 'to raise'.",
+     "origin_es": "Del francés antiguo 'enhaucier', que significa 'elevar'.",
+     "examples": [
+       "The enhanced features of the app improved user experience.",
+       "She enhanced the quality of her project by adding visuals."
+     ]
+   },
+   {
+     "word": "leveraging",
+     "ipa": "/ˈlɛvərɪdʒɪŋ/",
+     "meaning_en": "to use something to its maximum advantage",
+     "meaning_es": "aprovechando, utilizando",
+     "emoji": "💪📈",
+     "origin_en": "From 'leverage', which comes from 'lever' (a tool for mechanical advantage).",
+     "origin_es": "De 'leverage', que viene de 'lever' (palanca para ventaja mecánica).",
+     "examples": [
+       "The company is leveraging its resources to expand globally.",
+       "He is leveraging his skills to secure a better position."
+     ]
+   },
+   {
+     "word": "syrup",
+     "ipa": "/ˈsɪrəp/ or /ˈsɜːrəp/",
+     "meaning_en": "a thick, sweet liquid made from sugar, used in cooking or as a topping",
+     "meaning_es": "jarabe, sirope",
+     "emoji": "🍯🥞",
+     "origin_en": "From Arabic 'sharab' (beverage) via Medieval Latin.",
+     "origin_es": "Del árabe 'sharab' (bebida) vía latín medieval.",
+     "examples": [
+       "She poured syrup over the pancakes.",
+       "The doctor prescribed cough syrup for her cold."
+     ]
+   },
+   {
+     "word": "maple",
+     "ipa": "/ˈmeɪpəl/",
+     "meaning_en": "a type of tree known for its leaves and sweet sap used to make syrup",
+     "meaning_es": "arce",
+     "emoji": "🍁🌳",
+     "origin_en": "From Old English 'mapel'.",
+     "origin_es": "Del inglés antiguo 'mapel'.",
+     "examples": [
+       "The maple tree is famous for its vibrant autumn colors.",
+       "Maple syrup is a popular topping for pancakes."
+     ]
+   },
+   {
+     "word": "bolder",
+     "ipa": "/ˈbəʊldər/",
+     "meaning_en": "more courageous, confident, or striking",
+     "meaning_es": "más audaz, más atrevido, más destacado",
+     "emoji": "💪🎨",
+     "origin_en": "Comparative form of 'bold', from Old English 'bald' (brave).",
+     "origin_es": "Forma comparativa de 'bold', del inglés antiguo 'bald' (valiente).",
+     "examples": [
+       "She became bolder after facing her fears.",
+       "The design was made bolder with vibrant colors."
+     ]
+   },
+   {
+     "word": "deliberation",
+     "ipa": "/dɪˌlɪbəˈreɪʃən/",
+     "meaning_en": "the process of careful thought or discussion before making a decision",
+     "meaning_es": "deliberación",
+     "emoji": "🤔💭",
+     "origin_en": "From Latin 'deliberatio', from 'deliberare' (to consider carefully).",
+     "origin_es": "Del latín 'deliberatio', de 'deliberare' (considerar cuidadosamente).",
+     "examples": [
+       "After much deliberation, she decided to take the job.",
+       "The committee's deliberation lasted for several hours."
+     ]
+   },
+   {
+     "word": "approaching",
+     "ipa": "/əˈprəʊtʃɪŋ/",
+     "meaning_en": "moving closer to something in distance, time, or situation",
+     "meaning_es": "acercándose, aproximándose",
+     "emoji": "➡️📅",
+     "origin_en": "From Old French 'approchier', from Latin 'appropiare'.",
+     "origin_es": "Del francés antiguo 'approchier', del latín 'appropiare'.",
+     "examples": [
+       "The deadline is quickly approaching.",
+       "The car is approaching the intersection.",
+       "She is approaching the problem with a new perspective."
+     ]
+   },
+   {
+     "word": "cinnamon",
+     "ipa": "/ˈsɪnəmən/",
+     "meaning_en": "a spice made from the dried bark of certain tropical trees, commonly used in cooking and baking",
+     "meaning_es": "canela",
+     "emoji": "🌰☕",
+     "origin_en": "From Greek 'kinnamomon', ultimately from Hebrew 'qinnamon'.",
+     "origin_es": "Del griego 'kinnamomon', originalmente del hebreo 'qinnamon'.",
+     "examples": [
+       "She added a pinch of cinnamon to the apple pie.",
+       "Cinnamon is often used to flavor teas and coffee."
+     ]
+   },
+   {
+     "word": "warrant",
+     "ipa": "/ˈwɒrənt/",
+     "meaning_en": "a legal document or justification for an action",
+     "meaning_es": "orden, garantía",
+     "emoji": "📜⚖️",
+     "origin_en": "From Old French 'warant', of Germanic origin.",
+     "origin_es": "Del francés antiguo 'warant', de origen germánico.",
+     "examples": [
+       "The judge issued a warrant for his arrest.",
+       "This action warrants further investigation.",
+       "Her achievements warrant recognition."
+     ]
+   },
+   {
+     "word": "underwent",
+     "ipa": "/ˌʌndərˈwɛnt/",
+     "meaning_en": "the past tense of 'undergo', meaning to experience or endure something",
+     "meaning_es": "se sometió, experimentó, pasó por",
+     "emoji": "🏥⏳",
+     "origin_en": "Past tense of 'undergo', from Old English 'undergan'.",
+     "origin_es": "Pasado de 'undergo', del inglés antiguo 'undergan'.",
+     "examples": [
+       "She underwent surgery last week.",
+       "The company underwent major changes.",
+       "He underwent a difficult training program."
+     ]
+   },
+   {
+     "word": "throughout",
+     "ipa": "/θruːˈaʊt/",
+     "meaning_en": "from the beginning to the end of something, or across an entire area",
+     "meaning_es": "a lo largo de, durante todo, en todo",
+     "emoji": "🔄🌍",
+     "origin_en": "From 'through' + 'out', Middle English.",
+     "origin_es": "De 'through' + 'out', inglés medio.",
+     "examples": [
+       "He worked hard throughout the year.",
+       "The news spread throughout the country.",
+       "Throughout the course, we will study different topics."
+     ]
+   },
+   {
+     "word": "resonates",
+     "ipa": "/ˈrɛzəˌneɪts/",
+     "meaning_en": "to have a deep emotional impact, to be understood, or to produce sound vibrations",
+     "meaning_es": "resuena, tiene impacto, conecta emocionalmente",
+     "emoji": "🔔💭",
+     "origin_en": "From Latin 'resonare', meaning 'to resound'.",
+     "origin_es": "Del latín 'resonare', que significa 'resonar'.",
+     "examples": [
+       "Her speech truly resonates with me.",
+       "The book resonates with readers of all ages.",
+       "The sound of the bell resonates through the hall."
+     ]
+   },
+   {
+     "word": "encourage",
+     "ipa": "/ɪnˈkʌrɪdʒ/ or /ɪnˈkɜːrɪdʒ/",
+     "meaning_en": "to give support, confidence, or motivation to someone",
+     "meaning_es": "alentar, motivar, fomentar",
+     "emoji": "👍💪",
+     "origin_en": "From Old French 'encoragier', from 'corage' (courage).",
+     "origin_es": "Del francés antiguo 'encoragier', de 'corage' (coraje).",
+     "examples": [
+       "Parents should encourage their children to read.",
+       "Her words encouraged me to keep going.",
+       "The company encourages innovation and creativity."
+     ]
+   },
+   {
+     "word": "however",
+     "ipa": "/haʊˈɛvɚ/",
+     "meaning_en": "used to contrast or introduce a different idea",
+     "meaning_es": "sin embargo, no obstante",
+     "emoji": "↔️🤔",
+     "origin_en": "From 'how' + 'ever', Middle English.",
+     "origin_es": "De 'how' + 'ever', inglés medio.",
+     "examples": [
+       "She is very talented. However, she lacks experience.",
+       "The weather was bad; however, we still went outside."
+     ]
+   },
+   {
+     "word": "silos",
+     "ipa": "/ˈsaɪloʊz/",
+     "meaning_en": "structures for storing goods or isolated systems within an organization",
+     "meaning_es": "silos, compartimentos aislados",
+     "emoji": "🏭📦",
+     "origin_en": "From Spanish 'silo', ultimately from Greek 'siros' (pit for grain).",
+     "origin_es": "Del español 'silo', originalmente del griego 'siros' (foso para grano).",
+     "examples": [
+       "Farmers store grain in silos to keep it dry.",
+       "Departments working in silos reduce efficiency.",
+       "We need to break down data silos for better collaboration."
+     ]
+   },
+   {
+     "word": "upfront",
+     "ipa": "/ˈʌpˌfrʌnt/",
+     "meaning_en": "honest, open, or direct about something; also payment in advance",
+     "meaning_es": "franco, directo, por adelantado",
+     "emoji": "💰📢",
+     "origin_en": "From 'up' + 'front', American English.",
+     "origin_es": "De 'up' + 'front', inglés estadounidense.",
+     "examples": [
+       "We need the payment upfront before starting the work.",
+       "I'll be upfront, I don't think this plan will work.",
+       "She was upfront about the challenges of the project."
+     ]
+   },
+   {
+     "word": "hopefully",
+     "ipa": "/ˈhoʊpfəli/",
+     "meaning_en": "expresses a feeling or desire for something to happen",
+     "meaning_es": "con suerte, ojalá",
+     "emoji": "🤞🌟",
+     "origin_en": "From 'hopeful' + '-ly'.",
+     "origin_es": "De 'hopeful' + '-ly'.",
+     "examples": [
+       "Hopefully, it won't rain tomorrow.",
+       "Hopefully, we can solve this issue soon.",
+       "Hopefully, the next season will be better."
+     ]
+   },
+   {
+     "word": "delightful",
+     "ipa": "/dɪˈlaɪtfəl/",
+     "meaning_en": "causing great pleasure or joy",
+     "meaning_es": "encantador, encantadora, delicioso",
+     "emoji": "😊🎉",
+     "origin_en": "From 'delight' + '-ful', from Latin 'delectare'.",
+     "origin_es": "De 'delight' + '-ful', del latín 'delectare'.",
+     "examples": [
+       "We had a delightful evening at the park.",
+       "She's a delightful person to work with.",
+       "This cake is absolutely delightful."
+     ]
+   },
+   {
+     "word": "keen",
+     "ipa": "/kiːn/",
+     "meaning_en": "eager or enthusiastic; also sharp or acute",
+     "meaning_es": "entusiasta, agudo",
+     "emoji": "👀💡",
+     "origin_en": "From Old English 'cene' (brave, bold).",
+     "origin_es": "Del inglés antiguo 'cene' (valiente, audaz).",
+     "examples": [
+       "She was keen to start her new job.",
+       "He has a keen eye for detail."
+     ]
+   },
+   {
+     "word": "tempting",
+     "ipa": "/ˈtɛmp.tɪŋ/",
+     "meaning_en": "appealing or attractive",
+     "meaning_es": "tentador",
+     "emoji": "🍰😋",
+     "origin_en": "From Latin 'temptare' (to test, try).",
+     "origin_es": "Del latín 'temptare' (probar, intentar).",
+     "examples": [
+       "The cake looked so tempting I had to try it."
+     ]
+   },
+   {
+     "word": "hostage",
+     "ipa": "/ˈhɒs.tɪdʒ/",
+     "meaning_en": "a person captured and held against their will",
+     "meaning_es": "rehén",
+     "emoji": "🚫👤",
+     "origin_en": "From Old French 'hostage', from 'hoste' (guest, host).",
+     "origin_es": "Del francés antiguo 'hostage', de 'hoste' (huésped, anfitrión).",
+     "examples": [
+       "The hostage was released after negotiations."
+     ]
+   },
+   {
+     "word": "caucasian",
+     "ipa": "/kɔːˈkeɪʒən/",
+     "meaning_en": "relating to a person of white race",
+     "meaning_es": "caucásico",
+     "emoji": "👤🌍",
+     "origin_en": "From 'Caucasus', a region between Europe and Asia.",
+     "origin_es": "De 'Cáucaso', región entre Europa y Asia.",
+     "examples": [
+       "He is of Caucasian descent."
+     ]
+   },
+   {
+     "word": "freak",
+     "ipa": "/friːk/",
+     "meaning_en": "an unusual or eccentric person",
+     "meaning_es": "raro, persona excéntrica",
+     "emoji": "🤪🎭",
+     "origin_en": "Origin uncertain, possibly from Old English 'frician' (to dance).",
+     "origin_es": "Origen incierto, posiblemente del inglés antiguo 'frician' (bailar).",
+     "examples": [
+       "He's a total freak when it comes to gaming."
+     ]
+   },
+   {
+     "word": "bits",
+     "ipa": "/bɪts/",
+     "meaning_en": "small portions of something",
+     "meaning_es": "pedazos",
+     "emoji": "🧩🔸",
+     "origin_en": "From Old English 'bita' (piece bitten off).",
+     "origin_es": "Del inglés antiguo 'bita' (pedazo mordido).",
+     "examples": [
+       "I only need a few bits of information to complete the task."
+     ]
+   }
+ ]
+}

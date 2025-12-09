@@ -1,0 +1,210 @@
+{
+ "rules": [
+   {
+     "rule_name": "Sentence Core Elements (S-V-O-A-N-P)",
+     "emoji": "🧱🧠",
+     "structure": {
+       "subject": "who does the action 👤",
+       "verb": "the action itself ⚡",
+       "object": "what receives the action 🎯",
+       "adjective": "describes a noun 🎨",
+       "adverb": "describes the verb 🏃💨",
+       "noun": "person/place/thing 🧍🏙️📦",
+       "prepositional_phrase": "extra info: place, time, etc. 📍⏰"
+     },
+     "examples": [
+       "The dog (S) quickly (Adv) chased (V) the ball (O) in the park (PP)."
+     ]
+   },
+   {
+     "rule_name": "Collocations – PAY ATTENTION",
+     "emoji": "🧩👂",
+     "explanation_en": "Some words naturally go together. 'Pay' goes with 'attention'.",
+     "explanation_es": "Algunas palabras van juntas naturalmente. 'Pay' va con 'attention'.",
+     "examples": [
+       "Pay attention to the teacher."
+     ]
+   },
+   {
+     "rule_name": "Present Perfect – Life Experience",
+     "emoji": "🌍⏳",
+     "structure": "have / has + past participle",
+     "explanation_en": "Used for life experiences when the exact time doesn't matter.",
+     "explanation_es": "Se usa para experiencias de vida cuando el tiempo exacto no importa.",
+     "examples": [
+       "Have you ever traveled to Asia?",
+       "She has never driven a car."
+     ]
+   },
+   {
+     "rule_name": "First Conditional – Real Future",
+     "emoji": "🌧️➡️☂️",
+     "structure": "If + present simple, will + verb",
+     "explanation_en": "Used for real possibilities in the future.",
+     "explanation_es": "Se usa para posibilidades reales en el futuro.",
+     "examples": [
+       "If it rains, I will stay inside."
+     ]
+   },
+   {
+     "rule_name": "Adverb Comparisons",
+     "emoji": "📏⚡",
+     "structure": "verb + more + adverb + than",
+     "explanation_en": "Used to compare HOW an action is done.",
+     "explanation_es": "Se usa para comparar CÓMO se hace una acción.",
+     "examples": [
+       "He speaks English more fluently than before."
+     ]
+   },
+   {
+     "rule_name": "Gerunds as Subjects",
+     "emoji": "🏃‍♂️🧠",
+     "structure": "Verb-ing at the beginning",
+     "explanation_en": "When an action acts as a noun.",
+     "explanation_es": "Cuando una acción funciona como un sustantivo.",
+     "examples": [
+       "Playing soccer is fun."
+     ]
+   },
+   {
+     "rule_name": "Hardly Ever (frequency adverb)",
+     "emoji": "❌🕒",
+     "meaning_en": "almost never",
+     "meaning_es": "casi nunca",
+     "examples": [
+       "I hardly ever drink soda."
+     ]
+   },
+   {
+     "rule_name": "Idioms – Fixed Expressions",
+     "emoji": "🧠🔒",
+     "meaning_en": "Expressions whose meaning is non-literal.",
+     "meaning_es": "Expresiones cuyo significado NO es literal.",
+     "examples": [
+       "It's raining cats and dogs."
+     ]
+   },
+   {
+     "rule_name": "Should Have + Past Participle",
+     "emoji": "⌛🤦",
+     "structure": "should have + V3",
+     "explanation_en": "Used for past regrets or criticism.",
+     "explanation_es": "Usado para arrepentimientos o críticas del pasado.",
+     "examples": [
+       "We should have left earlier."
+     ]
+   },
+   {
+     "rule_name": "Phrasal Verbs + Pronouns",
+     "emoji": "🧩👤",
+     "structure": "verb + pronoun + particle",
+     "explanation_en": "Pronouns go in the middle for separable phrasal verbs.",
+     "explanation_es": "Los pronombres van en medio en phrasal verbs separables.",
+     "examples": [
+       "Pick me up at 8."
+     ]
+   },
+   {
+     "rule_name": "Question Tags",
+     "emoji": "❓✔️",
+     "structure": "statement + , + auxiliary + pronoun?",
+     "examples": [
+       "It's hot today, isn't it?"
+     ]
+   },
+   {
+     "rule_name": "Such vs So",
+     "emoji": "✨📘",
+     "structure": {
+       "such": "such + (a/an) + adjective + noun",
+       "so": "so + adjective/adverb"
+     },
+     "examples": [
+       "Such a good movie!",
+       "This movie is so good!"
+     ]
+   },
+   {
+     "rule_name": "Future Perfect Continuous",
+     "emoji": "🔮⏳",
+     "structure": "will have been + verb-ing",
+     "meaning_en": "To show how long something will have been happening.",
+     "meaning_es": "Para mostrar cuánto tiempo habrá estado ocurriendo algo.",
+     "examples": [
+       "Next June, I will have been working here for 10 years."
+     ]
+   },
+   {
+     "rule_name": "Past Gerunds – having + past participle",
+     "emoji": "⏪📚",
+     "structure": "Having + V3, sentence…",
+     "meaning_en": "Shows one past action happened before another.",
+     "meaning_es": "Muestra que una acción pasada ocurrió antes que otra.",
+     "examples": [
+       "Having finished the work, he went home."
+     ]
+   },
+   {
+     "rule_name": "Infinitives vs Gerunds",
+     "emoji": "🎯➡️🏃",
+     "structure": {
+       "infinitive": "to + verb (want to eat)",
+       "gerund": "verb-ing (enjoy eating)"
+     },
+     "examples": [
+       "I need to study.",
+       "I enjoy studying."
+     ]
+   },
+   {
+     "rule_name": "Used to / Be used to / Get used to",
+     "emoji": "🔁😌",
+     "structure": {
+       "used_to": "past habit",
+       "be_used_to": "be accustomed to",
+       "get_used_to": "become accustomed to"
+     },
+     "examples": [
+       "I used to smoke.",
+       "I'm used to waking up early.",
+       "She's getting used to her new job."
+     ]
+   },
+   {
+     "rule_name": "Difference Between -ING and -ED Forms",
+     "emoji": "🔄📝",
+     "structure": {
+       "ing_form": "Describes the action or state causing emotion (active, continuous, or causative)",
+       "ed_form": "Describes the feeling experienced (passive or received)"
+     },
+     "explanation_en": "-ING describes things or situations. -ED describes feelings or reactions.",
+     "explanation_es": "-ING describe cosas o situaciones. -ED describe sentimientos o reacciones.",
+     "examples": [
+       "The movie was exciting. (The movie caused excitement)",
+       "I was excited by the movie. (I experienced excitement)"
+     ]
+   },
+   {
+     "rule_name": "Modal Verb: Should Have",
+     "emoji": "⌛🤦",
+     "structure": "should have + past participle",
+     "explanation_en": "Indicates regret or criticism about something that didn't happen.",
+     "explanation_es": "Indica arrepentimiento o crítica sobre algo que no sucedió.",
+     "examples": [
+       "You should have called me earlier."
+     ]
+   },
+   {
+     "rule_name": "Verb Forms: Come",
+     "emoji": "🚶‍♂️📚",
+     "structure": {
+       "base_form": "come /kʌm/ - Venir, llegar",
+       "past_simple": "came /keɪm/ - Vino, llegó",
+       "past_participle": "come /kʌm/ - Venido, llegado",
+       "present_participle": "coming /ˈkʌmɪŋ/ - Viniendo"
+     },
+     "explanation_en": "Auxiliary verb 'come' conjugations.",
+     "explanation_es": "Conjugaciones del verbo auxiliar 'come'."
+   }
+ ]
+}

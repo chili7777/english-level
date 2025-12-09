@@ -1,0 +1,251 @@
+{
+ "idioms": [
+   {
+     "expression": "Put my money where my mouth is",
+     "ipa": "/pʊt maɪ ˈmʌni wɛər maɪ maʊθ ɪz/",
+     "meaning_en": "To prove your words by taking real action.",
+     "meaning_es": "Respaldar tus palabras con acciones reales.",
+     "emoji": "🗣️➡️💰",
+     "origin_en": "American English, 20th century. Comes from gambling and betting — if you believed something strongly, you literally placed money to prove it.",
+     "origin_es": "Inglés estadounidense del siglo XX, del mundo de apuestas: si realmente creías en algo, apostabas dinero.",
+     "examples": [
+       "If you believe in the project, put your money where your mouth is.",
+       "He finally put his money where his mouth is and invested."
+     ]
+   },
+   {
+     "expression": "Stick to your guns",
+     "ipa": "/stɪk tu jɔːr ɡʌnz/",
+     "meaning_en": "To stay firm in your decision even under pressure.",
+     "meaning_es": "Mantenerse firme en tu decisión aunque haya presión.",
+     "emoji": "💪🔫",
+     "origin_en": "Comes from military warfare: soldiers had to stay at their cannons during attacks.",
+     "origin_es": "Viene del lenguaje militar: los soldados debían permanecer en sus cañones sin rendirse.",
+     "examples": [
+       "Even if they disagree, stick to your guns.",
+       "She stuck to her guns during the meeting."
+     ]
+   },
+   {
+     "expression": "Underdog",
+     "ipa": "/ˈʌndərˌdɔːg/",
+     "meaning_en": "A competitor expected to lose, but who fights with determination.",
+     "meaning_es": "Competidor que se espera que pierda, pero lucha con determinación.",
+     "emoji": "🐶⬇️💥",
+     "origin_en": "Comes from 19th-century dogfighting. The dog underneath was considered weaker — the 'underdog'.",
+     "origin_es": "Proviene de peleas de perros del siglo XIX. El perro de abajo era visto como el débil: el 'underdog'.",
+     "examples": [
+       "People love cheering for the underdog.",
+       "Ecuador is the underdog, but they play with heart."
+     ]
+   },
+   {
+     "expression": "Go on",
+     "ipa": "/goʊ ɑːn/",
+     "meaning_en": "Used to encourage someone to continue speaking or acting.",
+     "meaning_es": "Usado para animar a alguien a continuar hablando o actuando.",
+     "emoji": "➡️🗣️",
+     "origin_en": "General phrasal verb from Old English 'gān' (to go).",
+     "origin_es": "Verbo compuesto del inglés antiguo 'gān' (ir).",
+     "examples": [
+       "Go on, tell me the rest.",
+       "Go on! You can do it."
+     ]
+   },
+   {
+     "expression": "Go away",
+     "ipa": "/goʊ əˈweɪ/",
+     "meaning_en": "To leave or disappear.",
+     "meaning_es": "Irse o desaparecer.",
+     "emoji": "🚶‍♂️➡️❌",
+     "origin_en": "Literal Old English concept — to move away.",
+     "origin_es": "Significado literal: alejarse.",
+     "examples": [
+       "Go away, I’m tired.",
+       "The pain will go away soon."
+     ]
+   },
+   {
+     "expression": "Write it down",
+     "ipa": "/raɪt ɪt daʊn/",
+     "meaning_en": "To record something on paper or a device.",
+     "meaning_es": "Anotar algo en papel o dispositivo.",
+     "emoji": "📝✍️",
+     "origin_en": "From the verb 'write' + particle 'down' meaning to capture and store information.",
+     "origin_es": "Del verbo 'write' + 'down', usado para capturar información.",
+     "examples": [
+       "Write it down so you don’t forget.",
+       "I wrote down the instructions."
+     ]
+   },
+   {
+     "expression": "Take care of the rest",
+     "ipa": "/teɪk kɛər ʌv ðə rɛst/",
+     "meaning_en": "Handle whatever remains to be done.",
+     "meaning_es": "Encargarse de lo que falta por hacer.",
+     "emoji": "🧹📋",
+     "origin_en": "General English construction using the idiomatic verb 'take care of'.",
+     "origin_es": "Construcción idiomática con 'take care of' (encargarse de).",
+     "examples": [
+       "Finish the documents, I’ll take care of the rest.",
+       "You cook, and I’ll take care of the rest."
+     ]
+   },
+   {
+     "expression": "Bad (slang for 'good')",
+     "ipa": "/bæd/",
+     "meaning_en": "In slang, 'bad' means excellent or impressive.",
+     "meaning_es": "En slang, 'bad' significa excelente o impresionante.",
+     "emoji": "😎🔥",
+     "origin_en": "African American Vernacular English (AAVE), 1970s music culture.",
+     "origin_es": "Del AAVE, cultura musical de los 70.",
+     "examples": [
+       "That car is bad! 😎🔥"
+     ]
+   },
+   {
+     "expression": "Ain't",
+     "ipa": "/eɪnt/",
+     "meaning_en": "Informal contraction for am not / is not / are not.",
+     "meaning_es": "Contracción informal de am not / is not / are not.",
+     "emoji": "❌🗣️",
+     "origin_en": "Originated as 'an't' in the 1700s.",
+     "origin_es": "Originó como 'an't' en los 1700s.",
+     "examples": [
+       "He ain't ready.",
+       "This ain't right."
+     ],
+     "note": "Non-standard English; avoid in formal situations."
+   },
+   {
+     "expression": "No wonder",
+     "ipa": "/nəʊ ˈwʌndə(r)/",
+     "meaning_en": "It's not surprising; it makes sense.",
+     "meaning_es": "No es de extrañar.",
+     "emoji": "💡🤷",
+     "origin_en": "From combining 'no' + 'wonder' (surprise), indicating lack of surprise.",
+     "origin_es": "De combinar 'no' + 'wonder' (sorpresa), indicando falta de sorpresa.",
+     "examples": [
+       "No wonder you're tired—you worked all night!"
+     ]
+   },
+   {
+     "expression": "Could it be the wind?",
+     "ipa": "/kʊd ɪt bi ðə wɪnd/",
+     "meaning_en": "A question suggesting uncertainty or a possible explanation.",
+     "meaning_es": "¿Podría ser el viento?",
+     "emoji": "🌬️❓",
+     "origin_en": "Literal question using modal 'could' for speculation.",
+     "origin_es": "Pregunta literal usando modal 'could' para especulación.",
+     "examples": [
+       "I heard a strange noise. Could it be the wind?"
+     ]
+   },
+   {
+     "expression": "Wrapping up",
+     "ipa": "/ˈræpɪŋ ʌp/",
+     "meaning_en": "The act of finishing or concluding something.",
+     "meaning_es": "Finalizando, concluyendo",
+     "emoji": "🎁✅",
+     "origin_en": "From wrapping a package, metaphorically completing a task.",
+     "origin_es": "De envolver un paquete, metafóricamente completar una tarea.",
+     "examples": [
+       "Let's start wrapping up the meeting.",
+       "We are wrapping up the project this week.",
+       "Before wrapping up, does anyone have questions?"
+     ]
+   },
+   {
+     "expression": "In-depth look",
+     "ipa": "/ɪn dɛpθ lʊk/",
+     "meaning_en": "A thorough and detailed examination or analysis of something.",
+     "meaning_es": "Análisis profundo, mirada detallada",
+     "emoji": "🔬📊",
+     "origin_en": "From 'in depth' (thoroughly) + 'look' (examination).",
+     "origin_es": "De 'in depth' (profundamente) + 'look' (examen).",
+     "examples": [
+       "The article provides an in-depth look at climate change.",
+       "Let's take an in-depth look at the company's finances.",
+       "The documentary gives an in-depth look into ancient civilizations."
+     ]
+   },
+   {
+     "expression": "Most out",
+     "ipa": "/moʊst aʊt/",
+     "meaning_en": "A phrase used to indicate maximizing something or getting the greatest benefit.",
+     "meaning_es": "Sacar el máximo provecho, aprovechar al máximo",
+     "emoji": "💯📈",
+     "origin_en": "From 'most' (maximum) + 'out' (extracted).",
+     "origin_es": "De 'most' (máximo) + 'out' (extraído).",
+     "examples": [
+       "She tries to get the most out of her workday.",
+       "Make sure you get the most out of your vacation.",
+       "He got the most out of the training session."
+     ]
+   },
+   {
+     "expression": "Keen observation",
+     "ipa": "/kiːn ˌɒbzəˈveɪʃən/",
+     "meaning_en": "Sharp or acute attention to detail.",
+     "meaning_es": "Observación aguda",
+     "emoji": "👁️🔍",
+     "origin_en": "From 'keen' (sharp) + 'observation' (watching carefully).",
+     "origin_es": "De 'keen' (agudo) + 'observation' (observación cuidadosa).",
+     "examples": [
+       "Her keen observation helped solve the case."
+     ]
+   },
+   {
+     "expression": "Cookie cutter",
+     "ipa": "/ˈkʊki ˌkʌtɚ/",
+     "meaning_en": "Refers to something lacking originality or creativity.",
+     "meaning_es": "Molde de galletas, genérico, uniforme",
+     "emoji": "🍪📏",
+     "origin_en": "From a tool used to cut cookies into identical shapes, suggesting uniformity.",
+     "origin_es": "De una herramienta usada para cortar galletas en formas idénticas, sugiriendo uniformidad.",
+     "examples": [
+       "The neighborhood is full of cookie-cutter houses.",
+       "This story feels like a cookie-cutter romance.",
+       "Use the cookie cutter to make star-shaped cookies."
+     ]
+   },
+   {
+     "expression": "Engage",
+     "ipa": "/ɪnˈɡeɪdʒ/",
+     "meaning_en": "To participate, attract, or involve someone in something.",
+     "meaning_es": "Participar, involucrar, atraer",
+     "emoji": "🤝💬",
+     "origin_en": "From Old French 'engagier', meaning 'to pledge'.",
+     "origin_es": "Del francés antiguo 'engagier', que significa 'comprometer'.",
+     "examples": [
+       "She engages with her community by volunteering.",
+       "The teacher engaged the students with interactive activities.",
+       "This book really engages the reader."
+     ]
+   },
+   {
+     "expression": "Bits and pieces",
+     "ipa": "/bɪts ənd ˈpiːsɪz/",
+     "meaning_en": "Small parts of something.",
+     "meaning_es": "Pedazos, partes",
+     "emoji": "🧩🔸",
+     "origin_en": "From 'bits' (small pieces) + 'pieces' (fragments), emphasizing smallness.",
+     "origin_es": "De 'bits' (pedazos pequeños) + 'pieces' (fragmentos), enfatizando pequeñez.",
+     "examples": [
+       "I gathered the bits and pieces of the puzzle."
+     ]
+   },
+   {
+     "expression": "You are nuts",
+     "ipa": "/jʊ ər nʌts/",
+     "meaning_en": "You are crazy or irrational.",
+     "meaning_es": "Estás loco",
+     "emoji": "🤪🥜",
+     "origin_en": "From slang use of 'nuts' meaning crazy, possibly from 'off one's nut' (head).",
+     "origin_es": "Del uso del slang 'nuts' significando loco, posiblemente de 'off one's nut' (cabeza).",
+     "examples": [
+       "You are nuts if you think that will work!"
+     ]
+   }
+ ]
+}

@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 English Learning Reference Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .search-section {
+            padding: 30px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .search-box {
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 15px 50px 15px 20px;
+            font-size: 16px;
+            border: 2px solid #667eea;
+            border-radius: 50px;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        .search-input:focus {
+            border-color: #764ba2;
+            box-shadow: 0 0 0 3px rgba(118, 75, 162, 0.1);
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;
+            color: #667eea;
+        }
+
+        .filters {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 8px 20px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+
+        .filter-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .filter-btn.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .content-section {
+            padding: 30px;
+        }
+
+        .category {
+            margin-bottom: 40px;
+        }
+
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .category-header:hover {
+            transform: translateX(5px);
+        }
+
+        .category-header h2 {
+            font-size: 1.8em;
+        }
+
+        .toggle-icon {
+            margin-left: auto;
+            font-size: 1.5em;
+            transition: transform 0.3s;
+        }
+
+        .category.collapsed .toggle-icon {
+            transform: rotate(-90deg);
+        }
+
+        .category.collapsed .items {
+            display: none;
+        }
+
+        .items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+
+        .item {
+            background: white;
+            border: 2px solid #e9ecef;
+            border-radius: 15px;
+            padding: 20px;
+            transition: all 0.3s;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.2);
+            border-color: #667eea;
+        }
+
+        .item.hidden {
+            display: none;
+        }
+
+        .item-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .item-ipa {
+            color: #6c757d;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .item-meaning {
+            margin: 10px 0;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .item-meaning strong {
+            color: #764ba2;
+        }
+
+        .item-origin {
+            margin: 10px 0;
+            padding: 10px;
+            background: #fff3cd;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+        }
+
+        .item-examples {
+            margin-top: 15px;
+        }
+
+        .item-examples strong {
+            color: #28a745;
+        }
+
+        .example {
+            padding: 8px 12px;
+            background: #e7f5ff;
+            border-radius: 5px;
+            margin: 5px 0;
+            border-left: 3px solid #0077cc;
+        }
+
+        .item-structure {
+            background: #d4edda;
+            padding: 10px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border-left: 4px solid #28a745;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: #6c757d;
+            font-size: 1.2em;
+        }
+
+        .no-results.hidden {
+            display: none;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .items {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            .filters {
+                flex-direction: column;
+            }
+
+            .filter-btn {
+                width: 100%;
+            }
+        }
+
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 English Learning Reference Guide</h1>
+            <p>A comprehensive collection of English idioms, phrasal verbs, grammar rules, and vocabulary</p>
+        </header>
+
+        <div class="search-section">
+            <div class="search-box">
+                <input
+                    type="text"
+                    class="search-input"
+                    id="searchInput"
+                    placeholder="🔍 Search for idioms, phrasal verbs, rules, or words..."
+                    autocomplete="off"
+                >
+                <span class="search-icon">🔍</span>
+            </div>
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="rules">Grammar Rules</button>
+                <button class="filter-btn" data-filter="idioms">Idioms</button>
+                <button class="filter-btn" data-filter="phrasal">Phrasal Verbs</button>
+                <button class="filter-btn" data-filter="words">Vocabulary</button>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number" id="rulesCount">0</div>
+                    <div class="stat-label">Grammar Rules</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" id="idiomsCount">0</div>
+                    <div class="stat-label">Idioms</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" id="phrasalCount">0</div>
+                    <div class="stat-label">Phrasal Verbs</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" id="wordsCount">0</div>
+                    <div class="stat-label">Vocabulary</div>
+                </div>
+            </div>
+
+            <div id="noResults" class="no-results hidden">
+                <h2>😕 No results found</h2>
+                <p>Try a different search term or filter</p>
+            </div>
+
+            <!-- Grammar Rules Section -->
+            <div class="category" id="rulesSection" data-category="rules">
+                <div class="category-header" onclick="toggleCategory('rulesSection')">
+                    <h2>🧠 Grammar Rules</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="items" id="rulesItems"></div>
+            </div>
+
+            <!-- Idioms Section -->
+            <div class="category" id="idiomsSection" data-category="idioms">
+                <div class="category-header" onclick="toggleCategory('idiomsSection')">
+                    <h2>💬 Idioms</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="items" id="idiomsItems"></div>
+            </div>
+
+            <!-- Phrasal Verbs Section -->
+            <div class="category" id="phrasalSection" data-category="phrasal">
+                <div class="category-header" onclick="toggleCategory('phrasalSection')">
+                    <h2>🔄 Phrasal Verbs</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="items" id="phrasalItems"></div>
+            </div>
+
+            <!-- Vocabulary Section -->
+            <div class="category" id="wordsSection" data-category="words">
+                <div class="category-header" onclick="toggleCategory('wordsSection')">
+                    <h2>📚 Vocabulary</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="items" id="wordsItems"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Data will be loaded from JSON files
+        let rulesData = [];
+        let idiomsData = [];
+        let phrasalData = [];
+        let wordsData = [];
+
+        // Load all JSON files
+        async function loadData() {
+            try {
+                const [rulesJson, idiomsJson, phrasalJson, wordsJson] = await Promise.all([
+                    fetch('json/Rules.json').then(r => r.json()),
+                    fetch('json/Idioms.json').then(r => r.json()),
+                    fetch('json/PhrasalVerb.json').then(r => r.json()),
+                    fetch('json/Words.json').then(r => r.json())
+                ]);
+
+                rulesData = rulesJson.rules || [];
+                idiomsData = idiomsJson.idioms || [];
+                phrasalData = phrasalJson.phrasal_verbs || [];
+                wordsData = wordsJson.words || [];
+
+                renderAll();
+                updateStats();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                alert('Error loading data. Please make sure all JSON files are in the json/ folder.');
+            }
+        }
+
+        // Render all items
+        function renderAll() {
+            renderRules();
+            renderIdioms();
+            renderPhrasalVerbs();
+            renderWords();
+        }
+
+        // Render Grammar Rules
+        function renderRules() {
+            const container = document.getElementById('rulesItems');
+            container.innerHTML = rulesData.map(rule => {
+                const structureText = typeof rule.structure === 'object' ?
+                    Object.entries(rule.structure).map(([key, value]) => `<strong>${key}:</strong> ${value}`).join('<br>') :
+                    rule.structure || '';
+
+                const searchText = `${rule.rule_name || ''} ${rule.explanation_en || ''} ${rule.meaning_en || ''} ${structureText}`.toLowerCase();
+
+                return `
+                    <div class="item" data-category="rules" data-search="${searchText}">
+                        <div class="item-title">${rule.emoji} ${rule.rule_name}</div>
+                        ${structureText ? `<div class="item-structure"><strong>Structure:</strong><br>${structureText}</div>` : ''}
+                        ${rule.explanation_en ? `<div class="item-meaning"><strong>Explanation:</strong> ${rule.explanation_en}</div>` : ''}
+                        ${rule.meaning_en ? `<div class="item-meaning"><strong>Meaning:</strong> ${rule.meaning_en}</div>` : ''}
+                        ${rule.examples && rule.examples.length > 0 ? `
+                            <div class="item-examples">
+                                <strong>Examples:</strong>
+                                ${rule.examples.map(ex => `<div class="example">${ex}</div>`).join('')}
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Render Idioms
+        function renderIdioms() {
+            const container = document.getElementById('idiomsItems');
+            container.innerHTML = idiomsData.map(idiom => `
+                <div class="item" data-category="idioms" data-search="${idiom.expression.toLowerCase()} ${idiom.meaning_en.toLowerCase()} ${idiom.meaning_es.toLowerCase()}">
+                    <div class="item-title">${idiom.emoji} ${idiom.expression}</div>
+                    <div class="item-ipa">${idiom.ipa}</div>
+                    <div class="item-meaning">
+                        <strong>🇬🇧 Meaning (EN):</strong> ${idiom.meaning_en}
+                    </div>
+                    <div class="item-meaning">
+                        <strong>🇪🇸 Significado (ES):</strong> ${idiom.meaning_es}
+                    </div>
+                    <div class="item-origin">
+                        <strong>📜 Origin:</strong> ${idiom.origin_en}
+                    </div>
+                    ${idiom.examples && idiom.examples.length > 0 ? `
+                        <div class="item-examples">
+                            <strong>Examples:</strong>
+                            ${idiom.examples.map(ex => `<div class="example">${ex}</div>`).join('')}
+                        </div>
+                    ` : ''}
+                    ${idiom.note ? `<div class="item-origin" style="background: #f8d7da; border-left-color: #dc3545;"><strong>⚠️ Note:</strong> ${idiom.note}</div>` : ''}
+                </div>
+            `).join('');
+        }
+
+        // Render Phrasal Verbs
+        function renderPhrasalVerbs() {
+            const container = document.getElementById('phrasalItems');
+            container.innerHTML = phrasalData.map(phrasal => {
+                const meaningEn = Array.isArray(phrasal.meaning_en) ? phrasal.meaning_en.join('<br>• ') : phrasal.meaning_en;
+                const meaningEs = Array.isArray(phrasal.meaning_es) ? phrasal.meaning_es.join('<br>• ') : phrasal.meaning_es;
+
+                return `
+                    <div class="item" data-category="phrasal" data-search="${phrasal.expression.toLowerCase()} ${meaningEn.toLowerCase()} ${meaningEs.toLowerCase()}">
+                        <div class="item-title">${phrasal.emoji} ${phrasal.expression}</div>
+                        <div class="item-ipa">${phrasal.ipa}</div>
+                        <div class="item-meaning">
+                            <strong>🇬🇧 Meaning (EN):</strong><br>${Array.isArray(phrasal.meaning_en) ? '• ' + meaningEn : meaningEn}
+                        </div>
+                        <div class="item-meaning">
+                            <strong>🇪🇸 Significado (ES):</strong><br>${Array.isArray(phrasal.meaning_es) ? '• ' + meaningEs : meaningEs}
+                        </div>
+                        <div class="item-origin">
+                            <strong>📜 Origin:</strong> ${phrasal.origin_en}
+                        </div>
+                        ${phrasal.examples && phrasal.examples.length > 0 ? `
+                            <div class="item-examples">
+                                <strong>Examples:</strong>
+                                ${phrasal.examples.map(ex => `<div class="example">${ex}</div>`).join('')}
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Render Vocabulary
+        function renderWords() {
+            const container = document.getElementById('wordsItems');
+            container.innerHTML = wordsData.map(word => `
+                <div class="item" data-category="words" data-search="${word.word.toLowerCase()} ${word.meaning_en.toLowerCase()} ${word.meaning_es.toLowerCase()}">
+                    <div class="item-title">${word.emoji} ${word.word}</div>
+                    <div class="item-ipa">${word.ipa}</div>
+                    <div class="item-meaning">
+                        <strong>🇬🇧 Meaning (EN):</strong> ${word.meaning_en}
+                    </div>
+                    <div class="item-meaning">
+                        <strong>🇪🇸 Significado (ES):</strong> ${word.meaning_es}
+                    </div>
+                    <div class="item-origin">
+                        <strong>📜 Origin:</strong> ${word.origin_en}
+                    </div>
+                    ${word.examples && word.examples.length > 0 ? `
+                        <div class="item-examples">
+                            <strong>Examples:</strong>
+                            ${word.examples.map(ex => `<div class="example">${ex}</div>`).join('')}
+                        </div>
+                    ` : ''}
+                    ${word.note ? `<div class="item-origin" style="background: #f8d7da; border-left-color: #dc3545;"><strong>⚠️ Note:</strong> ${word.note}</div>` : ''}
+                </div>
+            `).join('');
+        }
+
+        // Update statistics
+        function updateStats() {
+            document.getElementById('rulesCount').textContent = rulesData.length;
+            document.getElementById('idiomsCount').textContent = idiomsData.length;
+            document.getElementById('phrasalCount').textContent = phrasalData.length;
+            document.getElementById('wordsCount').textContent = wordsData.length;
+        }
+
+        // Search functionality
+        function performSearch() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
+            const items = document.querySelectorAll('.item');
+            let visibleCount = 0;
+
+            items.forEach(item => {
+                const category = item.dataset.category;
+                const searchText = item.dataset.search;
+
+                const matchesFilter = activeFilter === 'all' || category === activeFilter;
+                const matchesSearch = searchTerm === '' || searchText.includes(searchTerm);
+
+                if (matchesFilter && matchesSearch) {
+                    item.classList.remove('hidden');
+                    visibleCount++;
+
+                    // Highlight search term
+                    if (searchTerm !== '') {
+                        highlightText(item, searchTerm);
+                    }
+                } else {
+                    item.classList.add('hidden');
+                }
+            });
+
+            // Show/hide categories based on content
+            document.querySelectorAll('.category').forEach(category => {
+                const categoryFilter = category.dataset.category;
+                const visibleItems = category.querySelectorAll('.item:not(.hidden)').length;
+
+                if (activeFilter === 'all' || categoryFilter === activeFilter) {
+                    category.style.display = visibleItems > 0 ? 'block' : 'none';
+                } else {
+                    category.style.display = 'none';
+                }
+            });
+
+            // Show/hide no results message
+            const noResults = document.getElementById('noResults');
+            if (visibleCount === 0) {
+                noResults.classList.remove('hidden');
+            } else {
+                noResults.classList.add('hidden');
+            }
+        }
+
+        // Highlight search term in text
+        function highlightText(element, searchTerm) {
+            // Remove previous highlights
+            element.querySelectorAll('.highlight').forEach(el => {
+                el.outerHTML = el.innerHTML;
+            });
+
+            if (searchTerm === '') return;
+
+            const walker = document.createTreeWalker(
+                element,
+                NodeFilter.SHOW_TEXT,
+                null,
+                false
+            );
+
+            const nodesToReplace = [];
+            let node;
+
+            while (node = walker.nextNode()) {
+                if (node.nodeValue.toLowerCase().includes(searchTerm)) {
+                    nodesToReplace.push(node);
+                }
+            }
+
+            nodesToReplace.forEach(node => {
+                const span = document.createElement('span');
+                span.innerHTML = node.nodeValue.replace(
+                    new RegExp(searchTerm, 'gi'),
+                    match => `<span class="highlight">${match}</span>`
+                );
+                node.parentNode.replaceChild(span, node);
+            });
+        }
+
+        // Filter functionality
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                performSearch();
+            });
+        });
+
+        // Search input event
+        document.getElementById('searchInput').addEventListener('input', performSearch);
+
+        // Toggle category collapse
+        function toggleCategory(categoryId) {
+            const category = document.getElementById(categoryId);
+            category.classList.toggle('collapsed');
+        }
+
+        // Initialize on load
+        loadData();
+    </script>
+</body>
+</html>

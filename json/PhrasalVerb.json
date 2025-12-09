@@ -1,0 +1,581 @@
+{
+
+  "phrasal_verbs": [
+
+    {
+
+      "expression": "Go away",
+
+      "ipa": "/goʊ əˈweɪ/",
+
+      "meaning_en": "To leave or go somewhere else.",
+
+      "meaning_es": "Irse; alejarse.",
+
+      "emoji": "🚶‍♂️➡️❌",
+
+      "origin_en": "Literal Old English meaning: to go from one place to another.",
+
+      "origin_es": "Del inglés antiguo: simplemente 'ir lejos'.",
+
+      "examples": [
+
+        "Go away, I'm tired.",
+
+        "The pain will go away soon."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Wash up",
+
+      "ipa": "/wɑːʃ ʌp/",
+
+      "meaning_en": [
+
+        "To wash your hands/face.",
+
+        "To wash dishes (UK)."
+
+      ],
+
+      "meaning_es": [
+
+        "Lavarse las manos o la cara.",
+
+        "Lavar los platos (UK)."
+
+      ],
+
+      "emoji": "🧼👐🍽️",
+
+      "origin_en": "Wash + particle 'up' meaning completion.",
+
+      "origin_es": "'Up' indica completar la acción.",
+
+      "examples": [
+
+        "Go wash up before dinner.",
+
+        "I'll wash up the dishes."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Write down",
+
+      "ipa": "/raɪt daʊn/",
+
+      "meaning_en": "To record something on paper or a device so you don't forget.",
+
+      "meaning_es": "Anotar algo para no olvidarlo.",
+
+      "emoji": "📝✍️",
+
+      "origin_en": "Verb + directional particle ('down') meaning to capture information.",
+
+      "origin_es": "'Down' se usa para registrar información.",
+
+      "examples": [
+
+        "Write down the address.",
+
+        "She wrote down the instructions."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Flow over",
+
+      "ipa": "/floʊ ˈoʊvər/",
+
+      "meaning_en": [
+
+        "For liquid to spill over an edge.",
+
+        "For emotions or sensations to pass through gently."
+
+      ],
+
+      "meaning_es": [
+
+        "Derramarse por encima.",
+
+        "Que emociones pasen suavemente."
+
+      ],
+
+      "emoji": "🌊⬆️💧😌",
+
+      "origin_en": "From literal motion of water 'flowing' + 'over' (across a boundary).",
+
+      "origin_es": "De agua fluyendo sobre un límite; después se volvió figurado.",
+
+      "examples": [
+
+        "The water flowed over the cup.",
+
+        "A wave of peace flowed over her."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Take care of",
+
+      "ipa": "/teɪk kɛər ʌv/",
+
+      "meaning_en": "To handle or be responsible for something.",
+
+      "meaning_es": "Encargarse de algo.",
+
+      "emoji": "🧹📋",
+
+      "origin_en": "Idiom-like phrasal structure used since Middle English.",
+
+      "origin_es": "Estructura idiomática usada desde el inglés medio.",
+
+      "examples": [
+
+        "I'll take care of the rest.",
+
+        "Can you take care of the documents?"
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Drop off",
+
+      "ipa": "/drɑːp ɔːf/",
+
+      "meaning_en": "To take someone/something somewhere by vehicle and leave them there.",
+
+      "meaning_es": "Dejar a alguien o algo en un lugar.",
+
+      "emoji": "🚗📍",
+
+      "origin_en": "From 'drop' (let fall) + 'off' (away/down), used since 1600s.",
+
+      "origin_es": "De 'drop' (soltar) y 'off' (alejar).",
+
+      "examples": [
+
+        "Can you drop me off at the station?",
+
+        "He dropped off the package."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Go on",
+
+      "ipa": "/goʊ ɑːn/",
+
+      "meaning_en": [
+
+        "To continue.",
+
+        "To encourage someone to keep talking."
+
+      ],
+
+      "meaning_es": [
+
+        "Continuar.",
+
+        "Animar a alguien a seguir hablando."
+
+      ],
+
+      "emoji": "➡️🗣️",
+
+      "origin_en": "Old English 'gan' meaning 'to go'.",
+
+      "origin_es": "Del inglés antiguo 'gan', 'ir'.",
+
+      "examples": [
+
+        "Go on, tell me more.",
+
+        "The show must go on."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Go through",
+
+      "ipa": "/ɡoʊ θruː/",
+
+      "meaning_en": "To experience, examine, or complete something",
+
+      "meaning_es": "Pasar por, atravesar, revisar, experimentar",
+
+      "emoji": "🔍📋",
+
+      "origin_en": "From 'go' + 'through', meaning to pass from one side to another.",
+
+      "origin_es": "De 'go' + 'through', que significa pasar de un lado a otro.",
+
+      "examples": [
+
+        "She had to go through a lot before she succeeded.",
+
+        "Let's go through the report before submitting it.",
+
+        "He went through the application process smoothly."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Jump in",
+
+      "ipa": "/dʒʌmp ɪn/",
+
+      "meaning_en": "To enter a situation quickly, interrupt, or start participating",
+
+      "meaning_es": "Intervenir, meterse, participar",
+
+      "emoji": "🏊‍♂️💬",
+
+      "origin_en": "From 'jump' (leap) + 'in' (into), suggesting sudden entry.",
+
+      "origin_es": "De 'jump' (saltar) + 'in' (dentro), sugiriendo entrada repentina.",
+
+      "examples": [
+
+        "I didn't mean to jump in, but I had to correct that mistake.",
+
+        "She jumped in to help when she saw they were struggling.",
+
+        "Let's jump in and start the project right away!"
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Moving away",
+
+      "ipa": "/ˈmuːvɪŋ əˈweɪ/",
+
+      "meaning_en": "The act of leaving a place, situation, or idea to go elsewhere",
+
+      "meaning_es": "Alejarse, mudarse, apartarse",
+
+      "emoji": "📦🚚",
+
+      "origin_en": "From 'move' + 'away', indicating physical or conceptual departure.",
+
+      "origin_es": "De 'move' + 'away', indicando salida física o conceptual.",
+
+      "examples": [
+
+        "She is moving away to another city for work.",
+
+        "Let's move away from this discussion and focus on solutions.",
+
+        "He decided to move away from toxic relationships."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Seek out",
+
+      "ipa": "/siːk aʊt/",
+
+      "meaning_en": "To actively search for or pursue something",
+
+      "meaning_es": "Buscar, ir en busca de",
+
+      "emoji": "🔎🎯",
+
+      "origin_en": "From 'seek' (search) + 'out' (thoroughly).",
+
+      "origin_es": "De 'seek' (buscar) + 'out' (completamente).",
+
+      "examples": [
+
+        "She seeks out new opportunities to grow.",
+
+        "The company is seeking out skilled employees to join the team.",
+
+        "He seeks out hidden spots when he travels."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Reach out",
+
+      "ipa": "/riːtʃ aʊt/",
+
+      "meaning_en": "To attempt to contact, connect, or help someone",
+
+      "meaning_es": "Ponerse en contacto, ofrecer ayuda",
+
+      "emoji": "🤝📞",
+
+      "origin_en": "From 'reach' (extend) + 'out' (toward), suggesting extending help.",
+
+      "origin_es": "De 'reach' (extender) + 'out' (hacia), sugiriendo ofrecer ayuda.",
+
+      "examples": [
+
+        "Feel free to reach out if you need assistance.",
+
+        "He reached out to his friend during a difficult time.",
+
+        "The company reached out to potential clients to expand their business."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Get back",
+
+      "ipa": "/ɡɛt bæk/",
+
+      "meaning_en": "Return to a previous position or state",
+
+      "meaning_es": "Regresar",
+
+      "emoji": "↩️🔙",
+
+      "origin_en": "From 'get' + 'back', meaning to return or retrieve.",
+
+      "origin_es": "De 'get' + 'back', que significa regresar o recuperar.",
+
+      "examples": [
+
+        "I'll get back to you with the details."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Withdraw",
+
+      "ipa": "/wɪðˈdrɔː/",
+
+      "meaning_en": "To remove something or retreat from a position",
+
+      "meaning_es": "Retirar",
+
+      "emoji": "🏦⬅️",
+
+      "origin_en": "From 'with' (away) + 'draw' (pull).",
+
+      "origin_es": "De 'with' (lejos) + 'draw' (tirar).",
+
+      "examples": [
+
+        "He withdrew his application for the job."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Blow up",
+
+      "ipa": "/bloʊ ʌp/",
+
+      "meaning_en": "To explode or become angry",
+
+      "meaning_es": "Explotar, encolerizarse",
+
+      "emoji": "💥😡",
+
+      "origin_en": "From 'blow' + 'up', suggesting sudden expansion or outburst.",
+
+      "origin_es": "De 'blow' + 'up', sugiriendo expansión repentina o estallido.",
+
+      "examples": [
+
+        "He blew up when he heard the news."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Come across",
+
+      "ipa": "/kʌm əˈkrɒs/",
+
+      "meaning_en": "Encounter by chance",
+
+      "meaning_es": "Encontrarse por casualidad",
+
+      "emoji": "🚶‍♂️👀",
+
+      "origin_en": "From 'come' + 'across', suggesting encountering while moving.",
+
+      "origin_es": "De 'come' + 'across', sugiriendo encontrar mientras se mueve.",
+
+      "examples": [
+
+        "I came across an old friend at the mall."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Come up with",
+
+      "ipa": "/kʌm ˈʌp wɪð/",
+
+      "meaning_en": "Create or propose",
+
+      "meaning_es": "Idear, proponer",
+
+      "emoji": "💡🎨",
+
+      "origin_en": "From 'come up' (arise) + 'with' (accompanied by).",
+
+      "origin_es": "De 'come up' (surgir) + 'with' (acompañado de).",
+
+      "examples": [
+
+        "She came up with a brilliant idea."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Come back",
+
+      "ipa": "/kʌm ˈbæk/",
+
+      "meaning_en": "Return",
+
+      "meaning_es": "Regresar",
+
+      "emoji": "🔙🏠",
+
+      "origin_en": "From 'come' + 'back', indicating return.",
+
+      "origin_es": "De 'come' + 'back', indicando regreso.",
+
+      "examples": [
+
+        "Come back soon!"
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Come out",
+
+      "ipa": "/kʌm ˈaʊt/",
+
+      "meaning_en": "Be revealed or emerge",
+
+      "meaning_es": "Salir, surgir",
+
+      "emoji": "🚪✨",
+
+      "origin_en": "From 'come' + 'out', suggesting emergence.",
+
+      "origin_es": "De 'come' + 'out', sugiriendo salida.",
+
+      "examples": [
+
+        "The truth finally came out."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Come in",
+
+      "ipa": "/kʌm ˈɪn/",
+
+      "meaning_en": "Enter or arrive",
+
+      "meaning_es": "Entrar, llegar",
+
+      "emoji": "🚪➡️",
+
+      "origin_en": "From 'come' + 'in', indicating entrance.",
+
+      "origin_es": "De 'come' + 'in', indicando entrada.",
+
+      "examples": [
+
+        "Please come in and take a seat."
+
+      ]
+
+    },
+
+    {
+
+      "expression": "Come over",
+
+      "ipa": "/kʌm ˈoʊvər/",
+
+      "meaning_en": "Visit casually",
+
+      "meaning_es": "Visitar",
+
+      "emoji": "🏠🚶",
+
+      "origin_en": "From 'come' + 'over', suggesting crossing to visit.",
+
+      "origin_es": "De 'come' + 'over', sugiriendo cruzar para visitar.",
+
+      "examples": [
+
+        "Come over for dinner tonight!"
+
+      ]
+
+    }
+
+  ]
+
+}
