@@ -525,6 +525,106 @@
      "examples": [
        "I only need a few bits of information to complete the task."
      ]
+   },
+   {
+     "word": "straight",
+     "ipa": "/streɪt/",
+     "meaning_en": "extending in one direction without curving; honest and direct; heterosexual",
+     "meaning_es": "recto, directo; honesto; heterosexual",
+     "emoji": "➡️📏🎯",
+     "origin_en": "From Old English 'streht', past participle of 'streccan' (to stretch).",
+     "origin_es": "Del inglés antiguo 'streht', participio pasado de 'streccan' (estirar).",
+     "examples": [
+       "Draw a straight line from A to B.",
+       "Go straight ahead for two blocks.",
+       "I'll give you a straight answer: I don't know.",
+       "Let me get this straight - you want me to do what?",
+       "She has straight hair.",
+       "He's been working for 10 hours straight (continuously)."
+     ]
+   },
+   {
+     "word": "dawn",
+     "ipa": "/dɔːn/",
+     "meaning_en": "the first appearance of light in the morning; the beginning of something",
+     "meaning_es": "amanecer, alba; el comienzo de algo",
+     "emoji": "🌅🌄",
+     "origin_en": "From Old English 'dagian' (to become day), related to 'day'.",
+     "origin_es": "Del inglés antiguo 'dagian' (convertirse en día), relacionado con 'day' (día).",
+     "examples": [
+       "We woke up at dawn to watch the sunrise.",
+       "The birds start singing at dawn.",
+       "It suddenly dawned on me that I forgot my keys.",
+       "This marks the dawn of a new era.",
+       "Dawn is breaking over the mountains."
+     ]
+   },
+   {
+     "word": "curb",
+     "ipa": "/kɜːrb/",
+     "meaning_en": "the edge of a sidewalk; to restrain or control something",
+     "meaning_es": "bordillo, acera; frenar, controlar, restringir",
+     "emoji": "🚧🛑",
+     "origin_en": "From Latin 'curvare' (to bend, curve). Originally referred to a curved restraining strap, later applied to the curved edge of a street.",
+     "origin_es": "Del latín 'curvare' (doblar, curvar). Originalmente se refería a una correa de restricción curva, luego aplicado al borde curvo de la calle.",
+     "examples": [
+       "The car hit the curb and got a flat tire.",
+       "Don't park too close to the curb.",
+       "We need to curb our spending this month.",
+       "The government is trying to curb pollution.",
+       "She tried to curb her anger during the meeting.",
+       "Curb your enthusiasm! (control your excitement)"
+     ]
+   },
+   {
+     "word": "leash",
+     "ipa": "/liːʃ/",
+     "meaning_en": "a rope or chain used to control a dog or other animal; to control or restrain",
+     "meaning_es": "correa (para perros), cadena; controlar, restringir",
+     "emoji": "🐕🔗",
+     "origin_en": "From Old French 'laisse', meaning 'a thong, string, or lace'.",
+     "origin_es": "Del francés antiguo 'laisse', que significa 'una correa, cuerda o cordón'.",
+     "examples": [
+       "Keep your dog on a leash in the park.",
+       "She walked her dog on a short leash.",
+       "The boss keeps him on a tight leash. (controls him closely)",
+       "He needs to be kept on a leash. (needs to be controlled)",
+       "The new policy gives employees a longer leash. (more freedom)",
+       "Leash your dog before entering the store."
+     ]
+   },
+   {
+     "word": "fistfight",
+     "ipa": "/ˈfɪstˌfaɪt/",
+     "meaning_en": "a physical fight using only fists; a brawl or scuffle",
+     "meaning_es": "pelea a puñetazos, pelea con los puños",
+     "emoji": "👊💥",
+     "origin_en": "Compound word from 'fist' (closed hand) + 'fight' (combat). Used since the 1600s to describe hand-to-hand combat without weapons.",
+     "origin_es": "Palabra compuesta de 'fist' (puño) + 'fight' (pelea). Usado desde los 1600s para describir combate cuerpo a cuerpo sin armas.",
+     "examples": [
+       "The argument escalated into a fistfight.",
+       "Two men got into a fistfight outside the bar.",
+       "The referee stopped the fistfight before anyone got seriously hurt.",
+       "A fistfight broke out in the parking lot.",
+       "He walked away to avoid a fistfight."
+     ]
+   },
+   {
+     "word": "fists",
+     "ipa": "/fɪsts/",
+     "meaning_en": "plural of fist; closed hands with fingers curled into the palm",
+     "meaning_es": "puños; manos cerradas con los dedos doblados hacia la palma",
+     "emoji": "✊👊",
+     "origin_en": "From Old English 'fȳst', meaning 'clenched hand'. Related to Old German 'fūst'.",
+     "origin_es": "Del inglés antiguo 'fȳst', que significa 'mano cerrada'. Relacionado con el alemán antiguo 'fūst'.",
+     "examples": [
+       "He clenched his fists in anger.",
+       "She raised her fists in victory.",
+       "The boxer held up his fists ready to fight.",
+       "He pounded his fists on the table.",
+       "They shook their fists at the referee.",
+       "She punched the air with both fists."
+     ]
    }
  ]
 }

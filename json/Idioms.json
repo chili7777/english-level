@@ -246,6 +246,23 @@
      "examples": [
        "You are nuts if you think that will work!"
      ]
+   },
+   {
+     "expression": "At all",
+     "ipa": "/ət ɔːl/",
+     "meaning_en": "Used to emphasize a negative statement or question; in any way or to any degree",
+     "meaning_es": "En absoluto, para nada; de ninguna manera",
+     "emoji": "❌🔍",
+     "origin_en": "From Middle English 'at alle', meaning 'in any way' or 'wholly'.",
+     "origin_es": "Del inglés medio 'at alle', que significa 'de ninguna manera' o 'completamente'.",
+     "examples": [
+       "I don't like it at all.",
+       "Do you speak French at all?",
+       "She's not tired at all.",
+       "Is there any hope at all?",
+       "I can't see anything at all.",
+       "Not at all! (You're welcome / It's no problem)"
+     ]
    }
  ]
 }

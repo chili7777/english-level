@@ -205,6 +205,110 @@
      },
      "explanation_en": "Auxiliary verb 'come' conjugations.",
      "explanation_es": "Conjugaciones del verbo auxiliar 'come'."
+   },
+   {
+     "rule_name": "You Gotta vs You've Got vs You Have",
+     "emoji": "🗣️📝⚖️",
+     "structure": {
+       "you_have": "Formal - Standard English (You have to go)",
+       "you_ve_got": "Informal - Conversational (You've got to go)",
+       "you_gotta": "Very Informal - Slang/Spoken (You gotta go)"
+     },
+     "explanation_en": "Three ways to express obligation or necessity with different levels of formality. 'You have' is standard formal English. 'You've got' is informal but acceptable in conversation. 'You gotta' is very informal slang (contraction of 'got to') used in casual speech but should be avoided in writing.",
+     "explanation_es": "Tres formas de expresar obligación o necesidad con diferentes niveles de formalidad. 'You have' es inglés formal estándar. 'You've got' es informal pero aceptable en conversación. 'You gotta' es argot muy informal (contracción de 'got to') usado en habla casual pero debe evitarse en escritura.",
+     "examples": [
+       "Formal: You have to finish this report by Friday.",
+       "Informal: You've got to see this movie, it's amazing!",
+       "Very Informal/Slang: You gotta try this pizza! (spoken only)",
+       "Possession (have): You have a beautiful house.",
+       "Possession (have got): You've got a beautiful house.",
+       "Obligation: You have to be there at 9 AM.",
+       "Obligation: You've got to be there at 9 AM.",
+       "Slang: You gotta be kidding me! (You must be joking)"
+     ],
+     "note": "⚠️ 'You gotta' should NOT be used in formal writing, academic papers, or professional communication. Use 'you have to' or 'you must' instead."
+   },
+   {
+     "rule_name": "Modal Verbs: Can, Must, Might",
+     "emoji": "🔐💪❓",
+     "structure": {
+       "can": "Ability, Permission, Possibility (I can swim / Can I go? / It can be difficult)",
+       "must": "Strong Obligation, Necessity, Logical Deduction (You must study / It must be true)",
+       "might": "Possibility, Uncertainty, Permission (formal) (It might rain / Might I ask?)"
+     },
+     "explanation_en": "Modal verbs that express different levels of ability, obligation, and possibility. 'Can' shows ability or asks permission. 'Must' indicates strong obligation or certainty. 'Might' expresses possibility or uncertainty (weaker than 'may').",
+     "explanation_es": "Verbos modales que expresan diferentes niveles de habilidad, obligación y posibilidad. 'Can' muestra habilidad o pide permiso. 'Must' indica obligación fuerte o certeza. 'Might' expresa posibilidad o incertidumbre (más débil que 'may').",
+     "examples": [
+       "Ability: I can speak three languages.",
+       "Permission: Can I use your phone?",
+       "Possibility: Learning English can be challenging.",
+       "Strong Obligation: You must wear a seatbelt.",
+       "Necessity: We must finish this today.",
+       "Logical Deduction: She must be tired after working all day.",
+       "Possibility (uncertain): It might rain tomorrow.",
+       "Polite Suggestion: You might want to check your email.",
+       "Formal Permission: Might I suggest an alternative?",
+       "Negative: You can't park here. / You must not smoke here. / It might not work.",
+       "Past: I could swim when I was young. / I had to study. / It might have been true."
+     ],
+     "note": "💡 Tip: 'Can' is more common than 'may' for permission in modern English. 'Must' is stronger than 'should'. 'Might' is less certain than 'may'."
+   },
+   {
+     "rule_name": "We Gotta vs We Got vs We Have vs We've Got",
+     "emoji": "👥💬📋",
+     "structure": {
+       "we_have": "Formal - Standard English (We have a problem / We have to go)",
+       "we_ve_got": "Informal - Conversational (We've got a problem / We've got to go)",
+       "we_got": "Informal - Possession only, NOT obligation (We got a new car - past tense)",
+       "we_gotta": "Very Informal - Slang/Spoken obligation only (We gotta go - spoken only)"
+     },
+     "explanation_en": "Four different ways to express possession or obligation with varying formality levels. 'We have' is standard formal English for both possession and obligation. 'We've got' is informal but grammatically correct for both. 'We got' is ONLY for possession (often past tense) and NEVER for obligation. 'We gotta' is very informal slang for obligation only (contraction of 'got to'), used in casual speech but should be avoided in writing.",
+     "explanation_es": "Cuatro formas diferentes de expresar posesión u obligación con diferentes niveles de formalidad. 'We have' es inglés formal estándar para posesión y obligación. 'We've got' es informal pero gramaticalmente correcto para ambos. 'We got' es SOLO para posesión (a menudo pasado) y NUNCA para obligación. 'We gotta' es argot muy informal solo para obligación (contracción de 'got to'), usado en habla casual pero debe evitarse en escritura.",
+     "examples": [
+       "Possession (formal): We have three children.",
+       "Possession (informal): We've got three children.",
+       "Possession (past): We got a new house last year.",
+       "Obligation (formal): We have to leave now.",
+       "Obligation (informal): We've got to leave now.",
+       "Obligation (slang): We gotta go! (spoken only)",
+       "WRONG: We got to leave now. ❌ (Use 'We have to' or 'We've got to')",
+       "RIGHT: We got a promotion. ✅ (past tense possession)",
+       "WRONG: We gotta new car. ❌ (Use 'We got' or 'We have')",
+       "Emphasis: We've got to finish this today!",
+       "Present perfect: We've got everything we need.",
+       "Common mistake: Don't confuse 'we got' (past possession) with 'we've got to' (obligation)"
+     ],
+     "note": "⚠️ IMPORTANT: 'We got' = past possession ONLY. For obligation, use 'we have to' (formal), 'we've got to' (informal), or 'we gotta' (slang/spoken). Never use 'we got to' for obligation - it's grammatically incorrect."
+   },
+   {
+     "rule_name": "Ever - Different Uses",
+     "emoji": "🔄❓⏰",
+     "structure": {
+       "questions": "Have you ever...? / Did you ever...? (asking about experience)",
+       "negatives": "I don't ever... / I never... (emphasizing negative)",
+       "comparatives": "better than ever / more than ever (intensifier)",
+       "conditionals": "If you ever need help... (at any time)",
+       "superlatives": "the best ever / the fastest ever (of all time)",
+       "emphasis": "Why ever...? / What ever...? / How ever...? (strong questioning)"
+     },
+     "explanation_en": "'Ever' has multiple uses in English: 1) In questions about life experiences (Have you ever...?), 2) With negatives for emphasis (don't ever, never ever), 3) In comparatives (more than ever), 4) In conditionals (if you ever), 5) With superlatives (best ever), 6) For emphasis in questions (Why ever...?). It generally means 'at any time' or 'at all times'.",
+     "explanation_es": "'Ever' tiene múltiples usos en inglés: 1) En preguntas sobre experiencias de vida (¿Alguna vez...?), 2) Con negativos para énfasis (nunca jamás), 3) En comparativos (más que nunca), 4) En condicionales (si alguna vez), 5) Con superlativos (el mejor de todos los tiempos), 6) Para énfasis en preguntas (¿Por qué diablos...?).",
+     "examples": [
+       "Experience (Present Perfect): Have you ever been to Paris?",
+       "Experience (Past): Did you ever meet him?",
+       "Negative emphasis: Don't ever do that again!",
+       "Double negative emphasis: I will never ever forget this.",
+       "Comparative: She's happier than ever before.",
+       "Comparative: It's more important than ever.",
+       "Conditional: If you ever need help, call me.",
+       "Conditional: Whenever you want, come visit us.",
+       "Superlative: This is the best pizza ever!",
+       "Superlative: He's the fastest runner ever.",
+       "Emphasis question: Why ever did you say that?",
+       "Emphasis question: What ever were you thinking?",
+       "Common phrases: forever (for all time), whatever (anything), whoever (anyone), wherever (any place), however (in any way)"
+     ],
+     "note": "💡 Common phrase: 'Have you ever...?' is used with Present Perfect to ask about life experiences. 'Ever' with negatives creates strong emphasis. 'Whatever', 'whoever', 'wherever', 'whenever', 'however' are compound words formed with 'ever'."
    }
  ]
 }

@@ -745,6 +745,28 @@ Shows one past action happened before another.
 
 ---
 
+### 42. Straight ➡️📏🎯
+
+**IPA:** /streɪt/
+
+**Meaning (EN):** extending in one direction without curving; honest and direct; heterosexual
+
+**Meaning (ES):** recto, directo; honesto; heterosexual
+
+**Origin (EN):** From Old English 'streht', past participle of 'streccan' (to stretch).
+
+**Origin (ES):** Del inglés antiguo 'streht', participio pasado de 'streccan' (estirar).
+
+**Examples:**
+- Draw a straight line from A to B.
+- Go straight ahead for two blocks.
+- I'll give you a straight answer: I don't know.
+- Let me get this straight - you want me to do what?
+- She has straight hair.
+- He's been working for 10 hours straight (continuously).
+
+---
+
 ## 📌 Quick Reference
 
 ### Grammar Quick Tips
@@ -755,6 +777,8 @@ Shows one past action happened before another.
 - ✅ Pronouns go **in the middle** of separable phrasal verbs (Pick me up)
 - ✅ **-ING forms** describe things causing emotion; **-ED forms** describe feelings received
 - ✅ **Used to** = past habit; **Be used to** = accustomed; **Get used to** = becoming accustomed
+- ✅ **Formality levels**: "You have to" (formal) → "You've got to" (informal) → "You gotta" (slang/spoken only)
+- ✅ **Modal verbs**: Can (ability/permission), Must (strong obligation), Might (possibility/uncertainty)
 
 ### Common Mistakes to Avoid
 - ❌ Don't use "ain't" in formal situations
@@ -762,6 +786,9 @@ Shows one past action happened before another.
 - ❌ Remember: hardly ever = almost never
 - ❌ Be careful with phrasal verb particle placement
 - ❌ Don't mix up -ING (causing emotion) with -ED (receiving emotion)
+- ❌ Don't write "gotta" in formal writing - use "have to" or "must" instead
+- ❌ Never say "we got to go" - it's wrong! Use "we have to" or "we've got to" instead
+- ❌ "We got" is ONLY for past possession (We got a car), NOT for obligation
 
 ### Phrasal Verb Families
 **Come phrasal verbs:** come across, come up with, come back, come out, come in, come over  
@@ -773,10 +800,11 @@ Shows one past action happened before another.
 **Last Updated:** December 9, 2025
 
 **Statistics:**
-- 📚 **19 Grammar Rules**
-- 💬 **19 Idioms & Expressions**
+- 📚 **23 Grammar Rules**
+- 💬 **20 Idioms & Expressions**
 - 🔄 **21 Phrasal Verbs**
-- 📖 **41 Vocabulary Words**
+- 📖 **47 Vocabulary Words**
+- 🎯 **Total: 111 Learning Items**
 
 **Created from:** Idioms.json, PhrasalVerbs.json, Rules.json, Words.json, English.md
 
