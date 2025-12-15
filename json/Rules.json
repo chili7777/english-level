@@ -355,6 +355,103 @@
        ]
      },
      "note": "⚠️ KEY RULE: SAY + (that) + statement OR say + something + TO + someone. TELL + person + (that) + statement. You CANNOT say 'say me' but you CAN say 'tell me'. Think: TELL = TELL someone (person always needed)."
+   },
+   {
+     "rule_name": "When to Use 'TO' Before Object Pronouns - Direct vs Indirect Objects",
+     "emoji": "🎯➡️👤",
+     "structure": "VERB + OBJECT (direct) vs VERB + TO + OBJECT (indirect)",
+     "explanation_en": "Some verbs take a DIRECT object (no 'to' needed), while others take an INDIRECT object (requires 'to'). Direct objects receive the action directly. Indirect objects are affected by the action but need 'to' to show the relationship.",
+     "explanation_es": "Algunos verbos toman objeto DIRECTO (no necesita 'to'), mientras otros toman objeto INDIRECTO (requiere 'to'). Los objetos directos reciben la acción directamente. Los objetos indirectos son afectados por la acción pero necesitan 'to' para mostrar la relación.",
+     "direct_object_verbs": {
+       "explanation": "These verbs take the object DIRECTLY (NO 'to' needed)",
+       "pattern": "VERB + him/her/me/you/them (NO 'to')",
+       "common_verbs": [
+         "love",
+         "like",
+         "hate",
+         "know",
+         "see",
+         "watch",
+         "help",
+         "call",
+         "visit",
+         "meet",
+         "ask",
+         "tell",
+         "thank",
+         "forgive",
+         "marry",
+         "kiss",
+         "hug",
+         "hit",
+         "follow"
+       ],
+       "examples": [
+         "✅ I love you. (NOT: I love to you)",
+         "✅ She knows him. (NOT: She knows to him)",
+         "✅ He helped me. (NOT: He helped to me)",
+         "✅ They called us. (NOT: They called to us)",
+         "✅ I'll meet you there. (NOT: I'll meet to you)",
+         "✅ She thanked him. (NOT: She thanked to him)",
+         "✅ Can you forgive me? (NOT: Can you forgive to me)"
+       ]
+     },
+     "indirect_object_verbs": {
+       "explanation": "These verbs need 'TO' before the object",
+       "pattern": "VERB + TO + him/her/me/you/them",
+       "common_verbs": [
+         "happen",
+         "listen",
+         "speak",
+         "talk",
+         "explain",
+         "apologize",
+         "belong",
+         "respond",
+         "reply",
+         "object",
+         "appeal",
+         "refer",
+         "occur"
+       ],
+       "examples": [
+         "✅ What happened to him? (NOT: What happened him?)",
+         "✅ Listen to me! (NOT: Listen me!)",
+         "✅ She spoke to them. (NOT: She spoke them)",
+         "✅ He explained it to us. (NOT: He explained it us)",
+         "✅ I apologized to her. (NOT: I apologized her)",
+         "✅ This belongs to me. (NOT: This belongs me)",
+         "✅ Please respond to him. (NOT: Please respond him)"
+       ]
+     },
+     "special_cases": {
+       "explanation": "Some verbs can work BOTH ways depending on structure",
+       "examples": [
+         "GIVE: I gave him a book. (indirect object first) OR I gave a book to him. (direct object first)",
+         "SEND: She sent me a message. OR She sent a message to me.",
+         "SHOW: He showed us the way. OR He showed the way to us.",
+         "TEACH: I'll teach you English. OR I'll teach English to you.",
+         "WRITE: I wrote her a letter. OR I wrote a letter to her."
+       ]
+     },
+     "memory_trick": {
+       "title": "💡 How to Remember",
+       "tips": [
+         "If you can ask 'WHAT happened?' → use TO (What happened TO him?)",
+         "If you can ask 'WHO do you love?' → NO to (I love YOU, not 'to you')",
+         "Communication verbs often need TO: speak TO, talk TO, listen TO",
+         "Emotion/feeling verbs usually DON'T need TO: love, hate, like, know"
+       ]
+     },
+     "common_mistakes": [
+       "❌ What happened him? → ✅ What happened to him?",
+       "❌ Listen me! → ✅ Listen to me!",
+       "❌ I love to you. → ✅ I love you.",
+       "❌ She knows to him. → ✅ She knows him.",
+       "❌ Speak me in English. → ✅ Speak to me in English.",
+       "❌ It belongs me. → ✅ It belongs to me.",
+       "❌ I apologized him. → ✅ I apologized to him."
+     ]
    }
  ]
 }

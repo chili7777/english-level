@@ -263,6 +263,21 @@
        "I can't see anything at all.",
        "Not at all! (You're welcome / It's no problem)"
      ]
+   },
+   {
+     "expression": "Safety in numbers",
+     "ipa": "/ˈseɪfti ɪn ˈnʌmbərz/",
+     "meaning_en": "Being in a group makes you safer or more protected than being alone",
+     "meaning_es": "Estar en grupo te hace más seguro o protegido que estar solo",
+     "emoji": "👥🛡️",
+     "origin_en": "Ancient concept dating back to survival instincts. Animals and humans historically traveled in groups for protection from predators and threats. The phrase became popular in English in the 19th century.",
+     "origin_es": "Concepto antiguo que se remonta a los instintos de supervivencia. Animales y humanos históricamente viajaban en grupos para protegerse de depredadores y amenazas. La frase se popularizó en inglés en el siglo XIX.",
+     "examples": [
+       "Let's all walk home together—there's safety in numbers.",
+       "The protesters believe there's safety in numbers.",
+       "In the wild, many animals travel in herds because of safety in numbers.",
+       "Don't go alone at night; there's safety in numbers."
+     ]
    }
  ]
 }

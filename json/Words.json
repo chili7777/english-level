@@ -648,6 +648,7 @@
      "meaning_en": "hitting your toe or foot against something hard; in testing, creating fake objects to simulate behavior",
      "meaning_es": "golpear el dedo del pie contra algo duro; en pruebas, crear objetos falsos para simular comportamiento",
      "emoji": "🦶💥",
+     "object_type": "direct",
      "origin_en": "From 'stub', Middle English 'stubbe', meaning a tree stump or short projecting part.",
      "origin_es": "De 'stub', del inglés medio 'stubbe', que significa tocón de árbol o parte corta que sobresale.",
      "examples": [
@@ -672,6 +673,76 @@
        "Please keep the aisle clear.",
        "I prefer an aisle seat on the plane.",
        "He was blocking the aisle with his cart."
+     ]
+   },
+   {
+     "word": "snippet",
+     "ipa": "/ˈsnɪpɪt/",
+     "meaning_en": "a small piece or brief extract of something; in programming, a reusable piece of code",
+     "meaning_es": "fragmento, pedazo pequeño; en programación, trozo de código reutilizable",
+     "emoji": "✂️📝💻",
+     "origin_en": "From 'snip' (to cut with scissors) + diminutive suffix '-et'. First recorded in the 1660s.",
+     "origin_es": "De 'snip' (cortar con tijeras) + sufijo diminutivo '-et'. Registrado por primera vez en los 1660s.",
+     "examples": [
+       "I heard a snippet of their conversation.",
+       "The article included snippets from the interview.",
+       "Can you show me a snippet of the code?",
+       "She shared a snippet of the song on social media.",
+       "I only caught snippets of information from the meeting.",
+       "Use this code snippet to solve the problem."
+     ]
+   },
+   {
+     "word": "scrambled",
+     "ipa": "/ˈskræmbəld/",
+     "meaning_en": "mixed up in a confused or disorderly way; cooked eggs stirred while frying; rushed or moved quickly",
+     "meaning_es": "revuelto, mezclado de forma desordenada; huevos revueltos; moverse apresuradamente",
+     "emoji": "🍳🥚🔀",
+     "object_type": "direct",
+     "origin_en": "From 'scramble', possibly imitative or from Dutch 'schrammen' (to scratch). Used since the 1500s.",
+     "origin_es": "De 'scramble', posiblemente imitativo o del holandés 'schrammen' (rascar). Usado desde los 1500s.",
+     "examples": [
+       "I had scrambled eggs for breakfast.",
+       "The letters were all scrambled up.",
+       "He scrambled the password to make it more secure.",
+       "The words in the puzzle are scrambled.",
+       "They scrambled to finish the project on time.",
+       "The fighter jets scrambled in response to the threat."
+     ]
+   },
+   {
+     "word": "long time",
+     "ipa": "/lɔːŋ taɪm/",
+     "meaning_en": "an extended period or duration; 'long' here means extended in duration, not physical length",
+     "meaning_es": "mucho tiempo, largo tiempo; 'long' aquí significa extendido en duración, no longitud física",
+     "emoji": "⏰⏳📅",
+     "origin_en": "From Old English 'lang' meaning 'having great linear extent'. Extended metaphorically to time duration since Old English period.",
+     "origin_es": "Del inglés antiguo 'lang' que significa 'tener gran extensión lineal'. Extendido metafóricamente a la duración del tiempo desde el período del inglés antiguo.",
+     "examples": [
+       "It's been a long time since we last met.",
+       "I haven't seen you in a long time!",
+       "That took a long time to finish.",
+       "We've been waiting for a long time.",
+       "Long time no see! (informal greeting)",
+       "It will take a long time to complete this project."
+     ],
+     "note": "⚠️ IMPORTANT: 'Long' with TIME means DURATION (how much time), NOT distance. We use 'long' for time periods: 'a long time', 'how long?', 'for a long while'. We DON'T say 'a big time' or 'a large time'. Compare: 'a long road' (physical distance) vs 'a long time' (duration). Other time expressions with 'long': 'all day long', 'all night long', 'how long will it take?', 'as long as needed'."
+   },
+   {
+     "word": "rumbling",
+     "ipa": "/ˈrʌmblɪŋ/",
+     "meaning_en": "making a deep, continuous sound; stomach making noise from hunger; early signs of discontent or unrest",
+     "meaning_es": "hacer un sonido profundo y continuo; estómago haciendo ruido por hambre; señales tempranas de descontento o inquietud",
+     "emoji": "⚡🔊🌩️",
+     "origin_en": "From 'rumble', Middle English, possibly imitative of low, rolling sounds like thunder. First recorded in the 1300s.",
+     "origin_es": "De 'rumble', inglés medio, posiblemente imitativo de sonidos bajos y rodantes como el trueno. Registrado por primera vez en los 1300s.",
+     "examples": [
+       "I heard a rumbling sound in the distance.",
+       "The thunder was rumbling across the sky.",
+       "My stomach is rumbling—I'm hungry!",
+       "There were rumblings of discontent among the employees.",
+       "The truck went rumbling down the street.",
+       "We heard rumblings about possible changes in management."
      ]
    }
  ]
