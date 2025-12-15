@@ -309,6 +309,52 @@
        "Common phrases: forever (for all time), whatever (anything), whoever (anyone), wherever (any place), however (in any way)"
      ],
      "note": "💡 Common phrase: 'Have you ever...?' is used with Present Perfect to ask about life experiences. 'Ever' with negatives creates strong emphasis. 'Whatever', 'whoever', 'wherever', 'whenever', 'however' are compound words formed with 'ever'."
+   },
+   {
+     "rule_name": "Say vs Tell - The Difference",
+     "emoji": "🗣️👤",
+     "structure": {
+       "say": "say + (that) + statement [NO indirect object before 'that']",
+       "say_to": "say + something + to + someone",
+       "tell": "tell + someone + (that) + statement [indirect object REQUIRED]",
+       "tell_direct": "tell + someone + direct object/information"
+     },
+     "explanation_en": "SAY is used to express words or statements. It does NOT take an indirect object directly after it. TELL requires a person (indirect object) immediately after it. SAY focuses on the words spoken; TELL focuses on the person receiving the information.",
+     "explanation_es": "SAY se usa para expresar palabras o declaraciones. NO lleva objeto indirecto directamente después. TELL requiere una persona (objeto indirecto) inmediatamente después. SAY se enfoca en las palabras; TELL se enfoca en la persona que recibe la información.",
+     "examples": [
+       "✅ She said (that) she was tired. (correct - no person after 'said')",
+       "✅ She said something to me. (correct - 'to me' comes after)",
+       "❌ She said me she was tired. (WRONG - can't put person directly after 'said')",
+       "✅ She told me (that) she was tired. (correct - person after 'told')",
+       "❌ She told she was tired. (WRONG - missing person after 'told')",
+       "✅ He said, 'I'm leaving.' (direct quote)",
+       "✅ He told me he was leaving. (reported speech)",
+       "✅ Tell me the truth. (command - person required)",
+       "❌ Say me the truth. (WRONG - can't use 'say' this way)",
+       "✅ What did you say? (asking about words)",
+       "✅ What did you tell him? (asking what info was given to him)",
+       "✅ He said hello to everyone. (say + to)",
+       "✅ He told everyone to sit down. (tell + person + infinitive)"
+     ],
+     "fixed_expressions": {
+       "with_say": [
+         "say hello/goodbye",
+         "say yes/no",
+         "say sorry",
+         "say please/thank you",
+         "say a prayer",
+         "say your name"
+       ],
+       "with_tell": [
+         "tell the truth/a lie",
+         "tell a story/joke",
+         "tell the time",
+         "tell the difference",
+         "tell a secret",
+         "tell someone off (reprimand)"
+       ]
+     },
+     "note": "⚠️ KEY RULE: SAY + (that) + statement OR say + something + TO + someone. TELL + person + (that) + statement. You CANNOT say 'say me' but you CAN say 'tell me'. Think: TELL = TELL someone (person always needed)."
    }
  ]
 }

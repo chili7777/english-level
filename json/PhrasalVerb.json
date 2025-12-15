@@ -574,6 +574,40 @@
 
       ]
 
+    },
+
+    {
+
+      "expression": "Put on",
+
+      "ipa": "/pʊt ɑːn/",
+
+      "meaning_en": "To wear or place clothing/accessories on your body; SEPARABLE - object goes between 'put' and 'on' (pronouns MUST go in middle)",
+
+      "meaning_es": "Ponerse ropa o accesorios; SEPARABLE - el objeto va entre 'put' y 'on'",
+
+      "emoji": "👕👔",
+
+      "origin_en": "From Old English 'putian' (to push/place) + 'on'. Used since 1300s for wearing clothes.",
+
+      "origin_es": "Del inglés antiguo 'putian' (empujar/colocar) + 'on'. Usado desde 1300s para vestirse.",
+
+      "examples": [
+
+        "Put your jacket on. (correct)",
+
+        "Put on your jacket. (correct)",
+
+        "Put it on. (correct - pronoun in middle)",
+
+        "Put on it. (WRONG - pronouns cannot go at end)",
+
+        "She put her shoes on before leaving.",
+
+        "Can you put the lights on?"
+
+      ]
+
     }
 
   ]

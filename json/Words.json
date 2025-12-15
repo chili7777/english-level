@@ -625,6 +625,54 @@
        "They shook their fists at the referee.",
        "She punched the air with both fists."
      ]
+   },
+   {
+     "word": "indeed",
+     "ipa": "/ɪnˈdiːd/",
+     "meaning_en": "used to emphasize a statement or response; in truth; truly",
+     "meaning_es": "en efecto; de hecho; realmente",
+     "emoji": "✅💯",
+     "origin_en": "From Middle English 'in dede', literally meaning 'in fact' or 'in action'. Combines 'in' + 'deed' (action).",
+     "origin_es": "Del inglés medio 'in dede', literalmente 'en hecho' o 'en acción'. Combina 'in' + 'deed' (acción).",
+     "examples": [
+       "That is indeed a good idea.",
+       "Indeed, I agree with you completely.",
+       "The view was indeed spectacular.",
+       "It was indeed a challenging task.",
+       "Thank you very much indeed!"
+     ]
+   },
+   {
+     "word": "stubbing",
+     "ipa": "/ˈstʌbɪŋ/",
+     "meaning_en": "hitting your toe or foot against something hard; in testing, creating fake objects to simulate behavior",
+     "meaning_es": "golpear el dedo del pie contra algo duro; en pruebas, crear objetos falsos para simular comportamiento",
+     "emoji": "🦶💥",
+     "origin_en": "From 'stub', Middle English 'stubbe', meaning a tree stump or short projecting part.",
+     "origin_es": "De 'stub', del inglés medio 'stubbe', que significa tocón de árbol o parte corta que sobresale.",
+     "examples": [
+       "I keep stubbing my toe on the table leg.",
+       "She was stubbing her foot against the corner.",
+       "Stubbing your toe really hurts!",
+       "We're stubbing the API calls in our unit tests.",
+       "Stubbing dependencies helps isolate the code being tested."
+     ]
+   },
+   {
+     "word": "aisle",
+     "ipa": "/aɪl/",
+     "meaning_en": "a passage between rows of seats or shelves",
+     "meaning_es": "pasillo entre filas de asientos o estantes",
+     "emoji": "🛒🚶",
+     "origin_en": "From Old French 'ele' meaning 'wing' (of a church). Note: sounds exactly like 'isle' (island) but spelled differently.",
+     "origin_es": "Del francés antiguo 'ele' que significa 'ala' (de una iglesia). Nota: suena exactamente como 'isle' (isla) pero se escribe diferente.",
+     "examples": [
+       "The bride walked down the aisle.",
+       "You'll find the cereal in aisle 5.",
+       "Please keep the aisle clear.",
+       "I prefer an aisle seat on the plane.",
+       "He was blocking the aisle with his cart."
+     ]
    }
  ]
 }

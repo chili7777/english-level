@@ -591,6 +591,6 @@ Before saving, validate your JSON to avoid errors:
 
 ---
 
-**Last Updated:** December 9, 2025  
+**Last Updated:** December 12, 2025  
 **Version:** 1.0  
 **Compatible with:** index.html (current version)

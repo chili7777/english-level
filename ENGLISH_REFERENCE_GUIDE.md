@@ -194,6 +194,50 @@ Shows one past action happened before another.
 
 ---
 
+### 17. Say vs Tell - The Difference 🗣️👤
+
+**Structure:**
+- **say**: `say + (that) + statement` [NO indirect object before 'that']
+- **say to**: `say + something + to + someone`
+- **tell**: `tell + someone + (that) + statement` [indirect object REQUIRED]
+- **tell direct**: `tell + someone + direct object/information`
+
+**Explanation:**
+SAY is used to express words or statements. It does NOT take an indirect object directly after it. TELL requires a person (indirect object) immediately after it. SAY focuses on the words spoken; TELL focuses on the person receiving the information.
+
+**Examples:**
+- ✅ She said (that) she was tired. (correct - no person after 'said')
+- ✅ She said something to me. (correct - 'to me' comes after)
+- ❌ She said me she was tired. (WRONG - can't put person directly after 'said')
+- ✅ She told me (that) she was tired. (correct - person after 'told')
+- ❌ She told she was tired. (WRONG - missing person after 'told')
+- ✅ He said, "I'm leaving." (direct quote)
+- ✅ He told me he was leaving. (reported speech)
+- ✅ Tell me the truth. (command - person required)
+- ❌ Say me the truth. (WRONG - can't use 'say' this way)
+- ✅ What did you say? (asking about words)
+- ✅ What did you tell him? (asking what info was given to him)
+
+**Fixed Expressions with SAY:**
+- say hello/goodbye
+- say yes/no
+- say sorry
+- say please/thank you
+- say a prayer
+- say your name
+
+**Fixed Expressions with TELL:**
+- tell the truth/a lie
+- tell a story/joke
+- tell the time
+- tell the difference
+- tell a secret
+- tell someone off (reprimand)
+
+**⚠️ KEY RULE:** SAY + (that) + statement OR say + something + TO + someone. TELL + person + (that) + statement. You CANNOT say "say me" but you CAN say "tell me". Think: TELL = TELL someone (person always needed).
+
+---
+
 ## 💬 Idioms
 
 ### 1. Put my money where my mouth is 🗣️➡️💰
@@ -499,6 +543,30 @@ Shows one past action happened before another.
 
 ---
 
+### 8. Put on 👕👔
+
+**IPA:** /pʊt ɑːn/
+
+**Meaning (EN):** To wear or place clothing/accessories on your body; **SEPARABLE** - object goes between 'put' and 'on' (pronouns MUST go in middle)
+
+**Meaning (ES):** Ponerse ropa o accesorios; **SEPARABLE** - el objeto va entre 'put' y 'on'
+
+**Origin (EN):** From Old English 'putian' (to push/place) + 'on'. Used since 1300s for wearing clothes.
+
+**Origin (ES):** Del inglés antiguo 'putian' (empujar/colocar) + 'on'. Usado desde 1300s para vestirse.
+
+**Examples:**
+- Put your jacket on. ✅ (correct)
+- Put on your jacket. ✅ (correct)
+- Put it on. ✅ (correct - pronoun in middle)
+- Put on it. ❌ (WRONG - pronouns cannot go at end)
+- She put her shoes on before leaving.
+- Can you put the lights on?
+
+**⚠️ Note:** This is a SEPARABLE phrasal verb. With pronouns (it, them), they MUST go between 'put' and 'on'.
+
+---
+
 ## 📚 Vocabulary
 
 ### 1. Fasten 🔒👕
@@ -745,6 +813,71 @@ Shows one past action happened before another.
 
 ---
 
+### 15. Indeed ✅💯
+
+**IPA:** /ɪnˈdiːd/
+
+**Meaning (EN):** used to emphasize a statement or response; in truth; truly
+
+**Meaning (ES):** en efecto; de hecho; realmente
+
+**Origin (EN):** From Middle English 'in dede', literally meaning 'in fact' or 'in action'. Combines 'in' + 'deed' (action).
+
+**Origin (ES):** Del inglés medio 'in dede', literalmente 'en hecho' o 'en acción'. Combina 'in' + 'deed' (acción).
+
+**Examples:**
+- That is indeed a good idea.
+- Indeed, I agree with you completely.
+- The view was indeed spectacular.
+- It was indeed a challenging task.
+- Thank you very much indeed!
+
+---
+
+### 16. Stubbing 🦶💥
+
+**IPA:** /ˈstʌbɪŋ/
+
+**Meaning (EN):** hitting your toe or foot against something hard; in testing, creating fake objects to simulate behavior
+
+**Meaning (ES):** golpear el dedo del pie contra algo duro; en pruebas, crear objetos falsos para simular comportamiento
+
+**Origin (EN):** From 'stub', Middle English 'stubbe', meaning a tree stump or short projecting part.
+
+**Origin (ES):** De 'stub', del inglés medio 'stubbe', que significa tocón de árbol o parte corta que sobresale.
+
+**Examples:**
+- I keep stubbing my toe on the table leg.
+- She was stubbing her foot against the corner.
+- Stubbing your toe really hurts!
+- We're stubbing the API calls in our unit tests.
+- Stubbing dependencies helps isolate the code being tested.
+
+---
+
+### 17. Aisle 🛒🚶
+
+**IPA:** /aɪl/
+
+**Meaning (EN):** a passage between rows of seats or shelves
+
+**Meaning (ES):** pasillo entre filas de asientos o estantes
+
+**Origin (EN):** From Old French 'ele' meaning 'wing' (of a church). Note: sounds exactly like 'isle' (island) but spelled differently.
+
+**Origin (ES):** Del francés antiguo 'ele' que significa 'ala' (de una iglesia). Nota: suena exactamente como 'isle' (isla) pero se escribe diferente.
+
+**Examples:**
+- The bride walked down the aisle.
+- You'll find the cereal in aisle 5.
+- Please keep the aisle clear.
+- I prefer an aisle seat on the plane.
+- He was blocking the aisle with his cart.
+
+**⚠️ Note:** This is a homophone - 'aisle' (pasillo) sounds exactly like 'isle' (isla) but has different spelling and meaning!
+
+---
+
 ### 42. Straight ➡️📏🎯
 
 **IPA:** /streɪt/
@@ -797,14 +930,14 @@ Shows one past action happened before another.
 
 ---
 
-**Last Updated:** December 9, 2025
+**Last Updated:** December 12, 2025
 
 **Statistics:**
-- 📚 **23 Grammar Rules**
+- 📚 **24 Grammar Rules**
 - 💬 **20 Idioms & Expressions**
-- 🔄 **21 Phrasal Verbs**
-- 📖 **47 Vocabulary Words**
-- 🎯 **Total: 111 Learning Items**
+- 🔄 **22 Phrasal Verbs**
+- 📖 **50 Vocabulary Words**
+- 🎯 **Total: 116 Learning Items**
 
 **Created from:** Idioms.json, PhrasalVerbs.json, Rules.json, Words.json, English.md
 
