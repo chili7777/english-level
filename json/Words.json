@@ -744,6 +744,241 @@
        "The truck went rumbling down the street.",
        "We heard rumblings about possible changes in management."
      ]
+   },
+   {
+     "word": "shank",
+     "ipa": "/ʃæŋk/",
+     "meaning_en": "the lower part of the leg; a cut of meat from the leg; a makeshift knife or stabbing weapon (prison slang); the shaft or straight part of a tool",
+     "meaning_es": "la parte inferior de la pierna; un corte de carne de la pierna; un cuchillo improvisado o arma punzante (jerga carcelaria); el eje o parte recta de una herramienta",
+     "emoji": "🦵🍖🔪",
+     "origin_en": "From Old English 'sceanca', meaning 'leg bone' or 'shin bone'. Related to German 'Schenkel'.",
+     "origin_es": "Del inglés antiguo 'sceanca', que significa 'hueso de la pierna' o 'espinilla'. Relacionado con el alemán 'Schenkel'.",
+     "examples": [
+       "The recipe calls for lamb shank.",
+       "He was shanked in prison. (stabbed with an improvised weapon)",
+       "The shank of the drill bit was too short.",
+       "She ordered the braised beef shank for dinner.",
+       "The prisoner made a shank from a piece of metal."
+     ]
+   },
+   {
+     "word": "come",
+     "ipa": "/kʌm/",
+     "meaning_en": "to move toward the speaker or a specific place; to arrive; to happen or occur",
+     "meaning_es": "venir; moverse hacia el hablante o un lugar específico; llegar; suceder u ocurrir",
+     "emoji": "👋➡️🏃",
+     "origin_en": "From Old English 'cuman', from Proto-Germanic. One of the most basic and ancient verbs in English.",
+     "origin_es": "Del inglés antiguo 'cuman', del proto-germánico. Uno de los verbos más básicos y antiguos en inglés.",
+     "examples": [
+       "Come here, please!",
+       "Can you come to my house tomorrow?",
+       "Spring is coming soon.",
+       "Come with me to the store.",
+       "The package should come today.",
+       "Dreams come true when you work hard.",
+       "Where do you come from?",
+       "Come on! Let's go!",
+       "Winter is coming."
+     ],
+     "note": "⚠️ Key difference: Use 'COME' for movement TOWARD the speaker or destination. Example: 'Come to my office' (you move toward me). Contrast with 'GO' which means movement AWAY."
+   },
+   {
+     "word": "go",
+     "ipa": "/ɡoʊ/",
+     "meaning_en": "to move away from the speaker or to a different place; to leave; to function or work",
+     "meaning_es": "ir; moverse lejos del hablante o a un lugar diferente; salir; funcionar",
+     "emoji": "🚶‍♂️➡️🏃‍♀️",
+     "origin_en": "From Old English 'gān', from Proto-Germanic. Another fundamental verb expressing movement.",
+     "origin_es": "Del inglés antiguo 'gān', del proto-germánico. Otro verbo fundamental que expresa movimiento.",
+     "examples": [
+       "I have to go now.",
+       "Let's go to the park.",
+       "Where are you going?",
+       "Go away!",
+       "The car won't go. (doesn't work)",
+       "Time goes by so fast.",
+       "Go ahead and start without me.",
+       "How did the meeting go?",
+       "Go for it! (do it!)",
+       "I'm going home."
+     ],
+     "note": "⚠️ Key difference: Use 'GO' for movement AWAY from the speaker or toward another destination. Example: 'Go to his office' (you move away from me toward him). Contrast with 'COME' which means movement TOWARD."
+   },
+   {
+     "word": "nutmeg",
+     "ipa": "/ˈnʌtmɛɡ/",
+     "meaning_en": "a hard, aromatic seed from a tropical tree used as a spice in cooking and baking; in soccer, a move where you kick the ball between an opponent's legs",
+     "meaning_es": "nuez moscada; semilla aromática de un árbol tropical usada como especia en cocina; en fútbol, un movimiento donde pasas el balón entre las piernas del oponente",
+     "emoji": "🌰🧂⚽",
+     "origin_en": "From Middle English 'notemuge', from Old French 'nois muguede', meaning 'musk-scented nut'. The tree is native to Indonesia.",
+     "origin_es": "Del inglés medio 'notemuge', del francés antiguo 'nois muguede', que significa 'nuez con aroma a almizcle'. El árbol es nativo de Indonesia.",
+     "examples": [
+       "Add a pinch of nutmeg to the pumpkin pie.",
+       "Nutmeg is commonly used in holiday recipes.",
+       "She grated fresh nutmeg over the eggnog.",
+       "The dish has a hint of nutmeg and cinnamon.",
+       "The player nutmegged the defender! (soccer move)",
+       "Nutmeg should be used sparingly as it has a strong flavor."
+     ]
+   },
+   {
+     "word": "syringe",
+     "ipa": "/səˈrɪndʒ/",
+     "meaning_en": "a medical device consisting of a tube and plunger used to inject fluids into or withdraw fluids from the body",
+     "meaning_es": "jeringa; dispositivo médico que consiste en un tubo y émbolo usado para inyectar o extraer fluidos del cuerpo",
+     "emoji": "💉🏥",
+     "origin_en": "From Late Latin 'syringa', from Greek 'syrinx' meaning 'pipe' or 'tube'. Originally referred to any pipe-like instrument.",
+     "origin_es": "Del latín tardío 'syringa', del griego 'syrinx' que significa 'tubo' o 'conducto'. Originalmente se refería a cualquier instrumento en forma de tubo.",
+     "examples": [
+       "The nurse prepared the syringe for the injection.",
+       "He has a fear of needles and syringes.",
+       "The doctor used a syringe to draw blood.",
+       "Make sure the syringe is sterile before use.",
+       "She filled the syringe with the medication.",
+       "Dispose of used syringes in the sharps container."
+     ]
+   },
+   {
+     "word": "show up",
+     "ipa": "/ʃoʊ ʌp/",
+     "meaning_en": "to arrive or appear, especially when expected; to be visible or become noticeable; to embarrass someone by being better than them",
+     "meaning_es": "aparecer o llegar, especialmente cuando se espera; ser visible o hacerse notorio; avergonzar a alguien siendo mejor que ellos",
+     "emoji": "👋🚶‍♂️✨",
+     "origin_en": "Combination of 'show' (Old English 'sceawian' = to look at) and 'up' (Old English 'upp'). The phrasal verb emerged in American English in the late 1800s.",
+     "origin_es": "Combinación de 'show' (inglés antiguo 'sceawian' = mirar) y 'up' (inglés antiguo 'upp'). El verbo frasal surgió en inglés americano a finales de los 1800s.",
+     "examples": [
+       "He didn't show up for the meeting.",
+       "What time did you show up?",
+       "She always shows up late.",
+       "The stain will show up on white fabric.",
+       "He showed up his colleagues with his presentation.",
+       "I hope they show up on time.",
+       "Don't try to show me up in front of my boss!",
+       "The problem showed up after the update."
+     ]
+   },
+   {
+     "word": "linger",
+     "ipa": "/ˈlɪŋɡər/",
+     "meaning_en": "to stay in a place longer than necessary; to remain or persist; to take a long time to leave or disappear",
+     "meaning_es": "permanecer; quedarse en un lugar más tiempo del necesario; persistir; tardar mucho tiempo en irse o desaparecer",
+     "emoji": "🚶‍♂️⏳🌫️",
+     "origin_en": "From Middle English 'lengeren', meaning 'to dwell, tarry'. Related to Old English 'lengan' (to prolong).",
+     "origin_es": "Del inglés medio 'lengeren', que significa 'permanecer, demorar'. Relacionado con el inglés antiguo 'lengan' (prolongar).",
+     "examples": [
+       "Don't linger in the hallway.",
+       "The smell of coffee lingered in the air.",
+       "She lingered at the door, hoping to talk to him.",
+       "The pain lingered for several days.",
+       "They lingered over dinner, enjoying the conversation.",
+       "Doubts still linger in my mind.",
+       "The fog lingered until noon.",
+       "He lingered behind after class to ask a question."
+     ]
+   },
+   {
+     "word": "plunger",
+     "ipa": "/ˈplʌndʒər/",
+     "meaning_en": "a tool with a rubber cup on a stick used to clear blocked drains and toilets; the part of a syringe or pump that moves up and down",
+     "meaning_es": "desatascador; herramienta con una ventosa de goma en un palo usada para desatascar desagües e inodoros; el émbolo de una jeringa o bomba que se mueve arriba y abajo",
+     "emoji": "🚽🔧🪠",
+     "origin_en": "From 'plunge' (to thrust into water or downward) + '-er' (agent suffix). The verb 'plunge' comes from Old French 'plongier'.",
+     "origin_es": "De 'plunge' (sumergir o empujar hacia abajo) + '-er' (sufijo de agente). El verbo 'plunge' viene del francés antiguo 'plongier'.",
+     "examples": [
+       "I need a plunger to unclog the toilet.",
+       "Use the plunger to clear the drain.",
+       "The plunger of the syringe was stuck.",
+       "She bought a new plunger at the hardware store.",
+       "Push down on the plunger firmly.",
+       "The plunger creates suction to remove blockages."
+     ]
+   },
+   {
+     "word": "vertex",
+     "ipa": "/ˈvɜːrtɛks/",
+     "meaning_en": "the highest point or top of something; in geometry, a point where two or more lines meet to form an angle; the top of the head; plural: vertices",
+     "meaning_es": "vértice; el punto más alto o la cima de algo; en geometría, un punto donde dos o más líneas se encuentran para formar un ángulo; la parte superior de la cabeza",
+     "emoji": "📐🔺⬆️",
+     "origin_en": "From Latin 'vertex' meaning 'highest point, top', from 'vertere' (to turn). Used in mathematics since the 1500s.",
+     "origin_es": "Del latín 'vertex' que significa 'punto más alto, cima', de 'vertere' (girar). Usado en matemáticas desde los 1500s.",
+     "examples": [
+       "The vertex of the triangle is at the top.",
+       "Each vertex of the cube connects three edges.",
+       "The vertex of the angle measures 90 degrees.",
+       "The mountain's vertex was covered in snow.",
+       "In the graph, each vertex represents a node.",
+       "The vertices of the polygon must be connected."
+     ]
+   },
+   {
+     "word": "tailored",
+     "ipa": "/ˈteɪlərd/",
+     "meaning_en": "custom-made or adapted to fit a particular person or purpose; specifically designed or modified to suit particular needs or requirements",
+     "meaning_es": "hecho a medida; adaptado para ajustarse a una persona o propósito particular; diseñado específicamente para satisfacer necesidades particulares",
+     "emoji": "✂️👔🎯",
+     "origin_en": "From 'tailor' (Middle English 'taillour', from Old French 'tailleur'), meaning one who cuts and fits clothes. The adjective form emerged in the 1800s.",
+     "origin_es": "De 'tailor' (sastre en inglés medio 'taillour', del francés antiguo 'tailleur'), que significa quien corta y ajusta ropa. La forma adjetiva surgió en los 1800s.",
+     "examples": [
+       "She wore a beautifully tailored suit.",
+       "The program is tailored to meet individual needs.",
+       "He received tailored training for his new role.",
+       "The course is tailored for beginners.",
+       "They offer tailored solutions for each client.",
+       "The jacket was perfectly tailored to fit him."
+     ]
+   },
+   {
+     "word": "crafting",
+     "ipa": "/ˈkræftɪŋ/",
+     "meaning_en": "the activity of making things skillfully by hand; creating or designing something with care and skill; in video games, making items from materials",
+     "meaning_es": "artesanía; la actividad de hacer cosas hábilmente a mano; crear o diseñar algo con cuidado y habilidad; en videojuegos, fabricar objetos con materiales",
+     "emoji": "✂️🎨🛠️",
+     "origin_en": "From 'craft' (Old English 'cræft' meaning skill, strength, power). The '-ing' form emerged as crafts became hobbies and creative activities.",
+     "origin_es": "De 'craft' (inglés antiguo 'cræft' que significa habilidad, fuerza, poder). La forma '-ing' surgió cuando las artesanías se volvieron pasatiempos y actividades creativas.",
+     "examples": [
+       "She enjoys crafting handmade jewelry.",
+       "Crafting with paper is a fun activity for kids.",
+       "He's been crafting a new message for the presentation.",
+       "The game requires crafting weapons from raw materials.",
+       "Crafting the perfect resume takes time and effort.",
+       "They're crafting a solution to the problem."
+     ]
+   },
+   {
+     "word": "accountability",
+     "ipa": "/əˌkaʊntəˈbɪləti/",
+     "meaning_en": "the fact or condition of being responsible and answerable for one's actions, decisions, or policies; obligation to accept responsibility or to account for one's actions",
+     "meaning_es": "responsabilidad; el hecho o condición de ser responsable y tener que responder por las acciones, decisiones o políticas propias; obligación de aceptar responsabilidad por las acciones",
+     "emoji": "📋✅⚖️",
+     "origin_en": "From 'accountable' (from Old French 'acontable') + '-ity' (suffix meaning state or condition). Emerged in the late 1700s in political and business contexts.",
+     "origin_es": "De 'accountable' (del francés antiguo 'acontable') + '-ity' (sufijo que significa estado o condición). Surgió a finales de los 1700s en contextos políticos y empresariales.",
+     "examples": [
+       "The company promotes accountability at all levels.",
+       "Leaders must take accountability for their decisions.",
+       "We need more accountability in government.",
+       "Personal accountability is key to success.",
+       "The new system ensures greater accountability.",
+       "He accepted full accountability for the mistake.",
+       "Accountability builds trust in organizations."
+     ]
+   },
+   {
+     "word": "harmful",
+     "ipa": "/ˈhɑːrmfəl/",
+     "meaning_en": "causing or likely to cause harm, damage, or injury; detrimental or injurious to health, well-being, or the environment",
+     "meaning_es": "dañino; que causa o puede causar daño, perjuicio o lesión; perjudicial para la salud, el bienestar o el medio ambiente",
+     "emoji": "⚠️☠️🚫",
+     "origin_en": "From 'harm' (Old English 'hearm' meaning injury, evil, grief) + '-ful' (suffix meaning full of). Used since Middle English.",
+     "origin_es": "De 'harm' (inglés antiguo 'hearm' que significa lesión, mal, pena) + '-ful' (sufijo que significa lleno de). Usado desde el inglés medio.",
+     "examples": [
+       "Smoking is harmful to your health.",
+       "These chemicals are harmful to the environment.",
+       "Excessive screen time can be harmful to children.",
+       "The harmful effects of pollution are well documented.",
+       "Avoid exposure to harmful substances.",
+       "Spreading rumors can be harmful to relationships.",
+       "The harmful bacteria caused food poisoning."
+     ]
    }
  ]
 }
