@@ -317,6 +317,7 @@
                 <button class="filter-btn" data-filter="idioms">Idioms</button>
                 <button class="filter-btn" data-filter="phrasal">Phrasal Verbs</button>
                 <button class="filter-btn" data-filter="words">Vocabulary</button>
+                <button class="filter-btn" data-filter="exam100">Exam (100)</button>
             </div>
         </div>
 
@@ -343,6 +344,42 @@
             <div id="noResults" class="no-results hidden">
                 <h2>😕 No results found</h2>
                 <p>Try a different search term or filter</p>
+            </div>
+
+            <div id="examSection100" style="display: none; margin-bottom: 40px;">
+                <div class="category-header" style="cursor: default;">
+                    <h2>📝 Exam (100)</h2>
+                </div>
+
+                <div style="max-width: 800px; margin: 0 auto; padding: 20px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; gap: 10px; flex-wrap: wrap;">
+                        <div style="font-weight: 600; color: #667eea;" id="exam100Progress">Ready</div>
+                        <button class="filter-btn" id="exam100StartBtn" type="button">Start Exam</button>
+                    </div>
+
+                    <div id="exam100QuestionContainer" style="display: none;">
+                        <div style="margin: 10px 0; font-weight: 700;" id="exam100QuestionNumber"></div>
+                        <div style="margin: 10px 0; padding: 15px; background: #f8f9fa; border-radius: 10px; border: 2px solid #e9ecef;" id="exam100QuestionText"></div>
+                        <div id="exam100Options" style="display: grid; gap: 10px; margin-top: 15px;"></div>
+                        <div id="exam100Feedback" style="display: none; margin-top: 12px; padding: 12px; border-radius: 10px; border: 2px solid #e9ecef; background: #ffffff;"></div>
+
+                        <div style="display: flex; justify-content: space-between; gap: 10px; margin-top: 20px; flex-wrap: wrap;">
+                            <button class="filter-btn" id="exam100PrevBtn" type="button">Previous</button>
+                            <div style="display: flex; gap: 10px;">
+                                <button class="filter-btn" id="exam100NextBtn" type="button">Next</button>
+                                <button class="filter-btn" id="exam100FinishBtn" type="button">Finish</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="exam100ResultContainer" style="display: none; margin-top: 20px;">
+                        <div class="item" style="max-width: 800px; margin: 0 auto;">
+                            <div class="item-title">🏁 Results</div>
+                            <div class="item-meaning" id="exam100Score"></div>
+                            <button class="filter-btn" id="exam100RestartBtn" type="button" style="margin-top: 10px;">Restart</button>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Grammar Rules Section -->
@@ -451,41 +488,104 @@
         // Render Idioms
         function renderIdioms() {
             const container = document.getElementById('idiomsItems');
-            container.innerHTML = idiomsData.map(idiom => `
-                <div class="item" data-category="idioms" data-search="${idiom.expression.toLowerCase()} ${idiom.meaning_en.toLowerCase()} ${idiom.meaning_es.toLowerCase()}">
-                    <div class="item-title">${idiom.emoji} ${idiom.expression}</div>
-                    <div class="item-ipa">${idiom.ipa}</div>
-                    <div class="item-meaning">
-                        <strong>🇬🇧 Meaning (EN):</strong> ${idiom.meaning_en}
-                    </div>
-                    <div class="item-meaning">
-                        <strong>🇪🇸 Significado (ES):</strong> ${idiom.meaning_es}
-                    </div>
-                    <div class="item-origin">
-                        <strong>📜 Origin:</strong> ${idiom.origin_en}
-                    </div>
-                    ${idiom.examples && idiom.examples.length > 0 ? `
-                        <div class="item-examples">
-                            <strong>Examples:</strong>
-                            ${idiom.examples.map(ex => `<div class="example">${ex}</div>`).join('')}
+            container.innerHTML = idiomsData.map(idiom => {
+                // Handle both simple array examples and complex nested examples
+                let examplesHtml = '';
+                if (idiom.examples) {
+                    if (Array.isArray(idiom.examples) && idiom.examples.length > 0) {
+                        // Simple array format
+                        examplesHtml = `
+                            <div class="item-examples">
+                                <strong>Examples:</strong>
+                                ${idiom.examples.map(ex => `<div class="example">${ex}</div>`).join('')}
+                            </div>
+                        `;
+                    } else if (typeof idiom.examples === 'object') {
+                        // Complex nested format with tenses
+                        const allExamples = [];
+                        Object.keys(idiom.examples).forEach(tenseKey => {
+                            if (Array.isArray(idiom.examples[tenseKey])) {
+                                idiom.examples[tenseKey].forEach(ex => allExamples.push(ex));
+                            }
+                        });
+                        if (allExamples.length > 0) {
+                            examplesHtml = `
+                                <div class="item-examples">
+                                    <strong>Examples:</strong>
+                                    ${allExamples.slice(0, 10).map(ex => `<div class="example">${ex}</div>`).join('')}
+                                    ${allExamples.length > 10 ? `<div class="example" style="text-align: center; font-style: italic; color: #667eea;">...and ${allExamples.length - 10} more examples</div>` : ''}
+                                </div>
+                            `;
+                        }
+                    }
+                }
+
+                const searchText = `${(idiom.expression || '').toLowerCase()} ${(idiom.meaning_en || '').toLowerCase()} ${(idiom.meaning_es || '').toLowerCase()}`;
+
+                return `
+                    <div class="item" data-category="idioms" data-search="${searchText}">
+                        <div class="item-title">${idiom.emoji || '💬'} ${idiom.expression || 'Unknown'}</div>
+                        <div class="item-ipa">${idiom.ipa || ''}</div>
+                        <div class="item-meaning">
+                            <strong>🇬🇧 Meaning (EN):</strong> ${idiom.meaning_en || 'N/A'}
                         </div>
-                    ` : ''}
-                    ${idiom.note ? `<div class="item-origin" style="background: #f8d7da; border-left-color: #dc3545;"><strong>⚠️ Note:</strong> ${idiom.note}</div>` : ''}
-                </div>
-            `).join('');
+                        <div class="item-meaning">
+                            <strong>🇪🇸 Significado (ES):</strong> ${idiom.meaning_es || 'N/A'}
+                        </div>
+                        <div class="item-origin">
+                            <strong>📜 Origin:</strong> ${idiom.origin_en || 'Unknown'}
+                        </div>
+                        ${examplesHtml}
+                        ${idiom.note ? `<div class="item-origin" style="background: #f8d7da; border-left-color: #dc3545;"><strong>⚠️ Note:</strong> ${idiom.note}</div>` : ''}
+                    </div>
+                `;
+            }).join('');
         }
 
         // Render Phrasal Verbs
         function renderPhrasalVerbs() {
             const container = document.getElementById('phrasalItems');
             container.innerHTML = phrasalData.map(phrasal => {
-                const meaningEn = Array.isArray(phrasal.meaning_en) ? phrasal.meaning_en.join('<br>• ') : phrasal.meaning_en;
-                const meaningEs = Array.isArray(phrasal.meaning_es) ? phrasal.meaning_es.join('<br>• ') : phrasal.meaning_es;
+                const meaningEn = Array.isArray(phrasal.meaning_en) ? phrasal.meaning_en.join('<br>• ') : (phrasal.meaning_en || 'N/A');
+                const meaningEs = Array.isArray(phrasal.meaning_es) ? phrasal.meaning_es.join('<br>• ') : (phrasal.meaning_es || 'N/A');
+
+                // Handle both simple array examples and complex nested examples
+                let examplesHtml = '';
+                if (phrasal.examples) {
+                    if (Array.isArray(phrasal.examples) && phrasal.examples.length > 0) {
+                        // Simple array format
+                        examplesHtml = `
+                            <div class="item-examples">
+                                <strong>Examples:</strong>
+                                ${phrasal.examples.map(ex => `<div class="example">${ex}</div>`).join('')}
+                            </div>
+                        `;
+                    } else if (typeof phrasal.examples === 'object') {
+                        // Complex nested format with tenses
+                        const allExamples = [];
+                        Object.keys(phrasal.examples).forEach(tenseKey => {
+                            if (Array.isArray(phrasal.examples[tenseKey])) {
+                                phrasal.examples[tenseKey].forEach(ex => allExamples.push(ex));
+                            }
+                        });
+                        if (allExamples.length > 0) {
+                            examplesHtml = `
+                                <div class="item-examples">
+                                    <strong>Examples:</strong>
+                                    ${allExamples.slice(0, 10).map(ex => `<div class="example">${ex}</div>`).join('')}
+                                    ${allExamples.length > 10 ? `<div class="example" style="text-align: center; font-style: italic; color: #667eea;">...and ${allExamples.length - 10} more examples</div>` : ''}
+                                </div>
+                            `;
+                        }
+                    }
+                }
+
+                const searchText = `${(phrasal.expression || '').toLowerCase()} ${meaningEn.toLowerCase()} ${meaningEs.toLowerCase()}`;
 
                 return `
-                    <div class="item" data-category="phrasal" data-search="${phrasal.expression.toLowerCase()} ${meaningEn.toLowerCase()} ${meaningEs.toLowerCase()}">
-                        <div class="item-title">${phrasal.emoji} ${phrasal.expression}</div>
-                        <div class="item-ipa">${phrasal.ipa}</div>
+                    <div class="item" data-category="phrasal" data-search="${searchText}">
+                        <div class="item-title">${phrasal.emoji || '🔄'} ${phrasal.expression || 'Unknown'}</div>
+                        <div class="item-ipa">${phrasal.ipa || ''}</div>
                         <div class="item-meaning">
                             <strong>🇬🇧 Meaning (EN):</strong><br>${Array.isArray(phrasal.meaning_en) ? '• ' + meaningEn : meaningEn}
                         </div>
@@ -493,14 +593,9 @@
                             <strong>🇪🇸 Significado (ES):</strong><br>${Array.isArray(phrasal.meaning_es) ? '• ' + meaningEs : meaningEs}
                         </div>
                         <div class="item-origin">
-                            <strong>📜 Origin:</strong> ${phrasal.origin_en}
+                            <strong>📜 Origin:</strong> ${phrasal.origin_en || 'Unknown'}
                         </div>
-                        ${phrasal.examples && phrasal.examples.length > 0 ? `
-                            <div class="item-examples">
-                                <strong>Examples:</strong>
-                                ${phrasal.examples.map(ex => `<div class="example">${ex}</div>`).join('')}
-                            </div>
-                        ` : ''}
+                        ${examplesHtml}
                     </div>
                 `;
             }).join('');
@@ -509,28 +604,58 @@
         // Render Vocabulary
         function renderWords() {
             const container = document.getElementById('wordsItems');
-            container.innerHTML = wordsData.map(word => `
-                <div class="item" data-category="words" data-search="${word.word.toLowerCase()} ${word.meaning_en.toLowerCase()} ${word.meaning_es.toLowerCase()}">
-                    <div class="item-title">${word.emoji} ${word.word}</div>
-                    <div class="item-ipa">${word.ipa}</div>
-                    <div class="item-meaning">
-                        <strong>🇬🇧 Meaning (EN):</strong> ${word.meaning_en}
-                    </div>
-                    <div class="item-meaning">
-                        <strong>🇪🇸 Significado (ES):</strong> ${word.meaning_es}
-                    </div>
-                    <div class="item-origin">
-                        <strong>📜 Origin:</strong> ${word.origin_en}
-                    </div>
-                    ${word.examples && word.examples.length > 0 ? `
-                        <div class="item-examples">
-                            <strong>Examples:</strong>
-                            ${word.examples.map(ex => `<div class="example">${ex}</div>`).join('')}
+            container.innerHTML = wordsData.map(word => {
+                // Handle both simple array examples and complex nested examples
+                let examplesHtml = '';
+                if (word.examples) {
+                    if (Array.isArray(word.examples) && word.examples.length > 0) {
+                        // Simple array format
+                        examplesHtml = `
+                            <div class="item-examples">
+                                <strong>Examples:</strong>
+                                ${word.examples.map(ex => `<div class="example">${ex}</div>`).join('')}
+                            </div>
+                        `;
+                    } else if (typeof word.examples === 'object') {
+                        // Complex nested format with tenses
+                        const allExamples = [];
+                        Object.keys(word.examples).forEach(tenseKey => {
+                            if (Array.isArray(word.examples[tenseKey])) {
+                                word.examples[tenseKey].forEach(ex => allExamples.push(ex));
+                            }
+                        });
+                        if (allExamples.length > 0) {
+                            examplesHtml = `
+                                <div class="item-examples">
+                                    <strong>Examples:</strong>
+                                    ${allExamples.slice(0, 10).map(ex => `<div class="example">${ex}</div>`).join('')}
+                                    ${allExamples.length > 10 ? `<div class="example" style="text-align: center; font-style: italic; color: #667eea;">...and ${allExamples.length - 10} more examples</div>` : ''}
+                                </div>
+                            `;
+                        }
+                    }
+                }
+
+                const searchText = `${(word.word || '').toLowerCase()} ${(word.meaning_en || '').toLowerCase()} ${(word.meaning_es || '').toLowerCase()}`;
+
+                return `
+                    <div class="item" data-category="words" data-search="${searchText}">
+                        <div class="item-title">${word.emoji || '📚'} ${word.word || 'Unknown'}</div>
+                        <div class="item-ipa">${word.ipa || ''}</div>
+                        <div class="item-meaning">
+                            <strong>🇬🇧 Meaning (EN):</strong> ${word.meaning_en || 'N/A'}
                         </div>
-                    ` : ''}
-                    ${word.note ? `<div class="item-origin" style="background: #f8d7da; border-left-color: #dc3545;"><strong>⚠️ Note:</strong> ${word.note}</div>` : ''}
-                </div>
-            `).join('');
+                        <div class="item-meaning">
+                            <strong>🇪🇸 Significado (ES):</strong> ${word.meaning_es || 'N/A'}
+                        </div>
+                        <div class="item-origin">
+                            <strong>📜 Origin:</strong> ${word.origin_en || 'Unknown'}
+                        </div>
+                        ${examplesHtml}
+                        ${word.note ? `<div class="item-origin" style="background: #f8d7da; border-left-color: #dc3545;"><strong>⚠️ Note:</strong> ${word.note}</div>` : ''}
+                    </div>
+                `;
+            }).join('');
         }
 
         // Update statistics
@@ -550,7 +675,7 @@
 
             items.forEach(item => {
                 const category = item.dataset.category;
-                const searchText = item.dataset.search;
+                const searchText = item.dataset.search || '';
 
                 const matchesFilter = activeFilter === 'all' || category === activeFilter;
                 const matchesSearch = searchTerm === '' || searchText.includes(searchTerm);
@@ -625,11 +750,16 @@
         }
 
         // Filter functionality
-        document.querySelectorAll('.filter-btn').forEach(btn => {
+        document.querySelectorAll('.filters .filter-btn').forEach(btn => {
             btn.addEventListener('click', function() {
-                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.filters .filter-btn').forEach(b => b.classList.remove('active'));
                 this.classList.add('active');
-                performSearch();
+                if (this.dataset.filter === 'exam100') {
+                    showExam100();
+                } else {
+                    hideExam100();
+                    performSearch();
+                }
             });
         });
 
@@ -641,6 +771,269 @@
             const category = document.getElementById(categoryId);
             category.classList.toggle('collapsed');
         }
+
+        let examQuestions100 = [];
+        let currentQuestionIndex100 = 0;
+        let userAnswers100 = [];
+        let examScore100 = 0;
+        let exam100Pool = [];
+
+        function normalizeMeaningText(value) {
+            if (Array.isArray(value)) return value.filter(Boolean).join(' / ');
+            if (typeof value === 'string') return value;
+            return '';
+        }
+
+        function shuffleArray100(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function getOptionPrefixEmoji100(idx, selectedIdx, correctIdx) {
+            if (selectedIdx === null) return '🔹';
+            if (idx === correctIdx) return '✅';
+            if (idx === selectedIdx && selectedIdx !== correctIdx) return '❌';
+            return '▫️';
+        }
+
+        function buildExamPool100() {
+            const pool = [];
+
+            rulesData.forEach(r => {
+                pool.push({
+                    type: 'rules',
+                    emoji: r.emoji || '🧠',
+                    prompt: r.rule_name || 'Grammar Rule',
+                    answer: normalizeMeaningText(r.explanation_en || r.meaning_en || ''),
+                    raw: r
+                });
+            });
+
+            idiomsData.forEach(i => {
+                pool.push({
+                    type: 'idioms',
+                    emoji: i.emoji || '💬',
+                    prompt: i.expression || 'Idiom',
+                    answer: normalizeMeaningText(i.meaning_en || ''),
+                    raw: i
+                });
+            });
+
+            phrasalData.forEach(p => {
+                pool.push({
+                    type: 'phrasal',
+                    emoji: p.emoji || '🔄',
+                    prompt: p.expression || 'Phrasal Verb',
+                    answer: normalizeMeaningText(p.meaning_en || ''),
+                    raw: p
+                });
+            });
+
+            wordsData.forEach(w => {
+                pool.push({
+                    type: 'words',
+                    emoji: w.emoji || '📚',
+                    prompt: w.word || 'Word',
+                    answer: normalizeMeaningText(w.meaning_en || ''),
+                    raw: w
+                });
+            });
+
+            exam100Pool = pool.filter(x => x.prompt && x.answer);
+        }
+
+        function getRandomMeaningsPool100(correctAnswer, count) {
+            const candidates = exam100Pool
+                .map(x => x.answer)
+                .filter(a => a && a !== correctAnswer);
+
+            shuffleArray100(candidates);
+            const picked = [];
+            for (let i = 0; i < candidates.length && picked.length < count; i++) {
+                if (!picked.includes(candidates[i])) picked.push(candidates[i]);
+            }
+            return picked;
+        }
+
+        function createQuestion100(item) {
+            const correctAnswer = item.answer;
+            const wrongAnswers = getRandomMeaningsPool100(correctAnswer, 3);
+            const options = shuffleArray100([correctAnswer, ...wrongAnswers]);
+            return {
+                prompt: item.prompt,
+                type: item.type,
+                emoji: item.emoji,
+                correctAnswer,
+                options
+            };
+        }
+
+        function generateExam100() {
+            buildExamPool100();
+            const shuffled = shuffleArray100([...exam100Pool]);
+            const selected = shuffled.slice(0, Math.min(100, shuffled.length));
+            examQuestions100 = selected.map(createQuestion100);
+            currentQuestionIndex100 = 0;
+            userAnswers100 = new Array(examQuestions100.length).fill(null);
+            examScore100 = 0;
+        }
+
+        function updateProgress100() {
+            const progressEl = document.getElementById('exam100Progress');
+            if (!examQuestions100.length) {
+                progressEl.textContent = 'Ready';
+                return;
+            }
+            progressEl.textContent = `Question ${currentQuestionIndex100 + 1} / ${examQuestions100.length}`;
+        }
+
+        function renderQuestion100() {
+            if (!examQuestions100.length) return;
+            const q = examQuestions100[currentQuestionIndex100];
+            document.getElementById('exam100QuestionNumber').textContent = `#${currentQuestionIndex100 + 1}`;
+            document.getElementById('exam100QuestionText').innerHTML = `<strong>What is the meaning (EN) of:</strong> ${(q.emoji ? q.emoji + ' ' : '')}${q.prompt}`;
+
+            const feedbackEl = document.getElementById('exam100Feedback');
+            feedbackEl.style.display = 'none';
+            feedbackEl.innerHTML = '';
+
+            const optionsEl = document.getElementById('exam100Options');
+            optionsEl.innerHTML = '';
+
+            const selectedIdx = userAnswers100[currentQuestionIndex100];
+            const hasAnswered = selectedIdx !== null;
+            const correctIdx = q.options.findIndex(o => o === q.correctAnswer);
+
+            q.options.forEach((opt, idx) => {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'filter-btn';
+
+                btn.style.textAlign = 'left';
+                btn.style.borderRadius = '12px';
+                btn.style.width = '100%';
+                btn.dataset.index = String(idx);
+                btn.dataset.value = opt;
+                btn.textContent = `${getOptionPrefixEmoji100(idx, selectedIdx, correctIdx)} ${opt}`;
+
+                if (selectedIdx === idx) {
+                    btn.classList.add('active');
+                }
+
+                if (hasAnswered) {
+                    btn.disabled = true;
+                    btn.style.cursor = 'default';
+
+                    if (idx === correctIdx) {
+                        btn.style.background = '#d4edda';
+                        btn.style.borderColor = '#28a745';
+                        btn.style.color = '#155724';
+                    }
+
+                    if (idx === selectedIdx && selectedIdx !== correctIdx) {
+                        btn.style.background = '#f8d7da';
+                        btn.style.borderColor = '#dc3545';
+                        btn.style.color = '#721c24';
+                    }
+                } else {
+                    btn.addEventListener('click', () => selectAnswer100(idx));
+                }
+
+                optionsEl.appendChild(btn);
+            });
+
+            if (hasAnswered) {
+                const isCorrect = selectedIdx === correctIdx;
+                feedbackEl.style.display = 'block';
+                feedbackEl.style.borderColor = isCorrect ? '#28a745' : '#dc3545';
+                feedbackEl.style.background = isCorrect ? '#d4edda' : '#f8d7da';
+                feedbackEl.style.color = isCorrect ? '#155724' : '#721c24';
+                feedbackEl.innerHTML = isCorrect
+                    ? `<strong>✅ Correct!</strong> <span>🎉 Great job!</span>`
+                    : `<strong>❌ Wrong.</strong> <span>😅 <strong>Correct answer:</strong> ✅ ${q.correctAnswer}</span>`;
+            }
+
+            document.getElementById('exam100PrevBtn').disabled = currentQuestionIndex100 === 0;
+            document.getElementById('exam100NextBtn').disabled = currentQuestionIndex100 >= examQuestions100.length - 1;
+            updateProgress100();
+        }
+
+        function selectAnswer100(optionIndex) {
+            if (userAnswers100[currentQuestionIndex100] !== null) return;
+            userAnswers100[currentQuestionIndex100] = optionIndex;
+            renderQuestion100();
+        }
+
+        function previousQuestion100() {
+            if (currentQuestionIndex100 > 0) {
+                currentQuestionIndex100--;
+                renderQuestion100();
+            }
+        }
+
+        function nextQuestion100() {
+            if (currentQuestionIndex100 < examQuestions100.length - 1) {
+                currentQuestionIndex100++;
+                renderQuestion100();
+            }
+        }
+
+        function finishExam100() {
+            examScore100 = 0;
+            examQuestions100.forEach((q, i) => {
+                const selectedIdx = userAnswers100[i];
+                if (selectedIdx === null) return;
+                if (q.options[selectedIdx] === q.correctAnswer) examScore100++;
+            });
+
+            const resultContainer = document.getElementById('exam100ResultContainer');
+            const questionContainer = document.getElementById('exam100QuestionContainer');
+            questionContainer.style.display = 'none';
+            resultContainer.style.display = 'block';
+
+            const pct = examQuestions100.length ? Math.round((examScore100 / examQuestions100.length) * 100) : 0;
+            document.getElementById('exam100Score').innerHTML = `<strong>Score:</strong> ${examScore100} / ${examQuestions100.length} (${pct}%)`;
+            document.getElementById('exam100Progress').textContent = 'Finished';
+        }
+
+        function restartExam100() {
+            generateExam100();
+            document.getElementById('exam100ResultContainer').style.display = 'none';
+            document.getElementById('exam100QuestionContainer').style.display = 'block';
+            renderQuestion100();
+        }
+
+        function showExam100() {
+            document.getElementById('examSection100').style.display = 'block';
+            document.querySelector('.stats').style.display = 'none';
+            document.getElementById('noResults').classList.add('hidden');
+            document.querySelectorAll('.category').forEach(c => (c.style.display = 'none'));
+
+            document.getElementById('exam100ResultContainer').style.display = 'none';
+            document.getElementById('exam100QuestionContainer').style.display = 'none';
+            document.getElementById('exam100Feedback').style.display = 'none';
+            document.getElementById('exam100Progress').textContent = 'Ready';
+        }
+
+        function hideExam100() {
+            document.getElementById('examSection100').style.display = 'none';
+            document.querySelector('.stats').style.display = 'flex';
+        }
+
+        document.getElementById('exam100StartBtn').addEventListener('click', () => {
+            generateExam100();
+            document.getElementById('exam100ResultContainer').style.display = 'none';
+            document.getElementById('exam100QuestionContainer').style.display = 'block';
+            renderQuestion100();
+        });
+
+        document.getElementById('exam100PrevBtn').addEventListener('click', previousQuestion100);
+        document.getElementById('exam100NextBtn').addEventListener('click', nextQuestion100);
+        document.getElementById('exam100FinishBtn').addEventListener('click', finishExam100);
+        document.getElementById('exam100RestartBtn').addEventListener('click', restartExam100);
 
         // Initialize on load
         loadData();

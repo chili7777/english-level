@@ -608,6 +608,84 @@
 
       ]
 
+    },
+    {
+      "expression": "Stay over",
+      "ipa": "/steɪ ˈoʊvər/",
+      "meaning_en": "To spend the night at someone else's house or place; to sleep somewhere other than your own home.",
+      "meaning_es": "Quedarse a dormir en casa de otra persona; pasar la noche fuera de casa.",
+      "emoji": "🏠🛌🌙",
+      "origin_en": "From 'stay' (Old English 'standan', meaning to remain) + 'over' (meaning through the night or beyond a point in time). Used commonly since the 19th century to indicate spending the night away from home.",
+      "origin_es": "De 'stay' (inglés antiguo 'standan', que significa permanecer) + 'over' (que significa durante la noche o más allá de un punto en el tiempo). Usado comúnmente desde el siglo XIX para indicar pasar la noche fuera de casa.",
+      "examples": {
+        "simple_present": [
+          "My best friend usually stays over on Fridays when we have movie marathons. 🎬",
+          "The kids often stay over at their grandparents' house during summer vacation. 👵👴",
+          "He stays over at his girlfriend's apartment every weekend. 💑"
+        ],
+        "present_continuous": [
+          "My cousin is staying over tonight because she missed the last train home. 🚂",
+          "The exchange students are staying over at host families throughout the semester. 🌍",
+          "We're staying over at the beach house this weekend for my sister's birthday party. 🏖️"
+        ],
+        "present_perfect": [
+          "My childhood friend has stayed over so many times that my parents consider him family. 👨‍👩‍👦",
+          "She has stayed over at various hostels during her backpacking trip through Europe. 🎒",
+          "They have stayed over at our place several times when visiting the city. 🏙️"
+        ],
+        "present_perfect_continuous": [
+          "My nephew has been staying over all week while his parents are on their anniversary cruise. ⛴️",
+          "The guests have been staying over since the snowstorm blocked all the roads. ❄️",
+          "She has been staying over at her friend's house every weekend to help with the new baby. 👶"
+        ],
+        "simple_past": [
+          "Last night, my colleague stayed over after we worked late on the project presentation. 💼",
+          "The children stayed over at their aunt's house when their parents went to the hospital. 🏥",
+          "I stayed over at my best friend's dorm room during my college visit. 🎓"
+        ],
+        "past_continuous": [
+          "My sister was staying over when the power outage happened at midnight. ⚡",
+          "The interns were staying over at budget hotels during their three-month training program. 🏨",
+          "We were staying over at a countryside cottage when the unexpected storm hit. 🌧️"
+        ],
+        "past_perfect": [
+          "By the time I woke up, my friend had already stayed over and left for work early. 🌅",
+          "She had stayed over at five different Airbnbs before finding the perfect accommodation. 🔑",
+          "They had stayed over for two nights before realizing their flight was actually the next day. ✈️"
+        ],
+        "past_perfect_continuous": [
+          "My brother had been staying over for weeks while searching for his own apartment. 🔍",
+          "The refugees had been staying over at the temporary shelter for months before permanent housing was found. 🏘️",
+          "We had been staying over at various friends' places throughout our cross-country road trip. 🚗"
+        ],
+        "simple_future": [
+          "My best friend will stay over tomorrow night so we can leave early for the concert together. 🎵",
+          "The relatives from overseas will stay over for a few days after the wedding ceremony. 💒",
+          "She will stay over at her boyfriend's place during the holiday weekend. 🎄"
+        ],
+        "future_continuous": [
+          "This time next week, my cousin will be staying over while apartment hunting in the city. 🏢",
+          "The volunteers will be staying over at the community center during the charity marathon event. 🏃",
+          "By Friday evening, our exchange student will be staying over for his first night with our family. 🌟"
+        ],
+        "future_perfect": [
+          "By the end of this year, my roommate's girlfriend will have stayed over more nights than at her own apartment. 📅",
+          "Next month, she will have stayed over at ten different hostels during her solo travel adventure. 🗺️",
+          "By graduation, he will have stayed over at his study partner's place countless times. 📚"
+        ],
+        "future_perfect_continuous": [
+          "By next semester, the international students will have been staying over at homestay families for six months. 🌐",
+          "Come summer, my nephew will have been staying over every weekend for an entire year. ☀️",
+          "By the time the renovation is complete, we will have been staying over at our parents' house for three months. 🔨"
+        ],
+        "modal_perfects": [
+          "I should've stayed over at my friend's house instead of driving home in that terrible weather. 🌨️",
+          "She could've stayed over after the party, but she insisted on taking a taxi home. 🚕",
+          "They might've stayed over if we had offered them the guest room earlier in the evening. 🛏️",
+          "You would've stayed over if you had known how late the meeting would run. ⏰",
+          "He must've stayed over at his girlfriend's apartment since his car is still in her parking lot. 🚙"
+        ]
+      }
     }
 
   ]

@@ -979,6 +979,812 @@
        "Spreading rumors can be harmful to relationships.",
        "The harmful bacteria caused food poisoning."
      ]
+   },
+   {
+     "word": "bowler",
+     "ipa": "/ˈboʊlər/",
+     "meaning_en": "1. A person who plays bowling or cricket (player who throws the ball). 2. A bowler hat (a hard felt hat with a rounded crown).",
+     "meaning_es": "1. Una persona que juega boliche o cricket (jugador que lanza la pelota). 2. Un sombrero bombín (un sombrero duro de fieltro con corona redondeada).",
+     "emoji": "🎳🏏🎩",
+     "origin_en": "From 'bowl' (from Old French 'boule', from Latin 'bulla' meaning bubble or ball) + '-er' (agent suffix). The hat was named after London hat-makers Thomas and William Bowler in 1849.",
+     "origin_es": "De 'bowl' (del francés antiguo 'boule', del latín 'bulla' que significa burbuja o bola) + '-er' (sufijo de agente). El sombrero fue nombrado en honor a los sombrereros londinenses Thomas y William Bowler en 1849.",
+     "forms": {
+       "noun": "bowler",
+       "plural": "bowlers",
+       "verb": "bowl",
+       "adjective": "bowling (attributive)"
+     },
+     "examples": {
+       "simple_present": [
+         "The professional bowler practices at the alley every morning. 🎳",
+         "He bowls strikes consistently during tournaments. 🎯",
+         "The cricket bowler delivers the ball with incredible speed. 🏏"
+       ],
+       "present_continuous": [
+         "The talented bowler is competing in the national championship right now. 🏆",
+         "She is bowling her best game ever this evening. ⭐",
+         "The fast bowler is warming up on the cricket field. 🔥"
+       ],
+       "present_perfect": [
+         "That experienced bowler has won five tournaments this year. 🥇",
+         "The cricket bowler has taken three wickets in this match. 🎯",
+         "My grandfather has bowled in this league for thirty years. 👴"
+       ],
+       "present_perfect_continuous": [
+         "The dedicated bowler has been training at the sports complex since dawn. 🌅",
+         "He has been bowling professionally for over a decade now. 📅",
+         "The team's bowler has been practicing her spin technique all week. 🌀"
+       ],
+       "simple_past": [
+         "The legendary bowler knocked down all ten pins with one throw. 💥",
+         "Yesterday, the cricket bowler dismissed the opponent's best batsman. 👏",
+         "She bowled a perfect game during last month's championship. 🎊"
+       ],
+       "past_continuous": [
+         "The skillful bowler was demonstrating advanced techniques when I arrived at the training center. 🎓",
+         "He was bowling against the top-ranked player during the finals. 🤼",
+         "The fast bowler was running towards the wicket when he injured his ankle. 🤕"
+       ],
+       "past_perfect": [
+         "The veteran bowler had already secured three victories before the tournament semifinals. 🏅",
+         "By the time the coach arrived, the bowler had finished his warm-up routine. ⏰",
+         "The cricket bowler had never faced such a challenging batsman before. 😰"
+       ],
+       "past_perfect_continuous": [
+         "The exhausted bowler had been competing in back-to-back matches for hours. 😓",
+         "He had been bowling without a break when the injury occurred. 🩹",
+         "The determined bowler had been practicing that difficult spin move all season. 💪"
+       ],
+       "simple_future": [
+         "The promising young bowler will represent our country in the Olympics. 🇺🇸",
+         "Tomorrow, she will bowl in the most important match of her career. 🌟",
+         "The new bowler will join the professional league next month. 📝"
+       ],
+       "future_continuous": [
+         "This time next week, the champion bowler will be competing in the world finals. 🌍",
+         "At 8 PM tonight, he will be bowling against last year's winner. 🕗",
+         "The star bowler will be demonstrating her signature technique at the sports exhibition. 🎪"
+       ],
+       "future_perfect": [
+         "By the end of this season, the remarkable bowler will have broken all regional records. 📊",
+         "Next year, she will have bowled in over fifty professional tournaments. 💯",
+         "The cricket bowler will have completed his 200th international match by December. 🗓️"
+       ],
+       "future_perfect_continuous": [
+         "By retirement, the legendary bowler will have been playing professionally for thirty years. 🎖️",
+         "Next month, he will have been bowling in this championship league for five consecutive years. 🔄",
+         "The dedicated bowler will have been training at this facility for a decade by next spring. 🏢"
+       ],
+       "modal_perfects": [
+         "The experienced bowler should've aimed for the corner pins in that crucial moment. 🤔",
+         "She could've won the tournament if the bowler had maintained her focus. 🏆",
+         "The cricket bowler might've broken his personal record with one more wicket. 📈",
+         "The coach said the bowler would've achieved a perfect score with better concentration. 🎯",
+         "That professional bowler must've practiced thousands of hours to reach such mastery. 🕐"
+       ],
+       "additional_contexts": [
+         "The gentleman adjusted his traditional bowler hat before entering the prestigious club. 🎩👔",
+         "In Victorian England, every businessman wore a black bowler to work. 🏙️",
+         "The detective's signature look included a bowler hat and a magnifying glass. 🔍"
+       ]
+     }
+   },
+   {
+     "word": "bummed",
+     "ipa": "/bʌmd/",
+     "meaning_en": "1. (Adjective/Informal) Feeling disappointed, sad, or upset about something. 2. (Verb - past tense of 'bum') To beg or obtain something from someone; to mooch.",
+     "meaning_es": "1. (Adjetivo/Informal) Sentirse decepcionado, triste o molesto por algo. 2. (Verbo - pasado de 'bum') Pedir prestado u obtener algo de alguien; gorronear.",
+     "emoji": "😞😔🙁",
+     "origin_en": "From 'bum' (1960s American slang meaning to feel depressed or disappointed), possibly derived from 'bummer' (a bad experience). The verb form 'bum' (meaning to beg or borrow) comes from 'bummer' (1855), a loafer or vagrant, from German 'bummler' (loafer).",
+     "origin_es": "De 'bum' (jerga americana de los años 1960 que significa sentirse deprimido o decepcionado), posiblemente derivado de 'bummer' (una mala experiencia). La forma verbal 'bum' (que significa mendigar o pedir prestado) proviene de 'bummer' (1855), un holgazán o vagabundo, del alemán 'bummler' (holgazán).",
+     "forms": {
+       "verb": "bum",
+       "past_tense": "bummed",
+       "past_participle": "bummed",
+       "present_participle": "bumming",
+       "adjective": "bummed",
+       "noun": "bummer"
+     },
+     "examples": {
+       "simple_present": [
+         "I always feel bummed when my favorite show gets canceled before the season finale. 📺",
+         "She gets really bummed whenever her flight gets delayed at the airport. ✈️",
+         "My brother feels bummed every time his basketball team loses a close game. 🏀"
+       ],
+       "present_continuous": [
+         "I'm feeling really bummed right now because my best friend just moved to another country. 🌍",
+         "The students are bummed that their graduation ceremony has been postponed indefinitely. 🎓",
+         "We're all bummed about missing the concert due to the sudden venue closure. 🎵"
+       ],
+       "present_perfect": [
+         "I've been bummed all week since finding out my vacation request was denied. 🏖️",
+         "She has felt bummed ever since her favorite restaurant closed down permanently. 🍽️",
+         "They have been bummed about the championship game cancellation for days now. 🏆"
+       ],
+       "present_perfect_continuous": [
+         "My sister has been feeling bummed for hours after her boyfriend forgot their anniversary. 💔",
+         "The team has been bummed since learning their coach is retiring at the end of the season. 🏃",
+         "I've been bummed all morning because I missed the early bird discount by five minutes. ⏰"
+       ],
+       "simple_past": [
+         "I was totally bummed yesterday when the pizza place ran out of my favorite toppings. 🍕",
+         "The kids were bummed last weekend when the amusement park closed early due to rain. 🎢",
+         "She felt really bummed after her application to her dream university was rejected. 📚"
+       ],
+       "past_continuous": [
+         "I was feeling extremely bummed during the entire train ride home after failing my driving test. 🚗",
+         "The fans were bummed throughout the second half when their team fell behind by twenty points. ⚽",
+         "We were all bummed while watching the weather forecast ruin our beach trip plans. 🌧️"
+       ],
+       "past_perfect": [
+         "By the time the tickets went on sale, I had already been bummed knowing they would sell out instantly. 🎫",
+         "She had been bummed for months before finally accepting that her pet wouldn't be coming back. 🐕",
+         "They had felt bummed about the cancellation long before the official announcement was made. 📢"
+       ],
+       "past_perfect_continuous": [
+         "I had been feeling bummed for weeks before my friends surprised me with a birthday party. 🎂",
+         "The employees had been bummed since the company announced potential layoffs the previous quarter. 💼",
+         "She had been bummed all semester until she discovered a new study group that helped her excel. 📖"
+       ],
+       "simple_future": [
+         "I'll be really bummed tomorrow if the weather forecast is correct and it rains during the wedding. 💒",
+         "The children will feel bummed when they find out the field trip has been cancelled. 🚌",
+         "She will definitely be bummed if her favorite band doesn't announce a tour stop in her city. 🎸"
+       ],
+       "future_continuous": [
+         "This time tomorrow, I'll be feeling bummed while sitting at home instead of at the festival. 🎪",
+         "The students will be bummed all week waiting to hear if classes resume after the holiday. 🏫",
+         "He'll be bummed during the entire flight knowing he left his laptop charger at the hotel. 💻"
+       ],
+       "future_perfect": [
+         "By next month, she will have been bummed for an entire year about missing that once-in-a-lifetime opportunity. 🌟",
+         "When you finally hear the news, you will have already been bummed for nothing because everything worked out. ✅",
+         "By the end of the season, the team will have been bummed multiple times by narrow defeats. 😓"
+       ],
+       "future_perfect_continuous": [
+         "By graduation day, I will have been bummed for months about not studying abroad due to the pandemic. 🌐",
+         "Next week, she will have been bummed for an entire month since her promotion was put on hold. 📊",
+         "By the time the reunion happens, we will have been bummed for years about losing touch with old friends. 👥"
+       ],
+       "modal_perfects": [
+         "I should've known I'd be bummed after watching that sad movie late at night. 😢",
+         "She could've avoided feeling bummed if she had prepared better for the interview. 💼",
+         "They might've been less bummed about the loss if the game hadn't been so close. ⚾",
+         "You would've been bummed too if your entire vacation got ruined by food poisoning. 🤢",
+         "He must've been really bummed when his proposal was rejected in front of everyone. 💍"
+       ],
+       "additional_contexts": [
+         "The teenager bummed a few dollars from his older sister to buy snacks at the movies. 🍿💵",
+         "During our college years, my roommate constantly bummed cigarettes from strangers outside bars. 🚬",
+         "I bummed a ride to the airport from my neighbor when my car broke down unexpectedly. 🚗"
+       ]
+     }
+   },
+   {
+     "word": "bolted",
+     "ipa": "/ˈboʊltɪd/",
+     "meaning_en": "1. (Verb - past tense) Ran away suddenly and quickly, often in fear or panic. 2. Fastened or secured something with a bolt. 3. Ate food very quickly without chewing properly.",
+     "meaning_es": "1. (Verbo - pasado) Huyó repentinamente y rápidamente, a menudo por miedo o pánico. 2. Aseguró o fijó algo con un perno. 3. Comió comida muy rápidamente sin masticar bien.",
+     "emoji": "🏃💨🔩",
+     "origin_en": "From 'bolt' (Old English 'bolt', meaning arrow or missile), extended to mean sudden movement like an arrow. The fastening sense comes from the crossbow bolt shape of early door fasteners (14th century). The eating sense emerged in the 19th century.",
+     "origin_es": "De 'bolt' (inglés antiguo 'bolt', que significa flecha o proyectil), extendido para significar movimiento repentino como una flecha. El sentido de sujeción proviene de la forma de perno de ballesta de los primeros cierres de puertas (siglo XIV). El sentido de comer surgió en el siglo XIX.",
+     "forms": {
+       "verb": "bolt",
+       "past_tense": "bolted",
+       "past_participle": "bolted",
+       "present_participle": "bolting",
+       "noun": "bolt",
+       "adjective": "bolted"
+     },
+     "examples": {
+       "simple_present": [
+         "My dog always bolts through the front door whenever someone opens it without warning. 🐕💨",
+         "The frightened deer bolts into the forest at the slightest sound of danger. 🦌",
+         "He bolts his breakfast every morning because he's always running late for work. 🍳⏰"
+       ],
+       "present_continuous": [
+         "The terrified horse is bolting across the field after hearing the sudden thunderclap. 🐴⚡",
+         "My teenager is bolting down his dinner so he can meet his friends at the mall. 🍔",
+         "The maintenance crew is bolting the new safety railings to the bridge structure. 🔧"
+       ],
+       "present_perfect": [
+         "The startled rabbit has bolted into its burrow before we could even take a photograph. 🐰📷",
+         "The workers have bolted all the steel beams securely to the building's foundation. 🏗️",
+         "My son has bolted his food so quickly that he got indigestion afterwards. 🤢"
+       ],
+       "present_perfect_continuous": [
+         "The wild mustang has been bolting away from the ranch hands all morning long. 🐎",
+         "The construction team has been bolting heavy machinery to the factory floor since dawn. 🏭",
+         "She has been bolting her meals for weeks due to her hectic work schedule. 📊"
+       ],
+       "simple_past": [
+         "The prisoner bolted from the courtroom when the security guard momentarily looked away. 👮",
+         "Yesterday, the spooked cat bolted under the bed during the fireworks display. 🎆😸",
+         "The engineers bolted the new engine components together before the test run. 🔩⚙️"
+       ],
+       "past_continuous": [
+         "The frightened child was bolting toward his mother when he tripped and fell. 👶💔",
+         "The thieves were bolting down the alley when the police sirens started wailing. 🚨",
+         "The technician was bolting the satellite dish to the roof when the storm approached. 📡🌩️"
+       ],
+       "past_perfect": [
+         "By the time I reached the gate, the scared puppy had already bolted into the neighbor's yard. 🐶",
+         "The carpenter had bolted all the furniture to the walls before the earthquake safety inspection. 🪑",
+         "She had bolted her lunch so fast that she didn't even taste the expensive meal. 🍽️💸"
+       ],
+       "past_perfect_continuous": [
+         "The escaped convict had been bolting through the dense woods for hours before being captured. 🌲👮",
+         "The shipyard workers had been bolting steel plates together all week to meet the deadline. 🚢",
+         "He had been bolting his food for months until his doctor warned about health risks. ⚕️"
+       ],
+       "simple_future": [
+         "The skittish horse will bolt at the first sign of the approaching storm. 🐴⛈️",
+         "Tomorrow, the installers will bolt the new air conditioning unit to the exterior wall. ❄️",
+         "My teenage son will bolt his breakfast and rush out the door as usual. 🏃‍♂️🚪"
+       ],
+       "future_continuous": [
+         "This time tomorrow, the frightened animals will be bolting away from the wildfire area. 🔥🦌",
+         "The assembly line workers will be bolting car parts together throughout the night shift. 🚗🌙",
+         "He'll be bolting his dinner while watching the championship game on television. 🏈📺"
+       ],
+       "future_perfect": [
+         "By the time the veterinarian arrives, the anxious cat will have bolted to its hiding spot. 😺",
+         "By next week, the crew will have bolted all the solar panels to the building's rooftop. ☀️",
+         "Before the meeting ends, she will have bolted three cups of coffee and a sandwich. ☕🥪"
+       ],
+       "future_perfect_continuous": [
+         "By sunset, the panicked livestock will have been bolting around the pasture for hours. 🐄🌅",
+         "By the project completion date, the team will have been bolting equipment together for six months straight. 🏗️",
+         "By year's end, he will have been bolting his meals at his desk for an entire decade. 💼"
+       ],
+       "modal_perfects": [
+         "The witness should've bolted from the dangerous situation immediately when it started. 🚨",
+         "The engineers could've bolted those support beams more securely to prevent the collapse. 🏢",
+         "The scared dog might've bolted into traffic if I hadn't grabbed the leash quickly. 🚗🐕",
+         "You would've bolted too if you had seen that enormous spider in the bathroom. 🕷️😱",
+         "The suspect must've bolted through the back exit while everyone was distracted. 🚪👤"
+       ]
+     }
+   },
+   {
+     "word": "strain",
+     "ipa": "/streɪn/",
+     "meaning_en": "1. (Noun/Verb) Physical or mental pressure, stress, or tension. 2. To injure a muscle or body part by overexertion. 3. To make a great effort. 4. To filter or separate liquid from solid. 5. A breed, variety, or type.",
+     "meaning_es": "1. (Sustantivo/Verbo) Presión física o mental, estrés o tensión. 2. Lesionar un músculo o parte del cuerpo por esfuerzo excesivo. 3. Hacer un gran esfuerzo. 4. Filtrar o separar líquido de sólido. 5. Una raza, variedad o tipo.",
+     "emoji": "😰💪🔬",
+     "origin_en": "From Old French 'estreindre' (to press, squeeze tightly), from Latin 'stringere' (to draw tight, press together). Used since the 14th century for tension and effort, extended to biological varieties in the 19th century.",
+     "origin_es": "Del francés antiguo 'estreindre' (presionar, apretar), del latín 'stringere' (apretar, presionar juntos). Usado desde el siglo XIV para tensión y esfuerzo, extendido a variedades biológicas en el siglo XIX.",
+     "forms": {
+       "noun": "strain",
+       "verb": "strain",
+       "past_tense": "strained",
+       "past_participle": "strained",
+       "present_participle": "straining",
+       "adjective": "strained"
+     },
+     "examples": {
+       "simple_present": [
+         "The constant deadlines strain my mental health and overall well-being significantly. 🧠😓",
+         "She strains her neck every time she spends too many hours staring at the computer screen. 💻",
+         "The chef carefully strains the homemade pasta sauce through a fine mesh sieve. 🍝👨‍🍳"
+       ],
+       "present_continuous": [
+         "The overworked employees are straining under the excessive workload this quarter. 📊😰",
+         "My elderly father is straining his back while trying to move that heavy furniture alone. 🛋️👴",
+         "The scientist is straining the bacterial culture to isolate the new antibiotic compound. 🔬"
+       ],
+       "present_perfect": [
+         "The economic crisis has strained the relationship between the two trading nations. 🌍💼",
+         "I've strained my shoulder muscle from lifting weights without proper warm-up yesterday. 💪😣",
+         "The winemaker has carefully strained the fermenting juice to remove all sediment. 🍷"
+       ],
+       "present_perfect_continuous": [
+         "The ongoing negotiations have been straining diplomatic relations for several months now. 🤝",
+         "She has been straining her eyes by reading in dim lighting every night before bed. 👀📖",
+         "The laboratory has been straining various samples to identify contamination sources. 🧪"
+       ],
+       "simple_past": [
+         "The unexpected medical bills strained our family's budget for the entire year. 💰🏥",
+         "The marathon runner strained his hamstring during the final kilometer of the race. 🏃‍♂️",
+         "My grandmother strained the fresh orange juice for breakfast this morning. 🍊"
+       ],
+       "past_continuous": [
+         "The political scandal was straining public trust in government institutions throughout the crisis. 🏛️",
+         "He was straining his voice by shouting at the concert when he lost it completely. 🎤😶",
+         "The research assistant was straining the liquid nitrogen sample when the accident occurred. ❄️"
+       ],
+       "past_perfect": [
+         "The years of financial stress had already strained their marriage before they sought counseling. 💑💔",
+         "The athlete had strained his ankle during practice the week before the championship game. ⚽🤕",
+         "The cook had strained all the vegetable stock before adding it to the gourmet soup. 🥣"
+       ],
+       "past_perfect_continuous": [
+         "The company had been straining its resources trying to compete with larger corporations. 🏢",
+         "I had been straining my ears to hear the conversation through the thin hotel wall. 👂🏨",
+         "The factory had been straining its production capacity for months to meet holiday demand. 🏭"
+       ],
+       "simple_future": [
+         "The upcoming budget cuts will strain our department's ability to deliver quality service. 💼📉",
+         "If you don't stretch properly, you will strain a muscle during tomorrow's intensive workout. 🏋️",
+         "The bartender will strain the cocktail through ice to achieve the perfect consistency. 🍹"
+       ],
+       "future_continuous": [
+         "This time next month, the new policies will be straining small business operations nationwide. 🏪",
+         "By this evening, you'll be straining your neck from sitting in that uncomfortable position. 😣",
+         "The technician will be straining the contaminated water samples all afternoon long. 💧"
+       ],
+       "future_perfect": [
+         "By retirement, the demanding career will have strained his health beyond repair. 👨‍⚕️",
+         "By the end of this season, she will have strained every major muscle group at least once. 🤸",
+         "By dinner time, the chef will have strained five gallons of chicken stock for the banquet. 🍲"
+       ],
+       "future_perfect_continuous": [
+         "By next year, the trade war will have been straining international relations for five years. 🌐",
+         "By the tournament finale, he will have been straining his body with practice for months. 🏆",
+         "By closing time, the barista will have been straining espresso shots for twelve hours straight. ☕"
+       ],
+       "modal_perfects": [
+         "I should've strained the soup before serving it to remove all those vegetable chunks. 🥘",
+         "She could've avoided straining her wrist if she had used proper typing ergonomics. ⌨️",
+         "The relationship might've survived if the constant arguments hadn't strained it so much. 💔",
+         "You would've strained your vocal cords too if you had been screaming at the game. 📣",
+         "The infrastructure must've been straining under the population growth for years. 🏙️"
+       ],
+       "additional_contexts": [
+         "Scientists have discovered a new strain of bacteria that is resistant to antibiotics. 🦠",
+         "This strain of wheat produces higher yields in drought conditions than traditional varieties. 🌾",
+         "The ancient musical strain echoed through the cathedral during the evening ceremony. 🎵⛪"
+       ]
+     }
+   },
+   {
+     "word": "steadily",
+     "ipa": "/ˈstɛdəli/",
+     "meaning_en": "In a steady manner; continuously, regularly, and gradually without interruption or sudden changes; firmly and reliably.",
+     "meaning_es": "De manera constante; continua, regular y gradualmente sin interrupción o cambios repentinos; firme y confiablemente.",
+     "emoji": "📈⏱️🎯",
+     "origin_en": "From 'steady' (from Old English 'stede', meaning place or position, implying firmness) + '-ly' (adverb suffix). The word 'steady' evolved to mean stable and constant in the 16th century, with 'steadily' following as its adverb form.",
+     "origin_es": "De 'steady' (del inglés antiguo 'stede', que significa lugar o posición, implicando firmeza) + '-ly' (sufijo adverbial). La palabra 'steady' evolucionó para significar estable y constante en el siglo XVI, con 'steadily' siguiendo como su forma adverbial.",
+     "forms": {
+       "adverb": "steadily",
+       "adjective": "steady",
+       "verb": "steady",
+       "noun": "steadiness"
+     },
+     "examples": {
+       "simple_present": [
+         "The company's profits grow steadily year after year despite economic uncertainties. 📊",
+         "My grandfather walks steadily with his cane every morning around the neighborhood park. 🚶‍♂️🦯",
+         "The marathon runner breathes steadily to maintain optimal oxygen levels during the race. 🏃‍♀️💨"
+       ],
+       "present_continuous": [
+         "The global temperature is rising steadily due to climate change and greenhouse gases. 🌡️🌍",
+         "Our team is steadily improving its performance with each practice session this season. ⚽📈",
+         "The patient is recovering steadily from the major surgery performed last week. 🏥💪"
+       ],
+       "present_perfect": [
+         "The housing prices have increased steadily over the past decade in major cities. 🏠💰",
+         "She has been climbing steadily through the corporate ranks since joining the company. 👩‍💼",
+         "The renewable energy sector has grown steadily despite initial skepticism from investors. ⚡🌿"
+       ],
+       "present_perfect_continuous": [
+         "The construction project has been progressing steadily for the past eighteen months. 🏗️",
+         "My daughter has been improving steadily in mathematics since getting a private tutor. 📐✨",
+         "The small business has been expanding steadily since implementing the new marketing strategy. 📱"
+       ],
+       "simple_past": [
+         "The river level rose steadily throughout the night during the unexpected storm. 🌊⛈️",
+         "The stock market declined steadily after the announcement of new trade restrictions yesterday. 📉",
+         "The injured athlete walked steadily toward the sideline despite the obvious pain. 🤕"
+       ],
+       "past_continuous": [
+         "The snow was falling steadily when we decided to cancel the outdoor wedding. ❄️💒",
+         "The negotiations were progressing steadily until the unexpected political crisis erupted. 🤝",
+         "Her confidence was building steadily as she practiced her presentation repeatedly. 🎤"
+       ],
+       "past_perfect": [
+         "The economy had been growing steadily before the pandemic disrupted global markets. 🌐💼",
+         "The population had increased steadily throughout the century until the recent decline. 👥",
+         "His health had been deteriorating steadily for months before the diagnosis was made. 👨‍⚕️"
+       ],
+       "past_perfect_continuous": [
+         "The technology company had been expanding steadily for years before the merger occurred. 💻",
+         "The championship team had been performing steadily throughout the entire season. 🏆",
+         "The pollution levels had been rising steadily for decades before regulations were enacted. 🏭"
+       ],
+       "simple_future": [
+         "The population will increase steadily as more people move to urban areas. 🏙️",
+         "If current trends continue, temperatures will rise steadily over the next century. 🌡️",
+         "The apprentice will improve steadily with consistent practice and guidance. 🔧"
+       ],
+       "future_continuous": [
+         "Next year, the company will be growing steadily into new international markets. 🌍📈",
+         "By summer, the garden flowers will be blooming steadily in the favorable weather. 🌺☀️",
+         "The infrastructure project will be advancing steadily throughout the fiscal year. 🏗️"
+       ],
+       "future_perfect": [
+         "By 2030, sea levels will have risen steadily by several inches worldwide. 🌊",
+         "By graduation, her academic performance will have improved steadily over four years. 🎓",
+         "By retirement, he will have been saving steadily for over forty years. 💰👴"
+       ],
+       "future_perfect_continuous": [
+         "By next decade, renewable energy adoption will have been increasing steadily for thirty years. 🔋",
+         "By the conference, the research team will have been working steadily on the project for months. 🔬",
+         "By next month, the athlete will have been training steadily without breaks for six months. 💪"
+       ],
+       "modal_perfects": [
+         "The company should've been growing steadily if management had made better decisions. 📊",
+         "She could've advanced steadily in her career with more networking opportunities. 👔",
+         "The patient might've recovered steadily if the treatment had started earlier. 💊",
+         "The relationship would've developed steadily without the constant interference. 💑",
+         "The business must've been declining steadily for them to close so suddenly. 🏪"
+       ],
+       "additional_contexts": [
+         "Hold the camera steadily to avoid blurry photographs of the moving subjects. 📷",
+         "The drummer kept a steadily beating rhythm throughout the entire three-hour concert. 🥁",
+         "She gazed steadily into his eyes while delivering the difficult news. 👀💔"
+       ]
+     }
+   },
+   {
+     "word": "fended",
+     "ipa": "/ˈfɛndɪd/",
+     "meaning_en": "1. (Verb - past tense) Defended or protected oneself from attack or danger. 2. Looked after or provided for oneself without help (often used with 'for'). 3. Pushed away or warded off something.",
+     "meaning_es": "1. (Verbo - pasado) Se defendió o protegió de un ataque o peligro. 2. Se cuidó o proveyó para sí mismo sin ayuda (a menudo usado con 'for'). 3. Rechazó o alejó algo.",
+     "emoji": "🛡️⚔️🤚",
+     "origin_en": "From 'fend', shortened form of 'defend' (from Old French 'defendre', from Latin 'defendere' meaning to ward off). First used in the 13th century. The phrase 'fend for oneself' emerged in the 16th century.",
+     "origin_es": "De 'fend', forma abreviada de 'defend' (del francés antiguo 'defendre', del latín 'defendere' que significa repeler). Usado por primera vez en el siglo XIII. La frase 'fend for oneself' surgió en el siglo XVI.",
+     "forms": {
+       "verb": "fend",
+       "past_tense": "fended",
+       "past_participle": "fended",
+       "present_participle": "fending",
+       "noun": "fender"
+     },
+     "examples": {
+       "simple_present": [
+         "The skilled boxer always fends off his opponent's strongest punches with quick reflexes. 🥊",
+         "My elderly neighbor fends for herself despite her children offering to help. 👵",
+         "The goalkeeper fends away every shot that comes near his goal post. ⚽"
+       ],
+       "present_continuous": [
+         "The security guard is fending off aggressive protesters outside the government building. 🚨",
+         "My teenage daughter is learning to fend for herself during her first year at college. 🎓",
+         "The wildlife expert is fending away curious bears from the campsite. 🐻"
+       ],
+       "present_perfect": [
+         "The brave soldier has fended off multiple attacks throughout the intense battle. 💂",
+         "She has fended for herself since her parents passed away five years ago. 💔",
+         "The cybersecurity team has successfully fended away thousands of hacking attempts. 💻"
+       ],
+       "present_perfect_continuous": [
+         "The small business owner has been fending off bankruptcy for the past three years. 💼",
+         "He has been fending for himself since moving to the foreign city last month. 🌆",
+         "The immune system has been fending away the infection since the antibiotics started working. 💊"
+       ],
+       "simple_past": [
+         "The martial artist fended off three attackers in the dark alley last night. 🥋",
+         "After losing his job, he fended for himself by starting a freelance business. 💻",
+         "The mother bear fended away the wolves to protect her cubs. 🐺"
+       ],
+       "past_continuous": [
+         "The knight was fending off enemy swordsmen when reinforcements finally arrived. ⚔️",
+         "The homeless man was fending for himself on the harsh winter streets. ❄️",
+         "The crew was fending away debris during the violent hurricane. 🌪️"
+       ],
+       "past_perfect": [
+         "By dawn, the defenders had already fended off five waves of enemy attacks. 🏰",
+         "She had fended for herself throughout college before her scholarship was renewed. 🎓",
+         "The bodyguard had fended away several suspicious individuals before the incident occurred. 👮"
+       ],
+       "past_perfect_continuous": [
+         "The castle guards had been fending off invaders for hours before backup arrived. 🛡️",
+         "He had been fending for himself for months when his family finally found him. 👨‍👩‍👦",
+         "The firefighters had been fending away the wildfire for days before the rain started. 🔥"
+       ],
+       "simple_future": [
+         "The young superhero will fend off the villains attacking downtown tomorrow. 🦸",
+         "After graduation, my son will have to fend for himself in the real world. 🌍",
+         "The security system will automatically fend away unauthorized access attempts. 🔐"
+       ],
+       "future_continuous": [
+         "This time next week, the army will be fending off the anticipated enemy offensive. 🪖",
+         "In a few months, she'll be fending for herself in her first apartment. 🏠",
+         "The antivirus software will be fending away malware threats continuously. 🖥️"
+       ],
+       "future_perfect": [
+         "By the end of this siege, the defenders will have fended off countless attacks. 🏹",
+         "By retirement age, he will have fended for himself for over forty years. 👴",
+         "By tomorrow morning, the system will have fended away millions of spam messages. 📧"
+       ],
+       "future_perfect_continuous": [
+         "By next month, the outpost will have been fending off enemy raids for an entire year. ⏰",
+         "By graduation, the students will have been fending for themselves independently for four years. 🎓",
+         "By the end of the week, the firewall will have been fending away cyberattacks for seventy-two hours straight. 🔒"
+       ],
+       "modal_perfects": [
+         "The army should've fended off the invasion more effectively with better preparation. ⚔️",
+         "She could've fended for herself if someone had taught her basic survival skills. 🏕️",
+         "The goalkeeper might've fended away that shot if he had positioned himself better. ⚽",
+         "You would've fended off those aggressive salespeople if you had been more assertive. 🚪",
+         "The security system must've fended away the hackers automatically overnight. 🌙"
+       ],
+       "additional_contexts": [
+         "The ship's fender protected the hull from damage when docking at the marina. ⛵",
+         "He used his arm to fend off the low-hanging branches while hiking through the forest. 🌲",
+         "The politician skillfully fended off difficult questions during the press conference. 🎤"
+       ]
+     }
+   },
+   {
+     "word": "sighs",
+     "ipa": "/saɪz/",
+     "meaning_en": "1. (Verb/Noun) Exhales audibly to express sadness, relief, tiredness, or contentment. 2. Makes a sound similar to exhaling (like wind). 3. An act of sighing.",
+     "meaning_es": "1. (Verbo/Sustantivo) Exhalar audiblemente para expresar tristeza, alivio, cansancio o satisfacción. 2. Hacer un sonido similar a exhalar (como el viento). 3. Un acto de suspirar.",
+     "emoji": "😮‍💨😔💨",
+     "origin_en": "From Middle English 'sighen', alteration of 'siken', probably from Old English 'sīcan' (to sigh). The word has been used to express emotion through breathing since the 13th century.",
+     "origin_es": "Del inglés medio 'sighen', alteración de 'siken', probablemente del inglés antiguo 'sīcan' (suspirar). La palabra se ha usado para expresar emoción a través de la respiración desde el siglo XIII.",
+     "forms": {
+       "verb": "sigh",
+       "noun": "sigh",
+       "past_tense": "sighed",
+       "past_participle": "sighed",
+       "present_participle": "sighing",
+       "third_person_singular": "sighs"
+     },
+     "examples": {
+       "simple_present": [
+         "My grandfather always sighs heavily whenever he sits down in his favorite armchair. 👴💺",
+         "She sighs with relief every time her teenage son comes home safely. 😌",
+         "The old house sighs and creaks during strong windstorms. 🏚️💨"
+       ],
+       "present_continuous": [
+         "The exhausted student is sighing deeply while studying for final exams. 📚😮‍💨",
+         "My mother is constantly sighing with frustration at the messy kitchen. 🍽️😤",
+         "The autumn wind is sighing through the bare tree branches outside. 🍂"
+       ],
+       "present_perfect": [
+         "The disappointed coach has sighed countless times during this terrible season. 🏈😔",
+         "She has sighed with longing every day since her boyfriend moved abroad. 💔✈️",
+         "The old wooden floor has sighed under the weight of visitors for decades. 🏛️"
+       ],
+       "present_perfect_continuous": [
+         "My boss has been sighing with exasperation all morning during the budget meeting. 💼😤",
+         "The elderly patient has been sighing weakly since the surgery yesterday. 🏥",
+         "The ancient forest has been sighing in the mountain breeze for centuries. 🌲"
+       ],
+       "simple_past": [
+         "The heartbroken teenager sighed deeply when reading the breakup text message. 💔📱",
+         "My father sighed with contentment after finishing his favorite meal. 😊🍽️",
+         "The wind sighed mournfully through the abandoned cemetery last night. ⚰️🌙"
+       ],
+       "past_continuous": [
+         "The overworked employee was sighing continuously during the endless meeting. 😓⏰",
+         "She was sighing romantically while watching the sunset with her partner. 🌅💑",
+         "The ocean breeze was sighing softly through the beach resort all evening. 🏖️"
+       ],
+       "past_perfect": [
+         "By the time help arrived, the injured hiker had already sighed his last breath. 😢⛰️",
+         "She had sighed with disappointment so many times before finally giving up hope. 😞",
+         "The ancient castle walls had sighed in the wind for over five hundred years. 🏰"
+       ],
+       "past_perfect_continuous": [
+         "The frustrated artist had been sighing for hours before abandoning the difficult painting. 🎨😤",
+         "My grandmother had been sighing nostalgically all evening while looking at old photographs. 👵📸",
+         "The desert wind had been sighing across the dunes since sunrise. 🏜️"
+       ],
+       "simple_future": [
+         "The students will sigh with relief when the difficult exam is finally over. 😌📝",
+         "My mother will sigh disapprovingly when she sees my messy bedroom again. 😑🛏️",
+         "The autumn leaves will sigh as they fall from the trees next month. 🍁"
+       ],
+       "future_continuous": [
+         "This time tomorrow, the jury will be sighing while listening to another long testimony. ⚖️😮‍💨",
+         "Next week, she'll be sighing dreamily while reading her favorite romance novel. 📖💕",
+         "The evening wind will be sighing through the valley during our camping trip. ⛺"
+       ],
+       "future_perfect": [
+         "By retirement, the teacher will have sighed at student excuses thousands of times. 👨‍🏫😤",
+         "By the end of this relationship, she will have sighed in frustration more than ever before. 💔",
+         "By next century, the ancient oak tree will have sighed through countless seasons. 🌳"
+       ],
+       "future_perfect_continuous": [
+         "By deadline day, the architect will have been sighing stressfully for weeks over this project. 📐😰",
+         "By their anniversary, he will have been sighing romantically at his wife for fifty years. 💑❤️",
+         "By winter's end, the cold wind will have been sighing through the mountains for months. ⛰️❄️"
+       ],
+       "modal_perfects": [
+         "I should've known she was upset when I heard her sigh so heavily. 😔",
+         "He could've avoided sighing so loudly if he had managed his stress better. 😮‍💨",
+         "She might've sighed with relief if the medical results had been positive. 🏥",
+         "You would've sighed with joy too if you had received such wonderful news. 😊",
+         "The disappointed athlete must've sighed when seeing the final competition scores. 🏅😞"
+       ],
+       "additional_contexts": [
+         "A collective sigh of relief filled the room when the fire alarm was declared a false alarm. 🚨",
+         "Her sigh was so loud that everyone in the quiet library turned to look at her. 📚👀",
+         "The poet wrote about the gentle sighs of lovers walking on moonlit beaches. 🌙💏"
+       ]
+     }
+   },
+   {
+     "word": "wailing",
+     "ipa": "/ˈweɪlɪŋ/",
+     "meaning_en": "1. (Verb/Noun) Crying out loudly in grief, pain, or distress with prolonged high-pitched sounds. 2. Making a long, high sound expressing sadness. 3. The act or sound of wailing.",
+     "meaning_es": "1. (Verbo/Sustantivo) Llorar en voz alta con pena, dolor o angustia con sonidos prolongados y agudos. 2. Hacer un sonido largo y agudo que expresa tristeza. 3. El acto o sonido de lamentarse.",
+     "emoji": "😭😢🔊",
+     "origin_en": "From Middle English 'wailen', probably from Old Norse 'væla' (to wail, lament). Related to Old English 'wā' (woe). The word has been used since the 14th century to describe loud lamentation.",
+     "origin_es": "Del inglés medio 'wailen', probablemente del nórdico antiguo 'væla' (lamentarse). Relacionado con el inglés antiguo 'wā' (ay, dolor). La palabra se ha usado desde el siglo XIV para describir lamentaciones fuertes.",
+     "forms": {
+       "verb": "wail",
+       "noun": "wail / wailing",
+       "past_tense": "wailed",
+       "past_participle": "wailed",
+       "present_participle": "wailing",
+       "adjective": "wailing"
+     },
+     "examples": {
+       "simple_present": [
+         "The mourners wail loudly at traditional funerals in their ancient cultural ceremonies. ⚰️😭",
+         "My neighbor's newborn baby wails inconsolably throughout the entire night. 👶🌙",
+         "The ambulance siren wails urgently as it races through the busy city streets. 🚑"
+       ],
+       "present_continuous": [
+         "The grieving widow is wailing uncontrollably at her husband's funeral service. 💔😢",
+         "The injured child is wailing in pain while waiting for the doctor's examination. 🏥",
+         "The storm wind is wailing mournfully through the abandoned haunted mansion. 🏚️👻"
+       ],
+       "present_perfect": [
+         "The desperate mother has been wailing for hours since her son went missing. 😰",
+         "The fire alarm has been wailing continuously for twenty minutes now. 🚨",
+         "The bereaved family has wailed together in their shared moment of profound grief. 💔"
+       ],
+       "present_perfect_continuous": [
+         "The refugees have been wailing since discovering their village was destroyed. 😭🏘️",
+         "The warning siren has been wailing for the past hour during the tornado drill. 🌪️",
+         "The heartbroken teenager has been wailing in her bedroom all afternoon after the breakup. 💔"
+       ],
+       "simple_past": [
+         "The entire community wailed when they heard the devastating news about the accident. 😢",
+         "The terrified passengers wailed as the airplane encountered severe turbulence. ✈️😱",
+         "The ancient mourning women wailed traditional laments at the burial ceremony. ⚱️"
+       ],
+       "past_continuous": [
+         "The victims were wailing desperately for help when the rescue team finally arrived. 🆘",
+         "The emergency sirens were wailing throughout the neighborhood during the evacuation. 🚨",
+         "My sister was wailing hysterically when she discovered her pet hamster had died. 🐹💔"
+       ],
+       "past_perfect": [
+         "By the time paramedics reached the scene, the injured woman had already wailed herself hoarse. 🚑",
+         "The tornado warning siren had been wailing for five minutes before people took shelter. 🌪️",
+         "The grief-stricken mother had wailed throughout the entire memorial service. 😭"
+       ],
+       "past_perfect_continuous": [
+         "The lost toddler had been wailing for over an hour when security found him. 👶😢",
+         "The air raid sirens had been wailing across the city for hours during the attack. 💣",
+         "She had been wailing about the injustice for days before anyone listened. ⚖️"
+       ],
+       "simple_future": [
+         "The mourners will wail traditional songs during tomorrow's ceremonial gathering. 🎵😢",
+         "If the storm hits, the wind will wail frighteningly through the narrow valleys. 🌬️⛰️",
+         "The baby will wail loudly when the doctor administers the vaccination shot. 💉👶"
+       ],
+       "future_continuous": [
+         "This time tomorrow, the grieving family will be wailing at the graveside service. ⚰️",
+         "The emergency alarms will be wailing throughout the building during the fire drill. 🔥",
+         "By midnight, the wolves will be wailing hauntingly under the full moon. 🐺🌕"
+       ],
+       "future_perfect": [
+         "By dawn, the mother will have wailed herself into exhaustion over her loss. 😭🌅",
+         "By the time help arrives, the trapped miners will have been wailing for hours. ⛏️",
+         "The funeral proceedings will have included hours of traditional wailing by sunset. 🌇"
+       ],
+       "future_perfect_continuous": [
+         "By next week, the bereaved family will have been wailing in mourning for seven days straight. 📅😢",
+         "By the time the rescue helicopter lands, the stranded hikers will have been wailing for help all night. 🚁",
+         "By morning, the storm will have been wailing against the windows for twelve hours. 🪟🌪️"
+       ],
+       "modal_perfects": [
+         "The witnesses should've called for help instead of just wailing in panic. 📞",
+         "She could've avoided wailing so dramatically if she had controlled her emotions better. 😭",
+         "The child might've stopped wailing if someone had comforted him sooner. 🤗",
+         "You would've been wailing too if you had experienced such a traumatic event. 😰",
+         "The sirens must've been wailing all night since everyone heard them. 🚨🌙"
+       ],
+       "additional_contexts": [
+         "The wailing of distant sirens filled the night air during the emergency. 🌃🚨",
+         "Her constant wailing about the situation was getting on everyone's nerves. 😤",
+         "The mournful wailing of bagpipes echoed across the Scottish highlands. 🎶🏴󐁧󐁢󐁳󐁣󐁴󐁿"
+       ]
+     }
+   },
+   {
+     "word": "bedside",
+     "ipa": "/ˈbɛdˌsaɪd/",
+     "meaning_en": "1. (Noun) The space beside a bed, especially in relation to caring for a sick person. 2. (Adjective) Located next to a bed or relating to the area beside a bed.",
+     "meaning_es": "1. (Sustantivo) El espacio al lado de una cama, especialmente en relación con el cuidado de una persona enferma. 2. (Adjetivo) Ubicado junto a una cama o relacionado con el área al lado de una cama.",
+     "emoji": "🛏️💡🏥",
+     "origin_en": "Compound word from 'bed' (Old English 'bedd', meaning sleeping place) + 'side' (Old English 'sīde', meaning flank or edge). Used since the 16th century, especially in medical contexts referring to patient care.",
+     "origin_es": "Palabra compuesta de 'bed' (inglés antiguo 'bedd', que significa lugar para dormir) + 'side' (inglés antiguo 'sīde', que significa costado o borde). Usado desde el siglo XVI, especialmente en contextos médicos refiriéndose al cuidado del paciente.",
+     "forms": {
+       "noun": "bedside",
+       "adjective": "bedside",
+       "compound_forms": "bedside table, bedside lamp, bedside manner"
+     },
+     "examples": {
+       "simple_present": [
+         "The devoted nurse always maintains excellent bedside manner with every patient. 👩‍⚕️💙",
+         "My grandmother keeps her reading glasses on the bedside table every night. 👓🛏️",
+         "The doctor visits each patient's bedside during morning rounds at the hospital. 🏥"
+       ],
+       "present_continuous": [
+         "The worried family members are keeping vigil at their father's bedside tonight. 😟",
+         "The medical team is conducting bedside consultations with critical care patients. 👨‍⚕️",
+         "She is arranging fresh flowers on the bedside table to brighten the patient's room. 🌸"
+       ],
+       "present_perfect": [
+         "The hospice volunteer has sat at countless patients' bedsides offering comfort. 🤲",
+         "He has kept that antique clock on his bedside table since childhood. ⏰",
+         "The hospital has installed new bedside monitoring equipment in all intensive care units. 📊"
+       ],
+       "present_perfect_continuous": [
+         "The exhausted mother has been sitting at her sick child's bedside all week. 👩‍👦😴",
+         "The researchers have been testing the new bedside diagnostic device for months. 🔬",
+         "My husband has been complaining about the broken bedside lamp for days. 💡"
+       ],
+       "simple_past": [
+         "The doctor demonstrated excellent bedside manner during my father's final days. 👨‍⚕️💚",
+         "I placed my phone on the bedside charger before falling asleep last night. 📱🔌",
+         "The priest sat at the dying woman's bedside reciting comforting prayers. 🙏"
+       ],
+       "past_continuous": [
+         "The family was gathering at grandpa's bedside when he passed away peacefully. 👴💫",
+         "The nurse was checking the bedside monitors when the patient's condition suddenly changed. 📈",
+         "I was reaching for my bedside water glass when I accidentally knocked it over. 💧"
+       ],
+       "past_perfect": [
+         "By morning, the vigilant wife had already spent forty-eight hours at her husband's bedside. ⏰😴",
+         "The decorator had placed a beautiful lamp on the bedside table before we moved in. 🏠",
+         "The medical student had practiced his bedside manner extensively before treating real patients. 🎓"
+       ],
+       "past_perfect_continuous": [
+         "The devoted daughter had been maintaining a bedside vigil for three days straight. 💕",
+         "The hospital staff had been improving their bedside communication skills all semester. 📚",
+         "I had been looking for my bedside reading glasses for twenty minutes before finding them. 👓"
+       ],
+       "simple_future": [
+         "The oncologist will discuss the treatment options at the patient's bedside tomorrow. 🏥",
+         "I will install a new bedside reading light this weekend for better illumination. 💡",
+         "The family will gather at their grandmother's bedside during her final moments. 👵"
+       ],
+       "future_continuous": [
+         "This time tomorrow, the concerned relatives will be sitting at the bedside waiting for news. 😟",
+         "The intern will be practicing bedside procedures under supervision throughout the rotation. 👨‍⚕️",
+         "By tonight, I'll be reading my favorite novel using the new bedside lamp. 📚"
+       ],
+       "future_perfect": [
+         "By next month, the nurse will have completed over one thousand bedside care visits. 👩‍⚕️",
+         "By the end of the week, I will have replaced all the bedside furniture. 🛏️",
+         "The medical student will have perfected his bedside manner by graduation day. 🎓"
+       ],
+       "future_perfect_continuous": [
+         "By December, the caregiver will have been attending to the patient's bedside for six months continuously. 🗓️",
+         "By next semester, the nursing students will have been practicing bedside techniques for an entire year. 📖",
+         "By anniversary, that vintage bedside clock will have been ticking faithfully for fifty years. ⏰"
+       ],
+       "modal_perfects": [
+         "The physician should've shown better bedside manner with such a frightened patient. 😟",
+         "I could've found my keys faster if I had checked the bedside drawer first. 🔑",
+         "The family might've felt more comfortable if there had been chairs at the bedside. 🪑",
+         "You would've noticed the beautiful bedside lamp if you had visited my new apartment. 💡",
+         "The nurse must've left the medication chart on the bedside table by mistake. 💊"
+       ],
+       "additional_contexts": [
+         "Keep a glass of water on your bedside table for nighttime hydration. 💧🛏️",
+         "The bestselling novel remained untouched on her bedside table for weeks. 📖",
+         "His poor bedside manner made patients feel uncomfortable during consultations. 😕👨‍⚕️"
+       ]
+     }
    }
  ]
 }
