@@ -3,27 +3,101 @@
   "phrasal_verbs": [
 
     {
-
       "expression": "Go away",
-
-      "ipa": "/goʊ əˈweɪ/",
-
-      "meaning_en": "To leave or go somewhere else.",
-
-      "meaning_es": "Irse; alejarse.",
-
-      "emoji": "🚶‍♂️➡️❌",
-
-      "origin_en": "Literal Old English meaning: to go from one place to another.",
-
-      "origin_es": "Del inglés antiguo: simplemente 'ir lejos'.",
-
-      "examples": [
-
-        "Go away, I'm tired.",
-
-        "The pain will go away soon."
-
+      "ipa": "/ɡoʊ əˈweɪ/",
+      "meaning_en": "To leave or depart from a place; to disappear; to take a trip or vacation; to tell someone to leave you alone",
+      "meaning_es": "Irse o partir de un lugar; desaparecer; irse de viaje o vacaciones; decirle a alguien que te deje en paz",
+      "emoji": "🚶‍♂️👋",
+      "origin_en": "From Old English 'gan' (to go) + 'aweg' (away). This simple phrasal verb has been used since Middle English to express departure, disappearance, or dismissal. It can be literal (physical departure) or figurative (pain, problems disappearing).",
+      "origin_es": "Del inglés antiguo 'gan' (ir) + 'aweg' (lejos). Este phrasal verb simple se ha usado desde el inglés medio para expresar partida, desaparición o despido. Puede ser literal (partida física) o figurativo (dolor, problemas que desaparecen).",
+      "tense_examples": {
+        "simple_present": [
+          "My headaches always go away after I drink water and rest. 💧😌",
+          "The stray cat goes away whenever someone approaches it too quickly. 🐱🏃",
+          "These annoying mosquitoes never go away during summer nights. 🦟😤"
+        ],
+        "present_continuous": [
+          "The storm is finally going away after three hours of heavy rain. ⛈️➡️☀️",
+          "My neighbor's loud music isn't going away anytime soon. 🎵😠",
+          "Please stop; you're not going away until we resolve this argument. 🗣️✋"
+        ],
+        "simple_past": [
+          "The pain went away immediately after I took the medication. 💊😊",
+          "They went away for the entire summer to travel through Europe. ✈️🌍",
+          "He told the salesman to go away because he wasn't interested. 🚪❌"
+        ],
+        "past_continuous": [
+          "The symptoms were going away gradually throughout the week. 🤒➡️😊",
+          "We were going away on vacation when the pandemic lockdown started. 🧳🚫",
+          "The crowd was slowly going away after the concert ended. 👥➡️🚶"
+        ],
+        "present_perfect": [
+          "The rash has gone away completely since I changed my detergent. 🧴✅",
+          "My parents have gone away to the countryside for the weekend. 🏞️🚗",
+          "The annoying neighbor has finally gone away and stopped bothering us. 😌🙏"
+        ],
+        "present_perfect_continuous": [
+          "My back pain has been going away slowly since I started physical therapy. 🏥💪",
+          "The guests have been going away one by one since midnight. 🕛👋",
+          "The fog has been going away gradually as the sun rises higher. 🌫️☀️"
+        ],
+        "past_perfect": [
+          "By the time the doctor arrived, my fever had already gone away. 🌡️✅",
+          "They had gone away before anyone could thank them for their help. 🏃‍♂️💨",
+          "The opportunity had gone away by the time I made up my mind. ⏰😔"
+        ],
+        "past_perfect_continuous": [
+          "The problem had been going away slowly before it suddenly returned worse than before. 📉📈",
+          "My friends had been going away to the beach every summer until gas prices skyrocketed. 🏖️💰",
+          "The nausea had been going away until I smelled that terrible odor. 🤢😷"
+        ],
+        "simple_future": [
+          "This headache will go away if I just lie down for an hour. 😴💤",
+          "We will go away for two weeks to celebrate our anniversary. 💑✈️",
+          "Don't worry, the embarrassment will go away eventually. 😳➡️😊"
+        ],
+        "future_continuous": [
+          "At this time tomorrow, we will be going away on our cruise vacation. 🚢🌊",
+          "The paint smell will be going away gradually over the next few days. 🎨👃",
+          "People will be going away from the city during the holiday weekend. 🏙️➡️🏞️"
+        ],
+        "future_perfect": [
+          "By next month, all these problems will have gone away. ✅🎉",
+          "By the time you read this, I will have gone away to start my new life. 📝✈️",
+          "The bruise will have gone away completely before your wedding day. 💍✨"
+        ],
+        "future_perfect_continuous": [
+          "By December, this chronic pain will have been going away and coming back for five years. 😖🔄",
+          "By next summer, they will have been going away to that same beach house for twenty years. 🏖️📅",
+          "By the time the treatment ends, the tumor will have been going away for six months straight. 🏥🙏"
+        ],
+        "modal_perfect_should": [
+          "You should've told that rude person to go away immediately. 🗣️❌",
+          "The infection should've gone away with antibiotics, but it didn't. 💊🤔",
+          "We should've gone away last summer when we had the chance. 🏝️😔"
+        ],
+        "modal_perfect_could": [
+          "The problem could've gone away if we had addressed it sooner. ⏰🔧",
+          "We could've gone away together, but you chose to work instead. 💼😢",
+          "She could've told him to go away politely instead of yelling. 🗣️😤"
+        ],
+        "modal_perfect_would": [
+          "I would've gone away for the weekend if I hadn't gotten sick. 🤒✈️",
+          "The depression wouldn't have gone away without professional help. 🧠💙",
+          "He would've told them to go away if they had shown up at his door. 🚪🙅"
+        ],
+        "modal_perfect_might": [
+          "The stain might've gone away if you had treated it immediately. 🧴⏰",
+          "They might've gone away quietly if you hadn't confronted them so aggressively. 😠🗣️",
+          "The fear might've gone away with time, but therapy helped it disappear faster. 😰➡️😊"
+        ]
+      },
+      "additional_contexts": [
+        "Just go away and leave me alone! I need some space right now. 😤👋",
+        "The doctor said the symptoms will go away on their own within a week. 🏥📅",
+        "Where did everyone go away to? The office is completely empty today. 🏢❓",
+        "I wish these negative thoughts would just go away and stop haunting me. 🧠💭",
+        "Let's go away somewhere tropical for our honeymoon next summer. 🏝️💑"
       ]
 
     },
@@ -686,6 +760,1013 @@
           "He must've stayed over at his girlfriend's apartment since his car is still in her parking lot. 🚙"
         ]
       }
+    },
+    {
+      "expression": "Come off",
+      "ipa": "/kʌm ɒf/",
+      "meaning_en": [
+        "To become detached or separated from something.",
+        "To succeed or be achieved (often used in questions or negatives).",
+        "To give a particular impression or appear in a certain way.",
+        "To happen or take place (informal).",
+        "To stop taking medication or drugs."
+      ],
+      "meaning_es": [
+        "Desprenderse o separarse de algo.",
+        "Tener éxito o lograrse (a menudo usado en preguntas o negativos).",
+        "Dar una impresión particular o parecer de cierta manera.",
+        "Suceder o tener lugar (informal).",
+        "Dejar de tomar medicamentos o drogas."
+      ],
+      "emoji": "🔧🎭✨",
+      "origin_en": "From Old English 'cuman' (to come) + 'of/off'. The phrasal verb has been used since Middle English (14th century) with the literal meaning of detachment. The figurative meanings of success and impression developed in the 16th-18th centuries.",
+      "origin_es": "Del inglés antiguo 'cuman' (venir) + 'of/off'. El phrasal verb se ha usado desde el inglés medio (siglo XIV) con el significado literal de desprendimiento. Los significados figurados de éxito e impresión se desarrollaron en los siglos XVI-XVIII.",
+      "examples": {
+        "simple_present": [
+          "The label comes off easily when you soak the bottle in warm water. 🏺💧",
+          "His arrogant attitude never comes off well during job interviews. 💼😬",
+          "This button comes off every time I wear this jacket. 🧥🔘"
+        ],
+        "present_continuous": [
+          "The paint is coming off the old walls because of the moisture damage. 🎨🏚️",
+          "The concert is coming off as planned despite the weather concerns. 🎵⛈️",
+          "She's coming off as too aggressive in the negotiations with clients. 🤝😤"
+        ],
+        "present_perfect": [
+          "The wheel has come off my suitcase during the long journey through the airport. 🧳✈️",
+          "The fundraising event has come off successfully beyond our expectations. 🎉💰",
+          "He has come off badly in the public debate with his opponent. 🎤😞"
+        ],
+        "present_perfect_continuous": [
+          "The wallpaper has been coming off gradually ever since the water leak occurred. 🧱💦",
+          "The new marketing strategy has been coming off quite well in recent months. 📊✅",
+          "She has been coming off her antidepressants slowly under medical supervision. 💊👩‍⚕️"
+        ],
+        "simple_past": [
+          "The handle came off the coffee mug when I picked it up this morning. ☕😱",
+          "The surprise birthday party came off perfectly without any problems. 🎂🎉",
+          "He came off as incredibly rude during the family dinner last night. 🍽️😤"
+        ],
+        "past_continuous": [
+          "The sticker was coming off in pieces when I tried to remove it from the window. 🪟🏷️",
+          "The theatrical performance was coming off brilliantly when the power suddenly went out. 🎭💡",
+          "She was coming off her medication when the side effects started appearing. 💊😰"
+        ],
+        "past_perfect": [
+          "The tire had already come off the bicycle before I noticed something was wrong. 🚲🤕",
+          "The wedding ceremony had come off beautifully despite the last-minute complications. 💒✨",
+          "He had come off as insincere during the apology, which made things worse. 😔"
+        ],
+        "past_perfect_continuous": [
+          "The roof tiles had been coming off one by one throughout the stormy season. 🏠🌪️",
+          "The charity gala had been coming off well until the technical difficulties started. 🎪🎵",
+          "The patient had been coming off the opioids gradually for several weeks. 💊📅"
+        ],
+        "simple_future": [
+          "The adhesive will come off completely if you use this special solvent. 🧪✨",
+          "The product launch will come off without a hitch if we follow the plan. 🚀📋",
+          "She will come off as more confident once she practices the presentation. 🎤💪"
+        ],
+        "future_continuous": [
+          "The old paint will be coming off the fence when we start the renovation project. 🎨🔨",
+          "The festival will be coming off smoothly with the experienced organizers in charge. 🎪👨‍💼",
+          "He'll be coming off his steroids treatment over the next three months. 💊⏰"
+        ],
+        "future_perfect": [
+          "By tomorrow, all the stickers will have come off the new furniture completely. 🪑🏷️",
+          "By the end of the night, the awards ceremony will have come off spectacularly. 🏆✨",
+          "By next year, she will have come off all her prescription medications successfully. 💊✅"
+        ],
+        "future_perfect_continuous": [
+          "By next month, the wallpaper will have been coming off gradually for an entire year. 🧱📆",
+          "By the finale, the theater production will have been coming off excellently for weeks. 🎭👏",
+          "By summer, the athlete will have been coming off performance enhancers for six months. 💪🚫"
+        ],
+        "modal_perfects": [
+          "The button should've come off during the wash, but it's still attached somehow. 🧥🔘",
+          "The event could've come off better if we had more time to prepare properly. 🎉⏰",
+          "His apology might've come off as genuine if his body language had been different. 😔🤷",
+          "The plan would've come off perfectly if the weather had cooperated that day. ☀️",
+          "The wheel must've come off while I was driving on the bumpy country road. 🚗🛞"
+        ]
+      }
+    },
+    {
+      "expression": "Free up",
+      "ipa": "/friː ʌp/",
+      "meaning_en": [
+        "To make time, space, or resources available by removing or releasing something.",
+        "To release someone from obligations or commitments.",
+        "To make computer memory or storage space available.",
+        "To unblock or remove restrictions on something."
+      ],
+      "meaning_es": [
+        "Liberar tiempo, espacio o recursos al remover o soltar algo.",
+        "Liberar a alguien de obligaciones o compromisos.",
+        "Hacer disponible memoria o espacio de almacenamiento en la computadora.",
+        "Desbloquear o remover restricciones sobre algo."
+      ],
+      "emoji": "🔓⏰💾",
+      "origin_en": "From 'free' (Old English 'frēo', meaning not in bondage, at liberty) + 'up' (used as an intensifier or completive particle). The phrasal verb emerged in the 20th century, particularly common in business and computing contexts from the 1960s onwards.",
+      "origin_es": "De 'free' (inglés antiguo 'frēo', que significa no estar en cautiverio, en libertad) + 'up' (usado como intensificador o partícula completiva). El phrasal verb surgió en el siglo XX, particularmente común en contextos empresariales e informáticos desde la década de 1960 en adelante.",
+      "examples": {
+        "simple_present": [
+          "Delegating minor tasks to my assistant frees up several hours each week for strategic planning. ⏰📊",
+          "The new storage system frees up valuable warehouse space for incoming inventory. 📦🏭",
+          "Deleting old photos regularly frees up memory on my smartphone. 📱💾"
+        ],
+        "present_continuous": [
+          "The company is freeing up budget resources by canceling underperforming marketing campaigns. 💰📉",
+          "My colleague is freeing up her afternoon schedule to attend the emergency meeting. 📅🚨",
+          "The IT department is freeing up server space by archiving old project files. 🖥️📂"
+        ],
+        "present_perfect": [
+          "Automating these repetitive tasks has freed up our team to focus on creative projects. 🤖💡",
+          "The recent layoffs have freed up significant funds for the company's expansion plans. 💼💰",
+          "Installing cloud storage has freed up massive amounts of local disk space. ☁️💾"
+        ],
+        "present_perfect_continuous": [
+          "The manager has been freeing up meeting slots all week to accommodate the visiting executives. 📆👔",
+          "We have been freeing up office space gradually by transitioning to remote work. 🏢🏠",
+          "The software has been freeing up RAM automatically whenever system performance slows down. 🖥️⚡"
+        ],
+        "simple_past": [
+          "Finishing that major project yesterday freed up my entire weekend for family activities. 🎉👨‍👩‍👧‍👦",
+          "The company freed up additional parking spaces by building a new garage structure. 🚗🏢",
+          "Uninstalling unnecessary applications freed up enough storage for the system update. 💻📲"
+        ],
+        "past_continuous": [
+          "The organization was freeing up resources when the economic crisis suddenly hit. 💼📉",
+          "I was freeing up disk space when the computer unexpectedly crashed. 💾💥",
+          "The manager was freeing up staff members from other projects for the urgent deadline. 👥⏰"
+        ],
+        "past_perfect": [
+          "By the time the new hire started, we had already freed up a dedicated workspace. 🪑✨",
+          "The merger had freed up redundant positions before the restructuring announcement. 💼🔄",
+          "The cleanup utility had freed up several gigabytes before the scan even completed. 💾🧹"
+        ],
+        "past_perfect_continuous": [
+          "The executives had been freeing up capital for months before launching the acquisition. 💰🏢",
+          "She had been freeing up her evenings all semester to prepare for final examinations. 📚🌙",
+          "The system had been freeing up cache memory continuously to maintain optimal performance. 🖥️⚙️"
+        ],
+        "simple_future": [
+          "Hiring a virtual assistant next month will free up my mornings for client meetings. 👩‍💼☕",
+          "The new automated system will free up staff to handle more complex customer issues. 🤖📞",
+          "Upgrading to premium cloud storage will free up all my local hard drive space. ☁️💾"
+        ],
+        "future_continuous": [
+          "This time next week, the restructuring will be freeing up departments across the organization. 🏢🔄",
+          "By tomorrow, the cleanup process will be freeing up gigabytes of unnecessary data. 🗑️💾",
+          "Next quarter, the new efficiency measures will be freeing up resources continuously. 📊⚡"
+        ],
+        "future_perfect": [
+          "By the end of this month, the downsizing will have freed up millions in operational costs. 💰📉",
+          "By Friday evening, I will have freed up my entire schedule for the long weekend. 📅🎉",
+          "By next update, the developers will have freed up significant memory through optimization. 💻✨"
+        ],
+        "future_perfect_continuous": [
+          "By next year, the automation project will have been freeing up employee time for innovation. 🤖💡",
+          "By graduation, I will have been freeing up summers for internships throughout college. 🎓☀️",
+          "By the migration's completion, the system will have been freeing up legacy storage for months. 💾🔄"
+        ],
+        "modal_perfects": [
+          "I should've freed up more time in my schedule for unexpected emergencies. ⏰🚨",
+          "The company could've freed up resources earlier by identifying inefficiencies sooner. 💼📊",
+          "We might've freed up enough budget if we had negotiated better vendor contracts. 💰🤝",
+          "You would've freed up your weekend if you had completed the report on Thursday. 📄📅",
+          "The IT team must've freed up server space overnight since everything runs faster now. 🖥️⚡"
+        ]
+      }
+    },
+    {
+      "expression": "Take out",
+      "ipa": "/teɪk aʊt/",
+      "meaning_en": [
+        "To remove something from inside something else",
+        "To go somewhere with someone (especially on a date)",
+        "To borrow something from a library or bank",
+        "To buy food from a restaurant to eat elsewhere",
+        "To kill or destroy (informal/slang)",
+        "To extract or remove surgically"
+      ],
+      "meaning_es": [
+        "Sacar algo de dentro de algo",
+        "Salir con alguien (especialmente en una cita)",
+        "Sacar prestado algo de una biblioteca o banco",
+        "Comprar comida para llevar de un restaurante",
+        "Matar o destruir (informal/jerga)",
+        "Extraer o remover quirúrgicamente"
+      ],
+      "emoji": "🗑️📤🍔💑🏦",
+      "origin": {
+        "en": "Combination of 'take' (from Old Norse 'taka') and 'out' (from Old English 'ūt'). The phrasal verb developed various meanings over time, from the literal sense of removing something to more figurative uses like dating or borrowing. The 'takeout food' meaning became popular in the 20th century with the rise of American fast food culture.",
+        "es": "Combinación de 'take' (del nórdico antiguo 'taka') y 'out' (del inglés antiguo 'ūt'). El verbo frasal desarrolló varios significados con el tiempo, desde el sentido literal de remover algo hasta usos más figurativos como salir en cita o pedir prestado. El significado de 'comida para llevar' se popularizó en el siglo XX con el auge de la cultura de comida rápida estadounidense."
+      },
+      "tense_examples": {
+        "simple_present": [
+          "She takes out the trash every Tuesday morning without being reminded. 🗑️📅",
+          "My boss takes out clients for expensive lunches to close deals. 💼🍽️",
+          "He always takes out loans to fund his business expansion projects. 🏦💰",
+          "We take out Chinese food whenever we're too tired to cook. 🥡😴"
+        ],
+        "present_continuous": [
+          "The dentist is taking out my wisdom tooth right now, and it hurts terribly! 🦷😖",
+          "She's taking out her boyfriend to celebrate his promotion tonight. 🎉💑",
+          "I'm taking out books from the library for my research paper on climate change. 📚🌍",
+          "They're taking out their frustration on the punching bags at the gym. 🥊😤"
+        ],
+        "present_perfect": [
+          "The surgeon has taken out the tumor successfully, and the patient is recovering well. 🏥✅",
+          "I've taken out a mortgage to buy my dream house in the suburbs. 🏡💰",
+          "He has taken out his girlfriend to that fancy French restaurant three times already. 🍷💑",
+          "Someone has taken out all the important files from the cabinet! 📁❓"
+        ],
+        "present_perfect_continuous": [
+          "He's been taking out different women every weekend since his divorce. 💔📅",
+          "The company has been taking out aggressive competitors through strategic acquisitions. 💼🎯",
+          "I've been taking out Italian takeout food too often; I need to start cooking at home. 🍝🏠",
+          "The military has been systematically taking out enemy positions for weeks. 🎖️⚔️"
+        ],
+        "simple_past": [
+          "She took out her phone to check the mysterious text message immediately. 📱💭",
+          "Last night, my husband took me out to celebrate our anniversary at a rooftop restaurant. 🌃💑",
+          "The bank took out a full-page advertisement in the newspaper yesterday. 🏦📰",
+          "I took out my contact lenses before going to sleep last night. 👁️😴"
+        ],
+        "past_continuous": [
+          "While I was taking out the garbage, I saw my neighbor sneaking around suspiciously. 🗑️👀",
+          "They were taking out their old furniture when the moving truck finally arrived. 🚚🛋️",
+          "The assassin was taking out the target when security guards interrupted the operation. 🕵️🚨",
+          "She was taking out money from the ATM when someone tried to rob her. 🏧😰"
+        ],
+        "past_perfect": [
+          "By the time I arrived, someone had already taken out all the cash from the safe. 💰🔓",
+          "She had taken out her anger on her coworkers before realizing they weren't responsible. 😤💼",
+          "The dentist had taken out three of his teeth before he was ten years old. 🦷👦",
+          "We had taken out insurance before the hurricane destroyed our coastal property. 🌀🏠"
+        ],
+        "past_perfect_continuous": [
+          "He had been taking out payday loans for months before his family discovered his debt. 💸😰",
+          "The special forces had been taking out terrorist cells for years before the public knew. 🎖️🤫",
+          "I had been taking out the same book from the library repeatedly because I never finished it. 📚🔄",
+          "They had been taking out their frustration on each other before seeking marriage counseling. 💑😔"
+        ],
+        "simple_future": [
+          "I will take out a student loan to cover my university tuition next semester. 🎓💰",
+          "The chef will take out the soufflé from the oven in exactly five minutes. 🍮⏰",
+          "He will take you out for dinner if you accept his date proposal tonight. 🍽️💕",
+          "The cleaning crew will take out all the office trash before dawn tomorrow. 🗑️🌅"
+        ],
+        "future_continuous": [
+          "This time tomorrow, I'll be taking out my daughter to her first college campus visit. 🚗🎓",
+          "The disposal team will be taking out the hazardous materials throughout the entire weekend. ☢️🚚",
+          "By 8 PM tonight, we'll be taking out sushi from that new Japanese restaurant downtown. 🍣🏙️",
+          "Next month, the company will be taking out full-page ads in major international publications. 📰🌍"
+        ],
+        "future_perfect": [
+          "By the end of this year, I will have taken out my family to fifty different restaurants. 🍽️✅",
+          "The bank will have taken out billions in loans before the financial crisis hits. 🏦💰",
+          "By retirement, the hitman will have taken out hundreds of targets throughout his dark career. 🕵️💀",
+          "The dentist will have taken out all four wisdom teeth by the end of the procedure. 🦷🏥"
+        ],
+        "future_perfect_continuous": [
+          "By next year, I will have been taking out my wife for romantic dates for twenty wonderful years. 💑💕",
+          "The disposal company will have been taking out industrial waste from this site for decades. 🏭🗑️",
+          "By Christmas, we will have been taking out Chinese food every Friday for six months straight. 🥡📅",
+          "The special unit will have been taking out drug cartel operations for five consecutive years. 🎖️⚖️"
+        ],
+        "modal_perfects": [
+          "I should've taken out travel insurance before booking that expensive international trip. ✈️💰",
+          "The company could've taken out a business loan earlier to expand during the boom. 💼📈",
+          "You might've taken out your anger on the wrong person; she wasn't involved at all. 😤❌",
+          "He would've taken her out to a nicer restaurant if he had known it was her birthday. 🎂🍽️",
+          "The mafia must've taken out the witness before he could testify in court yesterday. 🕵️⚖️"
+        ]
+      },
+      "additional_contexts": [
+        "Please take out your notebooks and copy down these important formulas for tomorrow's exam. 📓✍️",
+        "The sniper took out the enemy commander from over 1,000 meters away with one shot. 🎯🔫",
+        "I need to take out more money from the ATM before we go shopping at the mall. 💳💵",
+        "Can you take out the dog for a walk? He's been cooped up inside all day. 🐕🚶",
+        "The insurance company refused to take out a policy on such a high-risk investment. 📋❌"
+      ]
+    },
+    {
+      "expression": "Take off",
+      "ipa": "/teɪk ɔːf/",
+      "meaning_en": [
+        "To remove clothing, accessories, or something covering the body",
+        "When an aircraft leaves the ground and begins to fly",
+        "To leave suddenly or quickly",
+        "To become successful or popular suddenly",
+        "To have time away from work",
+        "To imitate or mimic someone (often mockingly)",
+        "To deduct or subtract an amount"
+      ],
+      "meaning_es": [
+        "Quitarse ropa, accesorios o algo que cubre el cuerpo",
+        "Cuando un avión despega del suelo y comienza a volar",
+        "Irse repentina o rápidamente",
+        "Volverse exitoso o popular repentinamente",
+        "Tomar tiempo libre del trabajo",
+        "Imitar o remedar a alguien (a menudo burlonamente)",
+        "Deducir o restar una cantidad"
+      ],
+      "emoji": "👕✈️🚀💼🎭➖",
+      "origin": {
+        "en": "Combination of 'take' (from Old Norse 'taka') and 'off' (from Old English 'of'). The literal meaning of removing clothing is the oldest usage. The aviation meaning emerged in the early 20th century with the development of aircraft. The figurative meanings of sudden success and quick departure developed from the imagery of an airplane taking off.",
+        "es": "Combinación de 'take' (del nórdico antiguo 'taka') y 'off' (del inglés antiguo 'of'). El significado literal de quitarse ropa es el uso más antiguo. El significado de aviación surgió a principios del siglo XX con el desarrollo de los aviones. Los significados figurativos de éxito repentino y partida rápida se desarrollaron a partir de la imagen de un avión despegando."
+      },
+      "tense_examples": {
+        "simple_present": [
+          "The plane takes off at 6:30 AM sharp, so we need to arrive early. ✈️⏰",
+          "He always takes off his shoes before entering the traditional Japanese house. 👞🏯",
+          "My boss takes off every Friday afternoon to play golf with his clients. ⛳💼",
+          "The comedian takes off famous politicians in his hilarious stand-up routine. 🎭😂"
+        ],
+        "present_continuous": [
+          "The rocket is taking off right now, and the crowd is cheering wildly! 🚀🎉",
+          "Why are you taking off your jacket? The restaurant is freezing! 🧥❄️",
+          "Her music career is finally taking off after years of struggling in obscurity. 🎤📈",
+          "I'm taking off early today because I have a doctor's appointment downtown. 🏥🚗"
+        ],
+        "present_perfect": [
+          "The startup has taken off beyond anyone's wildest expectations this quarter. 🚀💰",
+          "She has taken off her engagement ring, which suggests trouble in paradise. 💍😢",
+          "I've taken off three days next week to attend my cousin's wedding in Hawaii. 🌺💒",
+          "The flight has already taken off, so there's no point rushing to the airport now. ✈️⏰"
+        ],
+        "present_perfect_continuous": [
+          "The business has been taking off steadily since we implemented the new marketing strategy. 📊📈",
+          "He's been taking off his mask only to eat, following strict safety protocols. 😷🍽️",
+          "I've been taking off early on Wednesdays to attend my daughter's soccer games. ⚽👨‍👧",
+          "The impersonator has been taking off celebrities perfectly for over twenty years. 🎭⭐"
+        ],
+        "simple_past": [
+          "He took off his tie the moment he walked through the front door. 👔🏠",
+          "The plane took off despite the terrible weather conditions and heavy fog. ✈️🌫️",
+          "She took off running when she heard her daughter screaming in the backyard. 🏃‍♀️😱",
+          "I took off a week from work to recover from my surgery properly. 🏥📅"
+        ],
+        "past_continuous": [
+          "The aircraft was taking off when suddenly one engine caught fire dramatically. ✈️🔥",
+          "She was taking off her makeup when her doorbell rang unexpectedly at midnight. 💄🔔",
+          "His YouTube channel was taking off rapidly before the controversial scandal hit. 📹📉",
+          "I was taking off my wet clothes when I realized I had left my keys outside. 👕🔑"
+        ],
+        "past_perfect": [
+          "By the time we arrived at the airport, our flight had already taken off. ✈️😰",
+          "She had taken off her wedding dress before the photographer could capture final shots. 👰📸",
+          "The company had taken off financially before the economic recession destroyed everything. 💼📉",
+          "He had taken off his gloves and couldn't find them anywhere in the house. 🧤❓"
+        ],
+        "past_perfect_continuous": [
+          "The business had been taking off before the pandemic forced them to close permanently. 💼😷",
+          "She had been taking off work frequently, which raised red flags with management. 🚩💼",
+          "The comedian had been taking off the president for months before legal threats arrived. 🎭⚖️",
+          "I had been taking off layers of old paint for hours before discovering the mold. 🎨🏠"
+        ],
+        "simple_future": [
+          "The helicopter will take off from the hospital rooftop in approximately ten minutes. 🚁🏥",
+          "I will take off my wedding ring only when I'm legally divorced, not before. 💍⚖️",
+          "She will take off next month to travel across Europe with her best friends. 🌍✈️",
+          "The store will take off 30% from the original price during the Black Friday sale. 💰🛍️"
+        ],
+        "future_continuous": [
+          "This time tomorrow, we'll be taking off from JFK Airport heading to Tokyo. 🗽✈️🗼",
+          "The accountant will be taking off expenses from your taxable income throughout the audit. 💼📊",
+          "Next week, I'll be taking off early every day for my son's baseball tournament. ⚾👨‍👦",
+          "The impersonator will be taking off famous actors at the charity gala tomorrow night. 🎭💎"
+        ],
+        "future_perfect": [
+          "By noon tomorrow, the space shuttle will have taken off on its historic mission to Mars. 🚀🔴",
+          "By the time you read this, I will have taken off on my solo backpacking adventure. 🎒🌏",
+          "The app will have taken off globally by the end of this revolutionary quarter. 📱🌍",
+          "By retirement, the accountant will have taken off billions in deductions for wealthy clients. 💰📋"
+        ],
+        "future_perfect_continuous": [
+          "By next month, my podcast will have been taking off rapidly for an entire year. 🎙️📈",
+          "The security guard will have been taking off his uniform at exactly 6 PM for thirty years. 👮⏰",
+          "By summer, I will have been taking off Fridays for golf for a decade straight. ⛳📅",
+          "The tribute artist will have been taking off Elvis perfectly for fifty incredible years. 🎤👑"
+        ],
+        "modal_perfects": [
+          "You should've taken off your muddy boots before walking on my white carpet! 👢🤍",
+          "The startup could've taken off earlier if they had secured better initial funding. 🚀💰",
+          "I might've taken off work today if I had known the weather would be this beautiful. ☀️📅",
+          "She would've taken off her coat if the theater hadn't been so cold inside. 🧥❄️",
+          "The flight must've taken off on time since it's no longer showing on the departure board. ✈️📋"
+        ]
+      },
+      "additional_contexts": [
+        "The doctor asked me to take off my shirt so he could examine my breathing. 👔🩺",
+        "Her acting career took off immediately after winning the prestigious Academy Award. 🏆🎬",
+        "Can you take off your shoes at the door? We just cleaned the carpets today. 👟🚪",
+        "The thief took off running when he heard the police sirens approaching rapidly. 🏃🚨",
+        "I need to take off a couple of days next week to move into my new apartment. 📦🏢"
+      ]
+    },
+    {
+      "expression": "Hang out",
+      "ipa": "/hæŋ aʊt/",
+      "meaning_en": [
+        "To spend time with someone in a relaxed, informal way",
+        "To spend time in a particular place, often doing nothing special",
+        "To live or stay somewhere temporarily",
+        "To extend or protrude outward (literal)",
+        "To wait or loiter around"
+      ],
+      "meaning_es": [
+        "Pasar tiempo con alguien de manera relajada e informal",
+        "Pasar tiempo en un lugar particular, a menudo sin hacer nada especial",
+        "Vivir o quedarse en algún lugar temporalmente",
+        "Extenderse o sobresalir hacia afuera (literal)",
+        "Esperar o merodear por ahí"
+      ],
+      "emoji": "👥🎮☕🏖️😎",
+      "origin": {
+        "en": "Combination of 'hang' (from Old English 'hangian' meaning 'to be suspended') and 'out' (from Old English 'ūt'). Originally used literally to describe something hanging outside or extending outward. The informal social meaning emerged in American slang during the 1950s-1960s, particularly among youth culture, to describe casual socializing without specific plans or activities.",
+        "es": "Combinación de 'hang' (del inglés antiguo 'hangian' que significa 'estar suspendido') y 'out' (del inglés antiguo 'ūt'). Originalmente usado literalmente para describir algo colgando afuera o extendiéndose hacia afuera. El significado social informal surgió en la jerga estadounidense durante los años 1950-1960, particularmente entre la cultura juvenil, para describir socializar casualmente sin planes o actividades específicas."
+      },
+      "tense_examples": {
+        "simple_present": [
+          "My teenage son hangs out with his friends at the mall every Saturday afternoon. 🛍️👦",
+          "She always hangs out at the local coffee shop reading novels and people-watching. ☕📚",
+          "We hang out together after work to decompress and share office gossip. 💼🍻",
+          "The stray cats hang out behind the restaurant hoping for leftover food scraps. 🐱🍽️"
+        ],
+        "present_continuous": [
+          "I'm hanging out with my cousins this weekend at the beach house. 🏖️👨‍👩‍👧‍👦",
+          "The teenagers are hanging out in the parking lot instead of attending class. 🚗🏫",
+          "My shirt is hanging out of my pants; I need to tuck it in immediately! 👔😅",
+          "She's hanging out at her boyfriend's apartment while her place gets fumigated. 🏠🐛"
+        ],
+        "present_perfect": [
+          "We've hung out together every Friday night for the past fifteen years. 🍕🎮",
+          "He has hung out with the wrong crowd, which explains his recent behavior changes. 😟👥",
+          "I've hung out at this bar so often that the bartender knows my usual order. 🍺🎯",
+          "Your shoelaces have hung out dangerously this entire meeting; you could trip! 👞⚠️"
+        ],
+        "present_perfect_continuous": [
+          "They've been hanging out together so much that everyone thinks they're dating now. 💑❓",
+          "The homeless man has been hanging out near this subway station for months. 🚇🎒",
+          "I've been hanging out with my childhood friends trying to recapture our youth. 👶🎈",
+          "The towel has been hanging out the window for days; someone should bring it inside. 🪟🧺"
+        ],
+        "simple_past": [
+          "Last summer, we hung out at the lake every single day enjoying the sunshine. 🏞️☀️",
+          "He hung out with his college roommates and reminisced about the good old days. 🎓💭",
+          "The gang hung out on the street corner discussing their plans for the heist. 🏙️🕵️",
+          "My tongue hung out like a dog's after running that exhausting marathon. 🏃😝"
+        ],
+        "past_continuous": [
+          "While I was hanging out with friends, my house was being robbed by burglars. 🏠😱",
+          "The kids were hanging out at the playground when the storm suddenly hit. ⛈️🎢",
+          "We were hanging out by the pool when we heard the emergency sirens blaring. 🏊🚨",
+          "His belt was hanging out of his gym bag throughout the entire business presentation. 💼👔"
+        ],
+        "past_perfect": [
+          "They had hung out together for years before the betrayal destroyed their friendship. 💔😢",
+          "She had hung out at that café every morning before it unexpectedly closed down. ☕🚪",
+          "I had hung out with celebrities before, but meeting him was truly mind-blowing. ⭐🤯",
+          "The flag had hung out the window for weeks before anyone noticed it was upside down. 🏳️🔄"
+        ],
+        "past_perfect_continuous": [
+          "We had been hanging out for months before I realized she had romantic feelings. 💑💭",
+          "He had been hanging out at the casino regularly before losing everything he owned. 🎰💸",
+          "The teenagers had been hanging out in the abandoned building before police discovered them. 🏚️👮",
+          "The poster had been hanging out of the frame for weeks before I finally fixed it. 🖼️🔧"
+        ],
+        "simple_future": [
+          "I will hang out with my sister tomorrow to celebrate her promotion at work. 🎉👭",
+          "The tourists will hang out at the beach resort for their entire vacation week. 🏖️✈️",
+          "We will hang out after the concert to discuss the incredible performance we witnessed. 🎤🎶",
+          "Your tie will hang out if you don't button up your vest properly. 👔🦺"
+        ],
+        "future_continuous": [
+          "This time next week, I'll be hanging out in Hawaii sipping cocktails by the pool. 🌺🍹",
+          "The students will be hanging out in the library tonight cramming for final exams. 📚😰",
+          "We'll be hanging out at the festival all weekend enjoying live music and food. 🎪🎸",
+          "The banner will be hanging out the window during tomorrow's championship parade. 🎊🏆"
+        ],
+        "future_perfect": [
+          "By next year, we will have hung out together for an entire decade of friendship. 🎂🎉",
+          "By retirement, he will have hung out at that bar literally thousands of times. 🍺📊",
+          "By graduation, I will have hung out in this campus library for countless all-nighters. 🎓📖",
+          "The laundry will have hung out to dry for hours by the time we return home. 👕☀️"
+        ],
+        "future_perfect_continuous": [
+          "By Christmas, we will have been hanging out every weekend for five amazing years. 🎄👥",
+          "By summer, the skaters will have been hanging out at this park for two decades. 🛹🌳",
+          "By next month, I will have been hanging out at this gym for a full year. 💪📅",
+          "The sign will have been hanging out crookedly for months before anyone bothers fixing it. 🪧🔧"
+        ],
+        "modal_perfects": [
+          "I should've hung out with my grandfather more before he passed away last year. 👴💔",
+          "We could've hung out at my place instead of driving all the way downtown. 🏠🚗",
+          "You might've hung out with the wrong people; that's why your reputation suffered. 😟👥",
+          "She would've hung out with us longer if her controlling boyfriend hadn't called. 📱😒",
+          "They must've hung out together recently since they're wearing matching friendship bracelets. 🤝💍"
+        ]
+      },
+      "additional_contexts": [
+        "Let's hang out this weekend and catch up on everything that's been happening! 📅💬",
+        "My parents don't want me hanging out with kids who skip school regularly. 🏫❌",
+        "The cool kids always hang out behind the bleachers during lunch break. 🏟️😎",
+        "Make sure nothing hangs out of your suitcase, or the zipper won't close properly. 🧳👕",
+        "I just want to hang out at home in my pajamas and binge-watch Netflix tonight. 🏠📺"
+      ]
+    },
+    {
+      "expression": "Run off",
+      "ipa": "/rʌn ɒf/",
+      "meaning_en": "to leave quickly or suddenly; to escape; to make copies of something using a printer/copier; to drive someone away; to produce something quickly",
+      "meaning_es": "irse rápidamente o de repente; escapar; hacer copias de algo usando una impresora/copiadora; ahuyentar a alguien; producir algo rápidamente",
+      "emoji": "🏃‍♂️💨",
+      "origin_en": "Combination of 'run' (Old English 'rinnan') and 'off' (Old English 'of'). Used since the 16th century to describe rapid departure or escape. The meaning evolved to include printing copies and producing things quickly.",
+      "origin_es": "Combinación de 'run' (inglés antiguo 'rinnan') y 'off' (inglés antiguo 'of'). Usado desde el siglo XVI para describir partida rápida o escape. El significado evolucionó para incluir imprimir copias y producir cosas rápidamente.",
+      "tense_examples": {
+        "simple_present": [
+          "My cat always runs off whenever strangers visit our house. 🐱💨",
+          "The printer runs off hundreds of copies every hour without jamming. 🖨️📄",
+          "That store runs off customers with their terrible service and rude staff. 🛍️😠"
+        ],
+        "present_continuous": [
+          "The dog is running off again despite being called multiple times. 🐕🏃",
+          "My assistant is running off the meeting handouts as we speak. 📋🖨️",
+          "The rain is running off the roof into the clogged gutters below. 🌧️🏠"
+        ],
+        "simple_past": [
+          "The thief ran off with my purse before anyone could stop him. 👜💨",
+          "She ran off twenty copies of the report for tomorrow's presentation. 📊🖨️",
+          "The farmer ran off the trespassers who were damaging his crops. 🌾🚫"
+        ],
+        "past_continuous": [
+          "The children were running off in different directions when the teacher arrived. 👦👧💨",
+          "I was running off the last batch of flyers when the copier broke down. 📄❌",
+          "Water was running off the hillside during the entire rainstorm. ⛰️💧"
+        ],
+        "present_perfect": [
+          "My teenage son has run off three times this month to see his girlfriend. 😤💔",
+          "The secretary has run off all the documents we need for the conference. 📑✅",
+          "That aggressive dog has run off every mail carrier who comes near the property. 📬🐕"
+        ],
+        "present_perfect_continuous": [
+          "The factory has been running off defective products all week due to faulty equipment. 🏭❌",
+          "My neighbor's sprinkler has been running off water onto my driveway for hours. 💦🚗",
+          "The kids have been running off to the playground every afternoon after school. 🏫➡️🎮"
+        ],
+        "past_perfect": [
+          "By the time police arrived, the suspects had already run off into the night. 🚔🌙",
+          "She had run off fifty invitations before realizing the date was wrong. 💌😰",
+          "The bear had run off the campers before park rangers could intervene. 🐻⛺"
+        ],
+        "past_perfect_continuous": [
+          "The printing press had been running off newspapers for six hours before overheating. 📰🔥",
+          "Rainwater had been running off the saturated ground for days before the flood. 🌧️🌊",
+          "He had been running off every morning at dawn to avoid confronting his problems. 🏃‍♂️🌅"
+        ],
+        "simple_future": [
+          "If you keep yelling at customers, you will run off all the business eventually. 😡💼",
+          "The copy center will run off your posters by tomorrow afternoon. 🖼️✅",
+          "The deer will run off the moment they sense any human presence nearby. 🦌👃"
+        ],
+        "future_continuous": [
+          "This time tomorrow, the machines will be running off thousands of units per hour. 🏭⚙️",
+          "By noon, the melted snow will be running off the roof in streams. ❄️➡️💧",
+          "The children will be running off to their friends' houses as soon as school ends. 🏫👋"
+        ],
+        "future_perfect": [
+          "By midnight, the suspect will have run off to another state completely. 🚗🗺️",
+          "By Monday morning, we will have run off all the necessary training materials. 📚🖨️",
+          "By spring, the harsh winter will have run off most of the migratory birds. 🐦❄️"
+        ],
+        "future_perfect_continuous": [
+          "By next year, this unreliable behavior will have been running off friends for a decade. 😔👥",
+          "By tomorrow, the printer will have been running off documents for 24 hours straight. 🖨️⏰",
+          "By the time summer arrives, snowmelt will have been running off the mountains for months. 🏔️💧"
+        ],
+        "modal_perfect_should": [
+          "You should've run off copies of the contract before the meeting started. 📄⏰",
+          "The security guard should've stopped them before they ran off with the merchandise. 🛡️🏃",
+          "We should've installed better drainage so rain wouldn't run off onto the sidewalk. 🌧️🚶"
+        ],
+        "modal_perfect_could": [
+          "The thief could've been caught if he hadn't run off so quickly through the alley. 🏃‍♂️💨",
+          "I could've run off more handouts if someone had told me we needed extras. 📋🤷",
+          "The protesters could've run off the politician if security hadn't intervened immediately. 🛡️👮"
+        ],
+        "modal_perfect_would": [
+          "The horse wouldn't have run off if you had properly secured the gate last night. 🐴🚪",
+          "She would've run off the entire document if the printer hadn't jammed halfway. 🖨️😤",
+          "The water wouldn't have run off so fast if we had planted grass on the slope. 🌱⛰️"
+        ],
+        "modal_perfect_might": [
+          "He might've run off with someone else; nobody has seen him in weeks. 💔🤔",
+          "The assistant might've already run off those copies you requested this morning. 📄✅",
+          "The wild animals might've run off because of all the construction noise recently. 🏗️🦊"
+        ]
+      },
+      "additional_contexts": [
+        "Don't let the dog run off without his leash in this busy neighborhood! 🐕⚠️",
+        "Can you run off ten copies of this contract before the clients arrive? 📑🖨️",
+        "The rude manager runs off good employees with his constant criticism and micromanagement. 😠💼",
+        "Water always runs off this driveway into the neighbor's yard after heavy rain. 💧🏡",
+        "My daughter ran off with her boyfriend against our wishes last summer. 💔😢"
+      ]
+    },
+    {
+      "expression": "Drive up",
+      "ipa": "/draɪv ʌp/",
+      "meaning_en": "to cause something to increase (prices, costs, numbers); to arrive in a vehicle; to approach in a car",
+      "meaning_es": "causar que algo aumente (precios, costos, números); llegar en un vehículo; acercarse en un auto",
+      "emoji": "🚗📈",
+      "origin_en": "Combination of 'drive' (Old English 'drifan' meaning to propel) and 'up' (Old English 'upp'). The literal meaning of arriving by vehicle dates to the automobile era, while the figurative meaning of increasing costs emerged in the 20th century from economic contexts.",
+      "origin_es": "Combinación de 'drive' (inglés antiguo 'drifan' que significa propulsar) y 'up' (inglés antiguo 'upp'). El significado literal de llegar en vehículo data de la era del automóvil, mientras que el significado figurado de aumentar costos surgió en el siglo XX de contextos económicos.",
+      "tense_examples": {
+        "simple_present": [
+          "High demand always drives up prices during the holiday shopping season. 🛍️💰",
+          "My neighbor drives up in his fancy sports car every evening at six. 🏎️⏰",
+          "Inflation drives up the cost of living year after year consistently. 📈💸"
+        ],
+        "present_continuous": [
+          "Gas shortages are driving up fuel prices to unprecedented levels nationwide. ⛽📊",
+          "A black limousine is driving up to the hotel entrance right now. 🚗🏨",
+          "The housing crisis is driving up rent costs in major cities dramatically. 🏠💰"
+        ],
+        "simple_past": [
+          "The pandemic drove up grocery prices by 30 percent last year. 🛒📈",
+          "She drove up to the drive-through window and ordered her usual coffee. ☕🚗",
+          "Supply chain issues drove up manufacturing costs across all industries. 🏭💵"
+        ],
+        "past_continuous": [
+          "Speculation was driving up stock prices artificially before the crash happened. 📉💹",
+          "While I was waiting, a taxi was driving up to drop off passengers. 🚕👥",
+          "Competition for talent was driving up salaries in the tech sector rapidly. 💻💰"
+        ],
+        "present_perfect": [
+          "Climate change has driven up insurance premiums in coastal areas significantly. 🌊💸",
+          "A delivery truck has just driven up with our furniture order. 🚚🛋️",
+          "Rising energy costs have driven up production expenses for all manufacturers. ⚡💰"
+        ],
+        "present_perfect_continuous": [
+          "Investors have been driving up cryptocurrency values for months with speculation. 💎📈",
+          "Cars have been driving up to the testing site all morning long. 🚗🏥",
+          "Tariffs have been driving up import costs since the trade war began. 🌍💵"
+        ],
+        "past_perfect": [
+          "By 2020, increased demand had already driven up real estate prices dramatically. 🏘️💰",
+          "Before anyone noticed, the suspicious vehicle had driven up and parked nearby. 🚙👀",
+          "War had driven up oil prices before the government intervened with reserves. 🛢️📊"
+        ],
+        "past_perfect_continuous": [
+          "Scarcity had been driving up diamond prices for decades before lab-grown alternatives appeared. 💎⚗️",
+          "The delivery van had been driving up and down the street looking for the address. 🚐🔍",
+          "Speculation had been driving up housing costs for years before the bubble burst. 🏠💥"
+        ],
+        "simple_future": [
+          "New regulations will drive up compliance costs for small businesses considerably. 📋💰",
+          "The pizza delivery guy will drive up any minute now with our order. 🍕🚗",
+          "Higher wages will drive up consumer prices across the entire economy. 💵📈"
+        ],
+        "future_continuous": [
+          "By this time tomorrow, increased demand will be driving up hotel prices citywide. 🏨💸",
+          "Guests will be driving up to the venue throughout the afternoon for the wedding. 💒🚗",
+          "Labor shortages will be driving up salaries in healthcare for years to come. 🏥💰"
+        ],
+        "future_perfect": [
+          "By next quarter, inflation will have driven up all consumer goods prices. 🛒📊",
+          "By the time you finish reading this, another Uber will have driven up outside. 🚗📱",
+          "By 2030, climate change will have driven up disaster insurance costs exponentially. 🌪️💸"
+        ],
+        "future_perfect_continuous": [
+          "By next year, rising costs will have been driving up prices for five years straight. 📈⏰",
+          "By midnight, party guests will have been driving up to the mansion all evening long. 🎉🏰",
+          "By next decade, demand will have been driving up rare earth metal prices for years. ⛏️💰"
+        ],
+        "modal_perfect_should": [
+          "The government should've prevented monopolies from driving up prices so aggressively. 🏛️💸",
+          "You should've called before driving up unannounced to their house. 📞🚗",
+          "Companies should've anticipated how tariffs would drive up their production costs. 🏭📊"
+        ],
+        "modal_perfect_could": [
+          "Better planning could've prevented shortages from driving up prices so dramatically. 📋💰",
+          "They could've driven up earlier to avoid the terrible rush hour traffic. 🚗⏰",
+          "Improved efficiency could've stopped operational costs from driving up profits margins. 💼📉"
+        ],
+        "modal_perfect_would": [
+          "Without government intervention, speculators would've driven up food prices dangerously. 🌾💸",
+          "I would've driven up to visit if my car hadn't broken down yesterday. 🚗🔧",
+          "Competition wouldn't have driven up salaries if there weren't such labor shortages. 💼👥"
+        ],
+        "modal_perfect_might": [
+          "The new taxes might've driven up retail prices more than economists predicted. 🏪💰",
+          "Someone suspicious might've driven up while we were out shopping. 🚗🤔",
+          "Bad weather might've driven up heating costs this winter across the region. ❄️⛽"
+        ]
+      },
+      "additional_contexts": [
+        "Limited supply always drives up demand and creates artificial scarcity in markets. 📊💎",
+        "I watched nervously as the police car drove up and parked right outside my house. 👮🚔",
+        "Corporate greed continues to drive up prescription drug prices despite public outcry. 💊💰",
+        "A white van just drove up and started unloading boxes at the neighbor's door. 📦🚐",
+        "Rising production costs inevitably drive up the final price consumers pay for goods. 🏭🛒"
+      ]
+    },
+    {
+      "expression": "Come along",
+      "ipa": "/kʌm əˈlɔːŋ/",
+      "meaning_en": "To go somewhere with someone; to make progress; to appear or arrive; to develop or improve",
+      "meaning_es": "Ir a algún lugar con alguien; hacer progreso; aparecer o llegar; desarrollarse o mejorar",
+      "emoji": "👫🚶",
+      "origin_en": "From Middle English 'comen' (to come) + Old English 'andlang' (along). This phrasal verb emerged in the 14th century. It combines the motion of 'come' with the directional sense of 'along' to express accompaniment, progress, or arrival.",
+      "origin_es": "Del inglés medio 'comen' (venir) + inglés antiguo 'andlang' (a lo largo). Este phrasal verb surgió en el siglo XIV. Combina el movimiento de 'come' con el sentido direccional de 'along' para expresar acompañamiento, progreso o llegada.",
+      "tense_examples": {
+        "simple_present": [
+          "My younger sister always comes along when we go to the movies. 🎬👧",
+          "Opportunities like this rarely come along in life. 🍀✨",
+          "Her language skills come along nicely with consistent practice every day. 📚💪"
+        ],
+        "present_continuous": [
+          "The renovation project is coming along faster than we originally expected. 🏗️⏱️",
+          "Are you coming along to the conference or staying here? 🎤❓",
+          "My grandmother's recovery is coming along well after the surgery. 🏥😊"
+        ],
+        "simple_past": [
+          "A rare job opportunity came along just when I needed it most. 💼🎯",
+          "My best friend came along to support me during the interview. 🤝💪",
+          "The garden really came along after we installed the irrigation system. 🌱💧"
+        ],
+        "past_continuous": [
+          "Everything was coming along perfectly until the unexpected problems started. ✅➡️❌",
+          "Several investors were coming along to tour the facility that morning. 💼🏭",
+          "My painting skills were coming along gradually through daily practice sessions. 🎨📈"
+        ],
+        "present_perfect": [
+          "No better candidate has come along despite months of searching. 🔍😔",
+          "My parents have come along to every single one of my performances. 👏❤️",
+          "Your Spanish pronunciation has really come along since you started lessons. 🗣️🇪🇸"
+        ],
+        "present_perfect_continuous": [
+          "The construction has been coming along smoothly for the past six months. 🏗️✅",
+          "She has been coming along to our book club meetings regularly lately. 📚☕",
+          "His confidence has been coming along steadily since he started therapy. 🧠💪"
+        ],
+        "past_perfect": [
+          "By December, the project had come along much further than anticipated. 📊🚀",
+          "Nobody interesting had come along before I met you at the party. 💕✨",
+          "My cooking skills had barely come along before I moved out alone. 🍳😅"
+        ],
+        "past_perfect_continuous": [
+          "The negotiations had been coming along well before the sudden breakdown occurred. 🤝➡️💔",
+          "My nephew had been coming along to rehearsals for weeks before the show. 🎭⏰",
+          "The patient's condition had been coming along nicely before the unexpected relapse. 🏥📉"
+        ],
+        "simple_future": [
+          "Would you like to come along with us to the concert tonight? 🎵👥",
+          "Another chance will come along eventually if you remain patient. ⏰🍀",
+          "Your skills will come along naturally with more experience and time. 💪📚"
+        ],
+        "future_continuous": [
+          "Several experts will be coming along to consult on the project tomorrow. 👨‍🔬📋",
+          "Don't worry, your fitness will be coming along quickly with this routine. 💪⏱️",
+          "New opportunities will be coming along as the economy recovers gradually. 📈💼"
+        ],
+        "future_perfect": [
+          "By summer, your garden will have come along beautifully with proper care. 🌻☀️",
+          "Another potential buyer will have come along by the time we decide. 🏡💰",
+          "By graduation, your thesis will have come along significantly from its draft. 📜🎓"
+        ],
+        "future_perfect_continuous": [
+          "By next month, this project will have been coming along for an entire year. 📅🏗️",
+          "By Christmas, she will have been coming along to our meetings for five years. 🎄👥",
+          "By spring, the renovations will have been coming along for eight months straight. 🏠⏰"
+        ],
+        "modal_perfect_should": [
+          "You should've come along instead of staying home alone all weekend. 🏠😔",
+          "The repairs should've come along faster with more experienced workers. 🔧⏱️",
+          "I should've asked if anyone wanted to come along before leaving. 🚗❓"
+        ],
+        "modal_perfect_could": [
+          "You could've come along if you had mentioned wanting to join us. 👥🤷",
+          "The project could've come along quicker with adequate funding initially. 💰📊",
+          "A better opportunity could've come along if we had waited longer. ⏰✨"
+        ],
+        "modal_perfect_would": [
+          "I would've come along but I had other commitments that day. 📅😔",
+          "Your skills would've come along faster with professional instruction earlier. 👨‍🏫💪",
+          "She would've come along if someone had actually invited her properly. 💌😕"
+        ],
+        "modal_perfect_might": [
+          "She might've come along if the weather had been better yesterday. 🌧️❓",
+          "The project might've come along better without so many unexpected delays. 🏗️⏰",
+          "A perfect candidate might've come along while we were on vacation. 💼✈️"
+        ]
+      },
+      "additional_contexts": [
+        "Why don't you come along and see for yourself what the event is really like? 🎪👀",
+        "The patient's recovery is coming along remarkably well considering the severity of injuries. 🏥💪",
+        "A once-in-a-lifetime opportunity just came along and I couldn't refuse it. ✨💼",
+        "Come along now, children, we don't want to be late for school! 🏫⏰",
+        "My photography skills have really come along since I invested in professional equipment. 📷🎯"
+      ]
+    },
+    {
+      "expression": "Get along",
+      "ipa": "/ɡɛt əˈlɔːŋ/",
+      "meaning_en": "To have a friendly relationship with someone; to manage or cope; to make progress; to leave or depart (often used as a command to tell someone to go away)",
+      "meaning_es": "Tener una relación amistosa con alguien; arreglárselas o lidiar; hacer progreso; irse o partir (a menudo usado como orden para decirle a alguien que se vaya)",
+      "emoji": "🤝😊",
+      "origin_en": "From Old English 'getan' (to get, obtain) + Old English 'andlang' (along). This phrasal verb developed in the 16th century. Initially meant 'to proceed' or 'advance', but by the 18th century acquired the social meaning of having harmonious relations with others.",
+      "origin_es": "Del inglés antiguo 'getan' (obtener, conseguir) + inglés antiguo 'andlang' (a lo largo). Este phrasal verb se desarrolló en el siglo XVI. Inicialmente significaba 'proceder' o 'avanzar', pero en el siglo XVIII adquirió el significado social de tener relaciones armoniosas con otros.",
+      "tense_examples": {
+        "simple_present": [
+          "My coworkers and I get along really well despite our different backgrounds. 👥❤️",
+          "She somehow gets along on minimum wage in this expensive city. 💰🏙️",
+          "Our cats surprisingly get along perfectly with our new puppy. 🐱🐶"
+        ],
+        "present_continuous": [
+          "How are you getting along with your new roommate these days? 🏠❓",
+          "I'm getting along fine financially since I got that promotion. 💼📈",
+          "The team is getting along much better after the conflict resolution workshop. 🤝✨"
+        ],
+        "simple_past": [
+          "We got along instantly when we first met at the conference. 🤝⚡",
+          "My grandmother got along surprisingly well after my grandfather passed away. 👵💪",
+          "They never got along despite working together for five years straight. 😐⏰"
+        ],
+        "past_continuous": [
+          "Everyone was getting along peacefully before the argument erupted suddenly. ☮️➡️💥",
+          "I was getting along okay until my car broke down unexpectedly. 🚗💔",
+          "The departments were getting along poorly due to communication breakdowns constantly. 🗣️❌"
+        ],
+        "present_perfect": [
+          "We have always gotten along like siblings since childhood days. 👫👶",
+          "She has gotten along without a car for years in the suburbs. 🚗🚫",
+          "The neighbors have never gotten along because of constant noise complaints. 🔊😤"
+        ],
+        "present_perfect_continuous": [
+          "They have been getting along much better since attending couples therapy. 💑💕",
+          "I have been getting along fine on my own since the divorce. 💪🏠",
+          "The staff members have been getting along poorly for months now. 👥😞"
+        ],
+        "past_perfect": [
+          "By the time management intervened, the teams had stopped getting along entirely. 🤝➡️❌",
+          "She had gotten along well with everyone before the promotion changed dynamics. 📊🔄",
+          "We had always gotten along until money issues created serious tension. 💰😬"
+        ],
+        "past_perfect_continuous": [
+          "The roommates had been getting along perfectly for years before the betrayal. 🏠💔",
+          "I had been getting along well financially before losing my job suddenly. 💼📉",
+          "They had been getting along poorly since the beginning of the project. 🚧😔"
+        ],
+        "simple_future": [
+          "I'm sure you two will get along once you get to know each other better. 👥💕",
+          "How will you get along without your assistant during her maternity leave? 👶❓",
+          "The new team members will get along if we organize bonding activities. 🎯🤝"
+        ],
+        "future_continuous": [
+          "This time next month, we'll all be getting along like old friends. 👥⏰",
+          "Don't worry, you'll be getting along just fine in the new city. 🏙️✅",
+          "They'll be getting along better once the tension settles down naturally. 😌🕊️"
+        ],
+        "future_perfect": [
+          "By next year, they will have gotten along for an entire decade. 📅🎉",
+          "By retirement, she will have gotten along without asking for help once. 👵💪",
+          "By then, the departments will have gotten along better with new management. 📊👔"
+        ],
+        "future_perfect_continuous": [
+          "By our anniversary, we will have been getting along happily for twenty years. 💑💕",
+          "By next spring, they will have been getting along poorly for too long. 😔⏰",
+          "By December, I will have been getting along independently for twelve months. 💪📅"
+        ],
+        "modal_perfect_should": [
+          "They should've tried harder to get along for the children's sake. 👨‍👩‍👧💔",
+          "I should've realized earlier that we would never get along professionally. 💼😕",
+          "Management should've intervened when employees stopped getting along completely. 👔🚨"
+        ],
+        "modal_perfect_could": [
+          "We could've gotten along better if we had communicated more openly. 🗣️💕",
+          "She could've gotten along without borrowing money from family members. 💰👨‍👩‍👧",
+          "The project teams could've gotten along if they had shared common goals. 🎯🤝"
+        ],
+        "modal_perfect_would": [
+          "I would've gotten along fine without your constant interference honestly. 🙄✋",
+          "They would've gotten along if their personalities weren't so incompatible. 👥⚡",
+          "We would've gotten along better if you had been more respectful. 🤝💢"
+        ],
+        "modal_perfect_might": [
+          "The roommates might've gotten along better in a larger apartment space. 🏠📏",
+          "I might've gotten along financially if unexpected medical bills hadn't appeared. 🏥💸",
+          "The teams might've gotten along if leadership had fostered better communication. 👔🗣️"
+        ]
+      },
+      "additional_contexts": [
+        "Do you get along well with your in-laws or is there tension? 👨‍👩‍👧❓",
+        "I barely get along on this salary but I love the work too much to quit. 💰❤️",
+        "Our dogs get along wonderfully despite the age difference between them. 🐕🐶",
+        "Get along now, I have important work to finish before the deadline! 🚪⏰",
+        "Surprisingly, I get along better with my ex-husband now than when we were married. 💑➡️👥"
+      ]
+    },
+    {
+      "expression": "Drift apart",
+      "ipa": "/drɪft əˈpɑːrt/",
+      "meaning_en": "To gradually become less close in a relationship; to slowly lose connection or intimacy with someone over time due to changing interests, circumstances, or lack of communication",
+      "meaning_es": "Alejarse gradualmente en una relación; perder lentamente la conexión o intimidad con alguien con el tiempo debido a intereses cambiantes, circunstancias o falta de comunicación",
+      "emoji": "💔🌊",
+      "origin_en": "From Middle English 'driven' (to be driven by wind/water) + 'apart' (into pieces, separated). The phrasal verb emerged in the early 19th century. 'Drift' originally referred to being carried along by currents, and when combined with 'apart', it metaphorically describes the gradual, often unintentional separation that occurs in relationships without active effort to maintain closeness.",
+      "origin_es": "Del inglés medio 'driven' (ser llevado por viento/agua) + 'apart' (en pedazos, separado). El phrasal verb surgió a principios del siglo XIX. 'Drift' originalmente se refería a ser llevado por corrientes, y al combinarse con 'apart', describe metafóricamente la separación gradual, a menudo no intencional, que ocurre en las relaciones sin esfuerzo activo para mantener la cercanía.",
+      "tense_examples": {
+        "simple_present": [
+          "Old friends often drift apart when they move to different cities. 🏙️😔",
+          "Couples naturally drift apart without quality time together regularly. 💑⏰",
+          "I notice we drift apart whenever work gets too demanding. 💼📉"
+        ],
+        "present_continuous": [
+          "I feel like we're drifting apart since you started your new job. 💼😟",
+          "My siblings and I are drifting apart as we get older. 👨‍👩‍👧⏳",
+          "The band members are clearly drifting apart creatively this year. 🎸🎵"
+        ],
+        "simple_past": [
+          "We drifted apart after college despite our promises to stay close. 🎓💔",
+          "My childhood best friend and I drifted apart when she got married. 👰😔",
+          "The business partners drifted apart due to conflicting visions completely. 💼⚡"
+        ],
+        "past_continuous": [
+          "We were drifting apart slowly without even realizing it was happening. 🌊😕",
+          "They were drifting apart for months before the actual breakup occurred. 💑➡️💔",
+          "The family was drifting apart while everyone focused on their careers. 👨‍👩‍👧‍👦💼"
+        ],
+        "present_perfect": [
+          "We have drifted apart significantly since you moved abroad last year. ✈️😢",
+          "My parents have drifted apart emotionally after thirty years of marriage. 💍📉",
+          "The teammates have drifted apart since the coach left unexpectedly. ⚽👥"
+        ],
+        "present_perfect_continuous": [
+          "We have been drifting apart for months but nobody wants to admit it. 😔⏰",
+          "The cousins have been drifting apart since their grandmother passed away. 👵💔",
+          "Those two have been drifting apart ever since the argument at Christmas. 🎄😠"
+        ],
+        "past_perfect": [
+          "By the time they sought counseling, they had already drifted apart completely. 🛋️💔",
+          "We had drifted apart long before you moved to another state. 🏠➡️🏠",
+          "The friends had drifted apart years before their final painful conversation. 👥😢"
+        ],
+        "past_perfect_continuous": [
+          "They had been drifting apart for years before finally filing for divorce. 📝💔",
+          "We had been drifting apart gradually since high school ended abruptly. 🏫⏰",
+          "The siblings had been drifting apart for decades before reconnecting recently. 👨‍👩‍👧📅"
+        ],
+        "simple_future": [
+          "We will drift apart if we don't make more effort to stay connected. 📱💪",
+          "Distance relationships will drift apart without consistent communication daily. 🌍📞",
+          "The group will inevitably drift apart after graduation next month. 🎓👥"
+        ],
+        "future_continuous": [
+          "At this rate, we'll be drifting apart within the next few months. ⏰😔",
+          "They'll be drifting apart slowly as their careers pull them different directions. 💼🔄",
+          "Without intervention, these communities will be drifting apart culturally soon. 🏘️🌍"
+        ],
+        "future_perfect": [
+          "By next year, we will have drifted apart completely unfortunately. 📅💔",
+          "By the time you realize it, we will have drifted apart irreparably. ⏰😢",
+          "By their anniversary, they will have drifted apart emotionally and physically. 💍📉"
+        ],
+        "future_perfect_continuous": [
+          "By December, we will have been drifting apart for an entire year. 📅🌊",
+          "By summer, they will have been drifting apart for too long to repair. ☀️💔",
+          "By retirement, those colleagues will have been drifting apart for decades. 👔⏰"
+        ],
+        "modal_perfect_should": [
+          "We should've noticed we were drifting apart before it was too late. 😔⏰",
+          "They should've communicated better instead of just drifting apart silently. 🗣️💔",
+          "I should've made more effort before we drifted apart permanently. 💪😢"
+        ],
+        "modal_perfect_could": [
+          "We could've prevented drifting apart with more regular quality time together. ⏰💕",
+          "The friendship could've been saved if we hadn't drifted apart so completely. 🤝💔",
+          "They could've stayed close but work demands made them drift apart. 💼😔"
+        ],
+        "modal_perfect_would": [
+          "I would've tried harder if I'd known we were drifting apart. 💪😔",
+          "We wouldn't have drifted apart if you had been more emotionally available. 💑💔",
+          "The team wouldn't have drifted apart with stronger leadership throughout. 👔👥"
+        ],
+        "modal_perfect_might": [
+          "We might've drifted apart anyway even if I had moved closer. 🏠❓",
+          "They might not have drifted apart if the accident hadn't changed everything. 🚗💔",
+          "The siblings might've drifted apart less if their parents were still alive. 👨‍👩‍👧😢"
+        ]
+      },
+      "additional_contexts": [
+        "It's heartbreaking to watch two people who were once inseparable slowly drift apart. 💔😭",
+        "My twin sister and I started to drift apart when we went to different universities. 👯‍♀️🎓",
+        "Don't let busy schedules cause you to drift apart from people you truly care about. 📅❤️",
+        "Many childhood friendships naturally drift apart as people develop different interests and values. 👶➡️👨",
+        "We promised we would never drift apart, but life had other plans for us. 🤝😔"
+      ]
     }
 
   ]
