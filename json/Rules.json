@@ -1,6 +1,36 @@
 {
  "rules": [
    {
+     "rule_name": "There is/are - Existence Across All Tenses",
+     "emoji": "📋✨",
+     "explanation_en": "Complete reference for expressing existence in all English tenses, including perfect tenses and modal perfects (should/could/would/might have). Essential for describing what exists now, existed before, or will exist in the future.",
+     "explanation_es": "Referencia completa para expresar existencia en todos los tiempos del inglés, incluyendo tiempos perfectos y modales perfectos (should/could/would/might have). Esencial para describir lo que existe ahora, existió antes, o existirá en el futuro.",
+     "structure": {
+       "present": "There is/are + noun",
+       "past": "There was/were + noun",
+       "future": "There will be + noun",
+       "present_perfect": "There has/have been + noun",
+       "past_perfect": "There had been + noun",
+       "future_perfect": "There will have been + noun",
+       "would_have": "There would have been + noun",
+       "should_have": "There should have been + noun",
+       "could_have": "There could have been + noun",
+       "might_have": "There might have been + noun"
+     },
+     "examples": [
+       "Present: There is a book on the table. / There are many students here.",
+       "Past: There was a party last night. / There were problems yesterday.",
+       "Future: There will be consequences. / There will be many opportunities.",
+       "Present Perfect: There has been an accident. / There have been complaints.",
+       "Past Perfect: There had been warnings before the storm.",
+       "Future Perfect: By 2030, there will have been many changes.",
+       "Would Have: If you had come earlier, there would have been food.",
+       "Should Have: There should have been more security at the event.",
+       "Could Have: There could have been serious injuries in that accident.",
+       "Might Have: There might have been a misunderstanding."
+     ]
+   },
+   {
      "rule_name": "Sentence Core Elements (S-V-O-A-N-P)",
      "emoji": "🧱🧠",
      "structure": {

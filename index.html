@@ -5,6 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>📚 English Learning Reference Guide</title>
     <style>
+        :root {
+            --primary-color: #667eea;
+            --secondary-color: #764ba2;
+            --bg-gradient-start: #667eea;
+            --bg-gradient-end: #764ba2;
+            --container-bg: #ffffff;
+            --text-color: #333333;
+            --text-secondary: #6c757d;
+            --border-color: #e9ecef;
+            --card-bg: #ffffff;
+            --card-hover-shadow: rgba(102, 126, 234, 0.2);
+            --input-bg: #ffffff;
+            --section-bg: #f8f9fa;
+            --success-bg: #d4edda;
+            --success-border: #28a745;
+            --success-text: #155724;
+            --error-bg: #f8d7da;
+            --error-border: #dc3545;
+            --error-text: #721c24;
+            --warning-bg: #fff3cd;
+            --warning-border: #ffc107;
+            --example-bg: #e7f5ff;
+            --example-border: #0077cc;
+        }
+
+        [data-theme="dark"] {
+            --primary-color: #8b9dff;
+            --secondary-color: #9d7bc4;
+            --bg-gradient-start: #1a1a2e;
+            --bg-gradient-end: #16213e;
+            --container-bg: #0f1419;
+            --text-color: #e4e4e7;
+            --text-secondary: #a1a1aa;
+            --border-color: #27272a;
+            --card-bg: #1a1d24;
+            --card-hover-shadow: rgba(139, 157, 255, 0.3);
+            --input-bg: #1a1d24;
+            --section-bg: #13161c;
+            --success-bg: #1a3a2a;
+            --success-border: #4ade80;
+            --success-text: #86efac;
+            --error-bg: #3a1a1a;
+            --error-border: #f87171;
+            --error-text: #fca5a5;
+            --warning-bg: #3a3020;
+            --warning-border: #fbbf24;
+            --example-bg: #1a2a3a;
+            --example-border: #38bdf8;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -13,25 +63,58 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
             min-height: 100vh;
             padding: 20px;
+            color: var(--text-color);
+            transition: background 0.3s ease, color 0.3s ease;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            background: white;
+            background: var(--container-bg);
             border-radius: 20px;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
             overflow: hidden;
+            transition: background 0.3s ease;
         }
 
         header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
             color: white;
             padding: 30px;
             text-align: center;
+            position: relative;
+        }
+
+        .header-controls {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .theme-toggle {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .theme-toggle:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: scale(1.05);
         }
 
         header h1 {
@@ -46,8 +129,9 @@
 
         .search-section {
             padding: 30px;
-            background: #f8f9fa;
-            border-bottom: 2px solid #e9ecef;
+            background: var(--section-bg);
+            border-bottom: 2px solid var(--border-color);
+            transition: background 0.3s ease;
         }
 
         .search-box {
@@ -60,14 +144,16 @@
             width: 100%;
             padding: 15px 50px 15px 20px;
             font-size: 16px;
-            border: 2px solid #667eea;
+            border: 2px solid var(--primary-color);
             border-radius: 50px;
             outline: none;
             transition: all 0.3s;
+            background: var(--input-bg);
+            color: var(--text-color);
         }
 
         .search-input:focus {
-            border-color: #764ba2;
+            border-color: var(--secondary-color);
             box-shadow: 0 0 0 3px rgba(118, 75, 162, 0.1);
         }
 
@@ -77,7 +163,7 @@
             top: 50%;
             transform: translateY(-50%);
             font-size: 20px;
-            color: #667eea;
+            color: var(--primary-color);
         }
 
         .filters {
@@ -90,9 +176,9 @@
 
         .filter-btn {
             padding: 8px 20px;
-            border: 2px solid #667eea;
-            background: white;
-            color: #667eea;
+            border: 2px solid var(--primary-color);
+            background: var(--card-bg);
+            color: var(--primary-color);
             border-radius: 20px;
             cursor: pointer;
             transition: all 0.3s;
@@ -100,17 +186,19 @@
         }
 
         .filter-btn:hover {
-            background: #667eea;
+            background: var(--primary-color);
             color: white;
         }
 
         .filter-btn.active {
-            background: #667eea;
+            background: var(--primary-color);
             color: white;
         }
 
         .content-section {
             padding: 30px;
+            background: var(--container-bg);
+            transition: background 0.3s ease;
         }
 
         .category {
@@ -123,7 +211,7 @@
             gap: 10px;
             margin-bottom: 20px;
             padding: 15px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
             color: white;
             border-radius: 10px;
             cursor: pointer;
@@ -152,6 +240,10 @@
             display: none;
         }
 
+        #existenceSection.collapsed .toggle-icon {
+            transform: rotate(-90deg);
+        }
+
         .items {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -159,18 +251,19 @@
         }
 
         .item {
-            background: white;
-            border: 2px solid #e9ecef;
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
             border-radius: 15px;
             padding: 20px;
             transition: all 0.3s;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
         }
 
         .item:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.2);
-            border-color: #667eea;
+            box-shadow: 0 8px 20px var(--card-hover-shadow);
+            border-color: var(--primary-color);
         }
 
         .item.hidden {
@@ -180,33 +273,41 @@
         .item-title {
             font-size: 1.3em;
             font-weight: bold;
-            color: #667eea;
+            color: var(--primary-color);
             margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
         .item-ipa {
-            color: #6c757d;
+            color: var(--text-secondary);
             font-style: italic;
             margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
 
         .item-meaning {
             margin: 10px 0;
             padding: 10px;
-            background: #f8f9fa;
+            background: var(--section-bg);
             border-radius: 8px;
+            transition: background 0.3s ease;
         }
 
         .item-meaning strong {
-            color: #764ba2;
+            color: var(--secondary-color);
         }
 
         .item-origin {
             margin: 10px 0;
             padding: 10px;
-            background: #fff3cd;
+            background: var(--warning-bg);
             border-radius: 8px;
-            border-left: 4px solid #ffc107;
+            border-left: 4px solid var(--warning-border);
+            transition: background 0.3s ease;
         }
 
         .item-examples {
@@ -214,29 +315,31 @@
         }
 
         .item-examples strong {
-            color: #28a745;
+            color: var(--success-border);
         }
 
         .example {
             padding: 8px 12px;
-            background: #e7f5ff;
+            background: var(--example-bg);
             border-radius: 5px;
             margin: 5px 0;
-            border-left: 3px solid #0077cc;
+            border-left: 3px solid var(--example-border);
+            transition: background 0.3s ease;
         }
 
         .item-structure {
-            background: #d4edda;
+            background: var(--success-bg);
             padding: 10px;
             border-radius: 8px;
             margin: 10px 0;
-            border-left: 4px solid #28a745;
+            border-left: 4px solid var(--success-border);
+            transition: background 0.3s ease;
         }
 
         .no-results {
             text-align: center;
             padding: 60px 20px;
-            color: #6c757d;
+            color: var(--text-secondary);
             font-size: 1.2em;
         }
 
@@ -249,9 +352,10 @@
             justify-content: center;
             gap: 30px;
             padding: 20px;
-            background: #f8f9fa;
+            background: var(--section-bg);
             border-radius: 10px;
             margin-bottom: 30px;
+            transition: background 0.3s ease;
         }
 
         .stat {
@@ -261,12 +365,56 @@
         .stat-number {
             font-size: 2em;
             font-weight: bold;
-            color: #667eea;
+            color: var(--primary-color);
         }
 
         .stat-label {
-            color: #6c757d;
+            color: var(--text-secondary);
             font-size: 0.9em;
+        }
+
+        .audio-btn {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2em;
+            padding: 4px 8px;
+            border-radius: 50%;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .audio-btn:hover {
+            background: var(--section-bg);
+            transform: scale(1.1);
+        }
+
+        .audio-btn:active {
+            transform: scale(0.95);
+        }
+
+        .favorite-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 1.5em;
+            padding: 5px;
+            transition: all 0.3s;
+            opacity: 0.5;
+        }
+
+        .favorite-btn:hover {
+            opacity: 1;
+            transform: scale(1.2);
+        }
+
+        .favorite-btn.active {
+            opacity: 1;
         }
 
         @media (max-width: 768px) {
@@ -276,6 +424,12 @@
 
             header h1 {
                 font-size: 1.8em;
+            }
+
+            .header-controls {
+                position: static;
+                justify-content: center;
+                margin-top: 15px;
             }
 
             .filters {
@@ -291,11 +445,89 @@
             background-color: yellow;
             font-weight: bold;
         }
+
+        .tense-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: var(--card-bg);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease;
+        }
+
+        .tense-table th {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .tense-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-color);
+        }
+
+        .tense-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .tense-table tr:hover {
+            background: var(--section-bg);
+        }
+
+        .tense-section {
+            margin: 30px 0;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 15px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease;
+        }
+
+        .tense-title {
+            font-size: 1.5em;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        #existenceSection {
+            max-width: 100%;
+            overflow-x: auto;
+        }
+
+        @media (max-width: 768px) {
+            .tense-table {
+                font-size: 0.9em;
+            }
+
+            .tense-table th,
+            .tense-table td {
+                padding: 8px 10px;
+            }
+
+            .stat-number {
+                font-size: 2em;
+                font-weight: bold;
+                color: var(--primary-color);
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
+            <div class="header-controls">
+                <button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode">
+                    <span id="themeIcon">🌙</span>
+                    <span id="themeText">Dark</span>
+                </button>
+            </div>
             <h1>📚 English Learning Reference Guide</h1>
             <p>A comprehensive collection of English idioms, phrasal verbs, grammar rules, and vocabulary</p>
         </header>
@@ -313,6 +545,7 @@
             </div>
             <div class="filters">
                 <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="existence">There is/are & Tenses 📋</button>
                 <button class="filter-btn" data-filter="rules">Grammar Rules</button>
                 <button class="filter-btn" data-filter="idioms">Idioms</button>
                 <button class="filter-btn" data-filter="phrasal">Phrasal Verbs</button>
@@ -346,6 +579,509 @@
                 <p>Try a different search term or filter</p>
             </div>
 
+            <!-- EXISTENCE & TENSES SECTION -->
+            <div id="existenceSection" style="display: none; margin-bottom: 40px;">
+                <div class="category-header" onclick="toggleCategory('existenceSection')" style="cursor: pointer;">
+                    <h2>📋 There is/are & Perfect Tenses Reference</h2>
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div id="existenceContent" style="padding: 0 20px;">
+
+                    <!-- There is/are Table -->
+                    <div class="tense-section">
+                        <div class="tense-title">🔹 Existencia: "There is / There are" en Todos los Tiempos</div>
+                        <table class="tense-table">
+                            <thead>
+                                <tr>
+                                    <th>Tense / Structure</th>
+                                    <th>Singular</th>
+                                    <th>Plural</th>
+                                    <th>When to Use</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Present</strong></td>
+                                    <td>There is a problem.<br><em>Hay un problema.</em></td>
+                                    <td>There are two problems.<br><em>Hay dos problemas.</em></td>
+                                    <td>Use for things that exist NOW. ✅</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Past</strong></td>
+                                    <td>There was a problem.<br><em>Había un problema.</em></td>
+                                    <td>There were two problems.<br><em>Había dos problemas.</em></td>
+                                    <td>For past existence. ⏮️</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Future</strong></td>
+                                    <td>There will be a problem.<br><em>Habrá un problema.</em></td>
+                                    <td>There will be two problems.<br><em>Habrá dos problemas.</em></td>
+                                    <td>For future existence. ⏭️</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Present Perfect</strong></td>
+                                    <td>There has been a problem.<br><em>Ha habido un problema.</em></td>
+                                    <td>There have been problems.<br><em>Ha habido problemas.</em></td>
+                                    <td>For experiences or past situations connected to now. 🔗</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Past Perfect</strong></td>
+                                    <td>There had been a problem.<br><em>Había habido un problema.</em></td>
+                                    <td>There had been problems.<br><em>Había habido problemas.</em></td>
+                                    <td>For something that existed before another past event. ⏮️⏮️</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Future Perfect</strong></td>
+                                    <td>There will have been a problem.<br><em>Habrá habido un problema.</em></td>
+                                    <td>There will have been problems.<br><em>Habrá habido problemas.</em></td>
+                                    <td>Rare, but used for completed existence in the future. ⏭️✅</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Would Have</strong></td>
+                                    <td>There would have been a problem.<br><em>Habría habido un problema.</em></td>
+                                    <td>There would have been problems.<br><em>Habría habido problemas.</em></td>
+                                    <td>Third conditional situations. 🤔</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Should Have</strong></td>
+                                    <td>There should have been a problem.<br><em>Debería haber habido un problema.</em></td>
+                                    <td>There should have been problems.<br><em>Debería haber habido problemas.</em></td>
+                                    <td>Regret or criticism. 😔</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Could Have</strong></td>
+                                    <td>There could have been a problem.<br><em>Podría haber habido un problema.</em></td>
+                                    <td>There could have been problems.<br><em>Podría haber habido problemas.</em></td>
+                                    <td>Possibility in the past. 🤷</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Might Have</strong></td>
+                                    <td>There might have been a problem.<br><em>Podría haber habido un problema.</em></td>
+                                    <td>There might have been problems.<br><em>Podría haber habido problemas.</em></td>
+                                    <td>Probability in the past. 🎲</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Present Perfect -->
+                    <div class="tense-section">
+                        <div class="tense-title">✅ 1️⃣ PRESENT PERFECT</div>
+                        <div class="item-meaning">
+                            <strong>Uso:</strong> Acción pasada con conexión al presente.
+                        </div>
+                        <table class="tense-table">
+                            <thead>
+                                <tr>
+                                    <th>Pronombre</th>
+                                    <th>Inglés</th>
+                                    <th>Español</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>I</strong></td>
+                                    <td>I have worked</td>
+                                    <td>Yo he trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>You</strong></td>
+                                    <td>You have worked</td>
+                                    <td>Tú has trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>He</strong></td>
+                                    <td>He has worked</td>
+                                    <td>Él ha trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>She</strong></td>
+                                    <td>She has worked</td>
+                                    <td>Ella ha trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>It</strong></td>
+                                    <td>It has worked</td>
+                                    <td>Eso ha trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>We</strong></td>
+                                    <td>We have worked</td>
+                                    <td>Nosotros hemos trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>They</strong></td>
+                                    <td>They have worked</td>
+                                    <td>Ellos han trabajado</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="item-meaning">
+                            <strong>Existencia:</strong><br>
+                            • There has been a problem (singular)<br>
+                            • There have been problems (plural)<br>
+                            = <strong>Ha habido</strong>
+                        </div>
+                    </div>
+
+                    <!-- Past Perfect -->
+                    <div class="tense-section">
+                        <div class="tense-title">✅ 2️⃣ PAST PERFECT</div>
+                        <div class="item-meaning">
+                            <strong>Uso:</strong> Pasado antes de otro pasado.
+                        </div>
+                        <table class="tense-table">
+                            <thead>
+                                <tr>
+                                    <th>Pronombre</th>
+                                    <th>Inglés</th>
+                                    <th>Español</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>I</strong></td>
+                                    <td>I had worked</td>
+                                    <td>Yo había trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>You</strong></td>
+                                    <td>You had worked</td>
+                                    <td>Tú habías trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>He</strong></td>
+                                    <td>He had worked</td>
+                                    <td>Él había trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>She</strong></td>
+                                    <td>She had worked</td>
+                                    <td>Ella había trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>It</strong></td>
+                                    <td>It had worked</td>
+                                    <td>Eso había trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>We</strong></td>
+                                    <td>We had worked</td>
+                                    <td>Nosotros habíamos trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>They</strong></td>
+                                    <td>They had worked</td>
+                                    <td>Ellos habían trabajado</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="item-meaning">
+                            <strong>Existencia:</strong><br>
+                            • There had been a problem<br>
+                            = <strong>Había habido</strong>
+                        </div>
+                    </div>
+
+                    <!-- Future Perfect -->
+                    <div class="tense-section">
+                        <div class="tense-title">✅ 3️⃣ FUTURE PERFECT</div>
+                        <div class="item-meaning">
+                            <strong>Uso:</strong> Algo terminado antes de un momento futuro.
+                        </div>
+                        <table class="tense-table">
+                            <thead>
+                                <tr>
+                                    <th>Pronombre</th>
+                                    <th>Inglés</th>
+                                    <th>Español</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>I</strong></td>
+                                    <td>I will have worked</td>
+                                    <td>Yo habré trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>You</strong></td>
+                                    <td>You will have worked</td>
+                                    <td>Tú habrás trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>He</strong></td>
+                                    <td>He will have worked</td>
+                                    <td>Él habrá trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>She</strong></td>
+                                    <td>She will have worked</td>
+                                    <td>Ella habrá trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>It</strong></td>
+                                    <td>It will have worked</td>
+                                    <td>Eso habrá trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>We</strong></td>
+                                    <td>We will have worked</td>
+                                    <td>Nosotros habremos trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>They</strong></td>
+                                    <td>They will have worked</td>
+                                    <td>Ellos habrán trabajado</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="item-meaning">
+                            <strong>Existencia:</strong><br>
+                            • There will have been<br>
+                            = <strong>Habrá habido</strong>
+                        </div>
+                    </div>
+
+                    <!-- Would Have -->
+                    <div class="tense-section">
+                        <div class="tense-title">✅ 4️⃣ WOULD HAVE</div>
+                        <div class="item-meaning">
+                            <strong>Uso:</strong> Hipótesis pasada (third conditional).
+                        </div>
+                        <table class="tense-table">
+                            <thead>
+                                <tr>
+                                    <th>Pronombre</th>
+                                    <th>Inglés</th>
+                                    <th>Español</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>I</strong></td>
+                                    <td>I would have worked</td>
+                                    <td>Yo habría trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>You</strong></td>
+                                    <td>You would have worked</td>
+                                    <td>Tú habrías trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>He</strong></td>
+                                    <td>He would have worked</td>
+                                    <td>Él habría trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>She</strong></td>
+                                    <td>She would have worked</td>
+                                    <td>Ella habría trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>It</strong></td>
+                                    <td>It would have worked</td>
+                                    <td>Eso habría trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>We</strong></td>
+                                    <td>We would have worked</td>
+                                    <td>Nosotros habríamos trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>They</strong></td>
+                                    <td>They would have worked</td>
+                                    <td>Ellos habrían trabajado</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="item-meaning">
+                            <strong>Existencia:</strong><br>
+                            • There would have been<br>
+                            = <strong>Habría habido</strong>
+                        </div>
+                    </div>
+
+                    <!-- Should Have -->
+                    <div class="tense-section">
+                        <div class="tense-title">✅ 5️⃣ SHOULD HAVE</div>
+                        <div class="item-meaning">
+                            <strong>Uso:</strong> Arrepentimiento o crítica.
+                        </div>
+                        <table class="tense-table">
+                            <thead>
+                                <tr>
+                                    <th>Pronombre</th>
+                                    <th>Inglés</th>
+                                    <th>Español</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>I</strong></td>
+                                    <td>I should have worked</td>
+                                    <td>Yo debería haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>You</strong></td>
+                                    <td>You should have worked</td>
+                                    <td>Tú deberías haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>He</strong></td>
+                                    <td>He should have worked</td>
+                                    <td>Él debería haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>She</strong></td>
+                                    <td>She should have worked</td>
+                                    <td>Ella debería haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>It</strong></td>
+                                    <td>It should have worked</td>
+                                    <td>Eso debería haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>We</strong></td>
+                                    <td>We should have worked</td>
+                                    <td>Nosotros deberíamos haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>They</strong></td>
+                                    <td>They should have worked</td>
+                                    <td>Ellos deberían haber trabajado</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="item-meaning">
+                            <strong>Existencia:</strong><br>
+                            • There should have been<br>
+                            = <strong>Debería haber habido</strong>
+                        </div>
+                    </div>
+
+                    <!-- Could Have -->
+                    <div class="tense-section">
+                        <div class="tense-title">✅ 6️⃣ COULD HAVE</div>
+                        <div class="item-meaning">
+                            <strong>Uso:</strong> Posibilidad pasada.
+                        </div>
+                        <table class="tense-table">
+                            <thead>
+                                <tr>
+                                    <th>Pronombre</th>
+                                    <th>Inglés</th>
+                                    <th>Español</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>I</strong></td>
+                                    <td>I could have worked</td>
+                                    <td>Yo podría haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>You</strong></td>
+                                    <td>You could have worked</td>
+                                    <td>Tú podrías haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>He</strong></td>
+                                    <td>He could have worked</td>
+                                    <td>Él podría haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>She</strong></td>
+                                    <td>She could have worked</td>
+                                    <td>Ella podría haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>It</strong></td>
+                                    <td>It could have worked</td>
+                                    <td>Eso podría haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>We</strong></td>
+                                    <td>We could have worked</td>
+                                    <td>Nosotros podríamos haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>They</strong></td>
+                                    <td>They could have worked</td>
+                                    <td>Ellos podrían haber trabajado</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="item-meaning">
+                            <strong>Existencia:</strong><br>
+                            • There could have been<br>
+                            = <strong>Podría haber habido</strong>
+                        </div>
+                    </div>
+
+                    <!-- Might Have -->
+                    <div class="tense-section">
+                        <div class="tense-title">✅ 7️⃣ MIGHT HAVE</div>
+                        <div class="item-meaning">
+                            <strong>Uso:</strong> Probabilidad pasada.
+                        </div>
+                        <table class="tense-table">
+                            <thead>
+                                <tr>
+                                    <th>Pronombre</th>
+                                    <th>Inglés</th>
+                                    <th>Español</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>I</strong></td>
+                                    <td>I might have worked</td>
+                                    <td>Yo podría haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>You</strong></td>
+                                    <td>You might have worked</td>
+                                    <td>Tú podrías haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>He</strong></td>
+                                    <td>He might have worked</td>
+                                    <td>Él podría haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>She</strong></td>
+                                    <td>She might have worked</td>
+                                    <td>Ella podría haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>It</strong></td>
+                                    <td>It might have worked</td>
+                                    <td>Eso podría haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>We</strong></td>
+                                    <td>We might have worked</td>
+                                    <td>Nosotros podríamos haber trabajado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>They</strong></td>
+                                    <td>They might have worked</td>
+                                    <td>Ellos podrían haber trabajado</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="item-meaning">
+                            <strong>Existencia:</strong><br>
+                            • There might have been<br>
+                            = <strong>Podría haber habido</strong>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Exam Section -->
             <div id="examSection100" style="display: none; margin-bottom: 40px;">
                 <div class="category-header" style="cursor: default;">
                     <h2>📝 Exam (100)</h2>
@@ -430,11 +1166,28 @@
         // Load all JSON files
         async function loadData() {
             try {
+                // Check if we're using file:// protocol
+                if (window.location.protocol === 'file:') {
+                    console.warn('⚠️ Running from file:// protocol. Using a local server is recommended.');
+                }
+
                 const [rulesJson, idiomsJson, phrasalJson, wordsJson] = await Promise.all([
-                    fetch('json/Rules.json').then(r => r.json()),
-                    fetch('json/Idioms.json').then(r => r.json()),
-                    fetch('json/PhrasalVerb.json').then(r => r.json()),
-                    fetch('json/Words.json').then(r => r.json())
+                    fetch('json/Rules.json').then(r => {
+                        if (!r.ok) throw new Error(`HTTP error! status: ${r.status}`);
+                        return r.json();
+                    }),
+                    fetch('json/Idioms.json').then(r => {
+                        if (!r.ok) throw new Error(`HTTP error! status: ${r.status}`);
+                        return r.json();
+                    }),
+                    fetch('json/PhrasalVerb.json').then(r => {
+                        if (!r.ok) throw new Error(`HTTP error! status: ${r.status}`);
+                        return r.json();
+                    }),
+                    fetch('json/Words.json').then(r => {
+                        if (!r.ok) throw new Error(`HTTP error! status: ${r.status}`);
+                        return r.json();
+                    })
                 ]);
 
                 rulesData = rulesJson.rules || [];
@@ -446,7 +1199,22 @@
                 updateStats();
             } catch (error) {
                 console.error('Error loading data:', error);
-                alert('Error loading data. Please make sure all JSON files are in the json/ folder.');
+
+                // Show more helpful error message
+                let errorMsg = 'Error loading data.\n\n';
+
+                if (window.location.protocol === 'file:') {
+                    errorMsg += '🚨 SOLUTION:\n\n';
+                    errorMsg += '1. Open PowerShell in this folder\n';
+                    errorMsg += '2. Run: python -m http.server 8000\n';
+                    errorMsg += '3. Open: http://localhost:8000\n\n';
+                    errorMsg += 'OR use "Open with Live Server" in VS Code';
+                } else {
+                    errorMsg += 'Please make sure all JSON files are in the json/ folder.\n';
+                    errorMsg += 'Error details: ' + error.message;
+                }
+
+                alert(errorMsg);
             }
         }
 
@@ -456,6 +1224,7 @@
             renderIdioms();
             renderPhrasalVerbs();
             renderWords();
+            setTimeout(addAudioButtons, 100);
         }
 
         // Render Grammar Rules
@@ -491,27 +1260,28 @@
             container.innerHTML = idiomsData.map(idiom => {
                 // Handle both simple array examples and complex nested examples
                 let examplesHtml = '';
-                if (idiom.examples) {
-                    if (Array.isArray(idiom.examples) && idiom.examples.length > 0) {
+                if (idiom.examples || idiom.tense_examples) {
+                    const examplesList = idiom.examples || idiom.tense_examples;
+                    if (Array.isArray(examplesList) && examplesList.length > 0) {
                         // Simple array format
                         examplesHtml = `
                             <div class="item-examples">
-                                <strong>Examples:</strong>
-                                ${idiom.examples.map(ex => `<div class="example">${ex}</div>`).join('')}
+                                <strong>Examples:</strong> ${idiom.ipa ? `<small style="color: #6c757d; font-style: italic; font-weight: normal; margin-left: 10px;">${idiom.ipa}</small>` : ''}
+                                ${examplesList.map(ex => `<div class="example">${ex}</div>`).join('')}
                             </div>
                         `;
-                    } else if (typeof idiom.examples === 'object') {
+                    } else if (typeof examplesList === 'object') {
                         // Complex nested format with tenses
                         const allExamples = [];
-                        Object.keys(idiom.examples).forEach(tenseKey => {
-                            if (Array.isArray(idiom.examples[tenseKey])) {
-                                idiom.examples[tenseKey].forEach(ex => allExamples.push(ex));
+                        Object.keys(examplesList).forEach(tenseKey => {
+                            if (Array.isArray(examplesList[tenseKey])) {
+                                examplesList[tenseKey].forEach(ex => allExamples.push(ex));
                             }
                         });
                         if (allExamples.length > 0) {
                             examplesHtml = `
                                 <div class="item-examples">
-                                    <strong>Examples:</strong>
+                                    <strong>Examples:</strong> ${idiom.ipa ? `<small style="color: #6c757d; font-style: italic; font-weight: normal; margin-left: 10px;">${idiom.ipa}</small>` : ''}
                                     ${allExamples.slice(0, 10).map(ex => `<div class="example">${ex}</div>`).join('')}
                                     ${allExamples.length > 10 ? `<div class="example" style="text-align: center; font-style: italic; color: #667eea;">...and ${allExamples.length - 10} more examples</div>` : ''}
                                 </div>
@@ -520,7 +1290,7 @@
                     }
                 }
 
-                const searchText = `${(idiom.expression || '').toLowerCase()} ${(idiom.meaning_en || '').toLowerCase()} ${(idiom.meaning_es || '').toLowerCase()}`;
+                const searchText = `${(idiom.expression || '').toLowerCase()} ${(idiom.meaning_en || '').toLowerCase()} ${(idiom.meaning_es || '').toLowerCase()} ${(idiom.ipa || '').toLowerCase()}`;
 
                 return `
                     <div class="item" data-category="idioms" data-search="${searchText}">
@@ -551,36 +1321,35 @@
 
                 // Handle both simple array examples and complex nested examples
                 let examplesHtml = '';
-                if (phrasal.examples) {
-                    if (Array.isArray(phrasal.examples) && phrasal.examples.length > 0) {
-                        // Simple array format
-                        examplesHtml = `
-                            <div class="item-examples">
-                                <strong>Examples:</strong>
-                                ${phrasal.examples.map(ex => `<div class="example">${ex}</div>`).join('')}
-                            </div>
-                        `;
-                    } else if (typeof phrasal.examples === 'object') {
-                        // Complex nested format with tenses
-                        const allExamples = [];
-                        Object.keys(phrasal.examples).forEach(tenseKey => {
-                            if (Array.isArray(phrasal.examples[tenseKey])) {
-                                phrasal.examples[tenseKey].forEach(ex => allExamples.push(ex));
+                const examplesList = phrasal.examples || phrasal.tense_examples;
+                const additionalContexts = phrasal.additional_contexts || [];
+
+                if (examplesList || additionalContexts.length > 0) {
+                    let allExamples = [];
+                    if (Array.isArray(examplesList)) {
+                        allExamples = [...examplesList];
+                    } else if (typeof examplesList === 'object' && examplesList !== null) {
+                        Object.keys(examplesList).forEach(tenseKey => {
+                            if (Array.isArray(examplesList[tenseKey])) {
+                                allExamples = allExamples.concat(examplesList[tenseKey]);
                             }
                         });
-                        if (allExamples.length > 0) {
-                            examplesHtml = `
-                                <div class="item-examples">
-                                    <strong>Examples:</strong>
-                                    ${allExamples.slice(0, 10).map(ex => `<div class="example">${ex}</div>`).join('')}
-                                    ${allExamples.length > 10 ? `<div class="example" style="text-align: center; font-style: italic; color: #667eea;">...and ${allExamples.length - 10} more examples</div>` : ''}
-                                </div>
-                            `;
-                        }
+                    }
+
+                    allExamples = allExamples.concat(additionalContexts);
+
+                    if (allExamples.length > 0) {
+                        examplesHtml = `
+                            <div class="item-examples">
+                                <strong>Examples:</strong> ${phrasal.ipa ? `<small style="color: #6c757d; font-style: italic; font-weight: normal; margin-left: 10px;">${phrasal.ipa}</small>` : ''}
+                                ${allExamples.slice(0, 15).map(ex => `<div class="example">${ex}</div>`).join('')}
+                                ${allExamples.length > 15 ? `<div class="example" style="text-align: center; font-style: italic; color: #667eea;">...and ${allExamples.length - 15} more examples</div>` : ''}
+                            </div>
+                        `;
                     }
                 }
 
-                const searchText = `${(phrasal.expression || '').toLowerCase()} ${meaningEn.toLowerCase()} ${meaningEs.toLowerCase()}`;
+                const searchText = `${(phrasal.expression || '').toLowerCase()} ${meaningEn.toLowerCase()} ${meaningEs.toLowerCase()} ${(phrasal.ipa || '').toLowerCase()}`;
 
                 return `
                     <div class="item" data-category="phrasal" data-search="${searchText}">
@@ -607,36 +1376,37 @@
             container.innerHTML = wordsData.map(word => {
                 // Handle both simple array examples and complex nested examples
                 let examplesHtml = '';
-                if (word.examples) {
-                    if (Array.isArray(word.examples) && word.examples.length > 0) {
+                if (word.examples || word.tense_examples) {
+                    const examplesList = word.examples || word.tense_examples;
+                    if (Array.isArray(examplesList) && examplesList.length > 0) {
                         // Simple array format
                         examplesHtml = `
                             <div class="item-examples">
-                                <strong>Examples:</strong>
-                                ${word.examples.map(ex => `<div class="example">${ex}</div>`).join('')}
+                                <strong>Examples:</strong> ${word.ipa ? `<small style="color: #6c757d; font-style: italic; font-weight: normal; margin-left: 10px;">${word.ipa}</small>` : ''}
+                                ${examplesList.map(ex => `<div class="example">${ex}</div>`).join('')}
                             </div>
                         `;
-                    } else if (typeof word.examples === 'object') {
+                    } else if (typeof examplesList === 'object') {
                         // Complex nested format with tenses
                         const allExamples = [];
-                        Object.keys(word.examples).forEach(tenseKey => {
-                            if (Array.isArray(word.examples[tenseKey])) {
-                                word.examples[tenseKey].forEach(ex => allExamples.push(ex));
+                        Object.keys(examplesList).forEach(tenseKey => {
+                            if (Array.isArray(examplesList[tenseKey])) {
+                                examplesList[tenseKey].forEach(ex => allExamples.push(ex));
                             }
                         });
                         if (allExamples.length > 0) {
                             examplesHtml = `
                                 <div class="item-examples">
-                                    <strong>Examples:</strong>
-                                    ${allExamples.slice(0, 10).map(ex => `<div class="example">${ex}</div>`).join('')}
-                                    ${allExamples.length > 10 ? `<div class="example" style="text-align: center; font-style: italic; color: #667eea;">...and ${allExamples.length - 10} more examples</div>` : ''}
+                                    <strong>Examples:</strong> ${word.ipa ? `<small style="color: #6c757d; font-style: italic; font-weight: normal; margin-left: 10px;">${word.ipa}</small>` : ''}
+                                    ${allExamples.slice(0, 15).map(ex => `<div class="example">${ex}</div>`).join('')}
+                                    ${allExamples.length > 15 ? `<div class="example" style="text-align: center; font-style: italic; color: #667eea;">...and ${allExamples.length - 15} more examples</div>` : ''}
                                 </div>
                             `;
                         }
                     }
                 }
 
-                const searchText = `${(word.word || '').toLowerCase()} ${(word.meaning_en || '').toLowerCase()} ${(word.meaning_es || '').toLowerCase()}`;
+                const searchText = `${(word.word || '').toLowerCase()} ${(word.meaning_en || '').toLowerCase()} ${(word.meaning_es || '').toLowerCase()} ${(word.ipa || '').toLowerCase()}`;
 
                 return `
                     <div class="item" data-category="words" data-search="${searchText}">
@@ -672,6 +1442,11 @@
             const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
             const items = document.querySelectorAll('.item');
             let visibleCount = 0;
+
+            // Hide existence section when performing regular search
+            document.getElementById('existenceSection').style.display = 'none';
+            // Show stats
+            document.querySelector('.stats').style.display = 'flex';
 
             items.forEach(item => {
                 const category = item.dataset.category;
@@ -756,8 +1531,12 @@
                 this.classList.add('active');
                 if (this.dataset.filter === 'exam100') {
                     showExam100();
+                } else if (this.dataset.filter === 'existence') {
+                    hideExam100();
+                    showExistence();
                 } else {
                     hideExam100();
+                    hideExistence();
                     performSearch();
                 }
             });
@@ -769,7 +1548,21 @@
         // Toggle category collapse
         function toggleCategory(categoryId) {
             const category = document.getElementById(categoryId);
-            category.classList.toggle('collapsed');
+            if (category) {
+                category.classList.toggle('collapsed');
+
+                // Handle existenceSection specially since it has different structure
+                if (categoryId === 'existenceSection') {
+                    const content = document.getElementById('existenceContent');
+                    if (content) {
+                        if (category.classList.contains('collapsed')) {
+                            content.style.display = 'none';
+                        } else {
+                            content.style.display = 'block';
+                        }
+                    }
+                }
+            }
         }
 
         let examQuestions100 = [];
@@ -808,6 +1601,7 @@
                     emoji: r.emoji || '🧠',
                     prompt: r.rule_name || 'Grammar Rule',
                     answer: normalizeMeaningText(r.explanation_en || r.meaning_en || ''),
+                    ipa: r.ipa || '',
                     raw: r
                 });
             });
@@ -818,6 +1612,7 @@
                     emoji: i.emoji || '💬',
                     prompt: i.expression || 'Idiom',
                     answer: normalizeMeaningText(i.meaning_en || ''),
+                    ipa: i.ipa || '',
                     raw: i
                 });
             });
@@ -828,6 +1623,7 @@
                     emoji: p.emoji || '🔄',
                     prompt: p.expression || 'Phrasal Verb',
                     answer: normalizeMeaningText(p.meaning_en || ''),
+                    ipa: p.ipa || '',
                     raw: p
                 });
             });
@@ -838,6 +1634,7 @@
                     emoji: w.emoji || '📚',
                     prompt: w.word || 'Word',
                     answer: normalizeMeaningText(w.meaning_en || ''),
+                    ipa: w.ipa || '',
                     raw: w
                 });
             });
@@ -866,6 +1663,7 @@
                 prompt: item.prompt,
                 type: item.type,
                 emoji: item.emoji,
+                ipa: item.ipa,
                 correctAnswer,
                 options
             };
@@ -894,7 +1692,7 @@
             if (!examQuestions100.length) return;
             const q = examQuestions100[currentQuestionIndex100];
             document.getElementById('exam100QuestionNumber').textContent = `#${currentQuestionIndex100 + 1}`;
-            document.getElementById('exam100QuestionText').innerHTML = `<strong>What is the meaning (EN) of:</strong> ${(q.emoji ? q.emoji + ' ' : '')}${q.prompt}`;
+            document.getElementById('exam100QuestionText').innerHTML = `<strong>What is the meaning (EN) of:</strong> ${(q.emoji ? q.emoji + ' ' : '')}${q.prompt}${q.ipa ? ` <small style="color: #6c757d; font-style: italic;">[${q.ipa}]</small>` : ''}`;
 
             const feedbackEl = document.getElementById('exam100Feedback');
             feedbackEl.style.display = 'none';
@@ -1010,7 +1808,8 @@
             document.getElementById('examSection100').style.display = 'block';
             document.querySelector('.stats').style.display = 'none';
             document.getElementById('noResults').classList.add('hidden');
-            document.querySelectorAll('.category').forEach(c => (c.style.display = 'none'));
+            document.getElementById('existenceSection').style.display = 'none';
+            document.querySelectorAll('.category[data-category="rules"], .category[data-category="idioms"], .category[data-category="phrasal"], .category[data-category="words"]').forEach(c => (c.style.display = 'none'));
 
             document.getElementById('exam100ResultContainer').style.display = 'none';
             document.getElementById('exam100QuestionContainer').style.display = 'none';
@@ -1020,6 +1819,21 @@
 
         function hideExam100() {
             document.getElementById('examSection100').style.display = 'none';
+            document.querySelector('.stats').style.display = 'flex';
+        }
+
+        function showExistence() {
+            document.getElementById('existenceSection').style.display = 'block';
+            document.getElementById('existenceContent').style.display = 'block';
+            document.querySelector('.stats').style.display = 'none';
+            document.getElementById('noResults').style.display = 'none';
+            document.getElementById('examSection100').style.display = 'none';
+            document.querySelectorAll('.category[data-category="rules"], .category[data-category="idioms"], .category[data-category="phrasal"], .category[data-category="words"]').forEach(c => (c.style.display = 'none'));
+        }
+
+        function hideExistence() {
+            document.getElementById('existenceSection').style.display = 'none';
+            document.getElementById('noResults').style.display = 'none';
             document.querySelector('.stats').style.display = 'flex';
         }
 
@@ -1035,8 +1849,74 @@
         document.getElementById('exam100FinishBtn').addEventListener('click', finishExam100);
         document.getElementById('exam100RestartBtn').addEventListener('click', restartExam100);
 
+        // Dark Mode Toggle
+        function initTheme() {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            updateThemeButton(savedTheme);
+        }
+
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeButton(newTheme);
+        }
+
+        function updateThemeButton(theme) {
+            const icon = document.getElementById('themeIcon');
+            const text = document.getElementById('themeText');
+            if (theme === 'dark') {
+                icon.textContent = '☀️';
+                text.textContent = 'Light';
+            } else {
+                icon.textContent = '🌙';
+                text.textContent = 'Dark';
+            }
+        }
+
+        document.getElementById('themeToggle').addEventListener('click', toggleTheme);
+
+        // Audio Pronunciation using Web Speech API
+        function speak(text, lang = 'en-US') {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = lang;
+                utterance.rate = 0.9;
+                utterance.pitch = 1;
+                window.speechSynthesis.speak(utterance);
+            } else {
+                console.log('Speech synthesis not supported');
+            }
+        }
+
+        // Add audio buttons to items after they're rendered
+        function addAudioButtons() {
+            document.querySelectorAll('.item-ipa').forEach(ipaElement => {
+                if (!ipaElement.querySelector('.audio-btn')) {
+                    const item = ipaElement.closest('.item');
+                    const titleElement = item.querySelector('.item-title');
+                    const titleText = titleElement.textContent.replace(/[📚🗣️💪🔫🐶⬇️💥➡️🎯✨📋🧱🧠🎨🏃💨🧍🏙️📦📍⏰]/g, '').trim();
+                    
+                    const audioBtn = document.createElement('button');
+                    audioBtn.className = 'audio-btn';
+                    audioBtn.innerHTML = '🔊';
+                    audioBtn.title = 'Listen to pronunciation';
+                    audioBtn.onclick = (e) => {
+                        e.stopPropagation();
+                        speak(titleText);
+                    };
+                    ipaElement.appendChild(audioBtn);
+                }
+            });
+        }
+
         // Initialize on load
+        initTheme();
         loadData();
+        addAudioButtons();
     </script>
 </body>
 </html>
